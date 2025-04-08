@@ -1,0 +1,58 @@
+country_event = {
+    id = 202201
+    title = "RUS_EXP_202201_t"
+    desc = "RUS_EXP_202201_d"
+    picture = "administration"
+
+    is_triggered_only = yes
+
+    #Each focus adds some cores. Perhaps the AI weights should depend on the relative strength of Scandinavia, the Commonwealth, Bohemia, Ottomans, etc. Mostly by region.
+
+    #Baltic focus - cores on Livonia and Finland
+    option = {
+        name = "202201.A"
+        #Estonia, Latvia
+        RUS_354 = { add_core = RUS }
+        RUS_349 = { add_core = RUS }
+        RUS_340 = { add_core = RUS }
+        RUS_336 = { add_core = RUS }
+        #Memel, which might be a bit iffy.
+        #LIT_698 = { add_core = RUS }
+        RUS = { add_accepted_culture = estonian }
+        RUS = { add_accepted_culture = latvian }
+        RUS = { add_accepted_culture = finnish }
+        add_accepted_culture = tatar
+        ai_chance = { 
+            factor = 33
+        }
+    }
+    #Steppe/Caucasus focus
+    option = {
+        name = "202201.B"
+        CRI = { all_core = { add_core =  RUS} } #Crimea
+        ASK = { all_core = { add_core =  RUS} } #Astrakhan
+        GEO = { all_core = { add_core =  RUS} } #Georgia
+		RUS_1102 = { add_core =  RUS} #Azerbaijan
+		RUS_1098 = { add_core =  RUS} #Armenia
+        add_accepted_culture = tatar
+        add_accepted_culture = astrakhani
+        add_accepted_culture = georgian
+        ai_chance = { 
+             factor = 33
+        }
+    }
+    #Pan-slavic focus
+    option = {
+        name = "202201.C"
+        RUS_944 = { add_core = RUS } #Orsha
+        RUS_958 = { add_core = RUS } #Kiev
+        RUS_955 = { add_core = RUS } #Rovne
+        RUS_718 = { add_core = RUS } #Minsk
+		RUS_938 = { add_core = RUS } #Lida
+        add_accepted_culture = ruthenian
+        ai_chance = { 
+             factor = 33
+        }
+    }
+
+}

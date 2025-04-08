@@ -1,0 +1,16 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+ 
+add_core = MEX
+1836.1.4 = {
+add_core = SPA
+}
+trade_goods = grain
+life_rating = 40
+fort = 1

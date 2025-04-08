@@ -1,0 +1,34 @@
+political_decisions = {
+lttcoreremoval = {
+		potential = {
+			tag = GHO
+			has_global_flag = lttcoreremoval
+		}
+		allow = {
+		}
+		effect = {
+			LTT = {
+			country_event = { id=6000044 days=0 }
+		}
+		  any_country = { 
+      limit = {
+      }
+      any_owned = { 
+        limit = {
+            is_core = LTT
+            is_core = VEN
+            NOT = { OR = { continent = north_america } }
+            NOT = { owned_by = LTT } 
+                NOT = { region = GRE_826 }
+    NOT = { region = EGY_843 }
+    NOT = { region = TUR_855 }
+    NOT = { region = TUR_806 }
+          }
+          remove_core = LTT
+          remove_province_modifier = lttcoreremoval
+        }
+      }
+      clr_global_flag = lttcoreremoval
+      }
+	}
+}

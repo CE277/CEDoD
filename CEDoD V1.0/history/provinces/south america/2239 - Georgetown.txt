@@ -1,0 +1,22 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+ 
+ 
+ 
+trade_goods = fruit
+terrain = plains
+life_rating = 35
+1835.1.1 = {
+	controller = SPA
+} 
+
+1837.1.1 = {
+	controller = CLM
+}
+1861.1.1 = { railroad = 1 }

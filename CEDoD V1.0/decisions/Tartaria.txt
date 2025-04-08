@@ -1,0 +1,127 @@
+political_decisions = {
+    form_tatarstan = { 
+	picture = Tatarstan
+   
+        potential = { 
+        OR = { 
+        primary_culture = astrakhani 
+        primary_culture = crimean 
+        primary_culture = tatar
+            } 
+        NOT = { TAR = { exists = yes } }
+        }
+       
+        allow = { 
+            SIB = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			CRI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			NOG = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			ASK = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+        }
+   
+    effect = { 
+        any_country = {
+            limit = {
+                is_culture_group = tatar_group
+                OR = {
+                    in_sphere = THIS
+                    vassal_of = THIS
+                }
+            }
+            annex_to = THIS
+        }
+        CRI = { all_core = { add_core = TAR } }
+        ASK = { all_core = { add_core = TAR } }
+        NOG = { all_core = { add_core = TAR } }
+        SIB = { all_core = { add_core = TAR } }
+        add_accepted_culture = crimean 
+        add_accepted_culture = astrakhani 
+        add_accepted_culture = tatar
+		add_accepted_culture = north_caucasian
+		add_accepted_culture = dagestani
+		add_accepted_culture = georgian
+		add_accepted_culture = kazak
+        change_tag = TAR 
+        years_of_research = 3.0
+        prestige = 20 
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    #Makes Sevestapol and Astrakhan grow. More POPs for a unified Tataristan.
+    TAR_encourage_sedentarization = {
+        potential = {
+            tag = TAR
+            NOT = { has_country_flag = TAR_urbanization}
+        }
+        allow = {
+            civilized = yes
+            owns = 967 #Sebestapol
+            owns = 1036 #Astrakhan
+            medicine = 1 #City planning has a health component to it.
+
+        }
+        effect = {
+            set_country_flag = TAR_urbanization
+            967 = {
+                    life_rating = 5
+                    add_province_modifier = {
+                        name = baby_boom
+                        duration = 1825
+                    }     
+            }            
+            1036 = {
+                    life_rating = 5
+                    add_province_modifier = {
+                        name = baby_boom
+                        duration = 1825
+                    }     
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+
+    }
+
+}

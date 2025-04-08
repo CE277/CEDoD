@@ -1,0 +1,43 @@
+political_decisions = {
+
+artillery_reform = {
+		potential = {
+			civilized = no
+			NOT = { iron_muzzle_loaded_artillery = 1 }
+		}
+		
+		allow = {
+			civilization_progress = 0.5
+			year = 1852
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = reform_decision
+				duration = 1095
+			}
+			activate_technology = iron_muzzle_loaded_artillery
+		}
+	}
+
+	tactics_reform = {
+		potential = {
+			civilized = no
+			NOT = { iron_muzzle_loaded_artillery = 1 }
+		}
+		
+		allow = {
+		year = 1852
+			civilization_progress = 0.5
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = reform_decision
+				duration = 1095
+			}
+			activate_technology = iron_muzzle_loaded_artillery
+		}
+	}
+
+	}

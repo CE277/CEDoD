@@ -1,0 +1,12 @@
+owner = TNG
+controller = TNG
+add_core = TNG
+ 
+add_core = MIG
+add_core = CHI
+1836.1.2 = {
+	controller = CHI
+	owner = CHI
+}
+trade_goods = tea
+life_rating = 35

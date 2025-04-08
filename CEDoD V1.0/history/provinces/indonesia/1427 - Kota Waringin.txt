@@ -1,0 +1,6 @@
+owner = LFG
+controller = LFG
+add_core = LFG
+ 
+trade_goods = grain
+life_rating = 30

@@ -1,0 +1,88 @@
+political_decisions = {
+
+	ibn_saud = {
+		potential = {
+			has_global_flag = arab_revolt_has_begun
+			NOT = { has_country_flag = ibn_saud }
+			tag = NEJ
+		}
+		
+		allow = {
+			government = absolute_monarchy
+		}
+		
+		effect = {
+			set_country_flag = ibn_saud
+			define_general = {
+				name = "Ibn Saud"
+				personality = brilliant
+				background = eccentric_genius
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	the_holy_city = {
+	picture = the_holy_city
+		potential = {
+			1151 = {
+				NOT = { has_province_modifier = holy_city }
+			}
+			OR = {
+				is_culture_group = semitic
+				is_culture_group = turkic
+			}
+		}
+		
+		allow = {
+			owns = 1151
+		}
+		
+		effect = {
+			1151 = {
+				add_province_modifier = {
+					name = holy_city
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	found_dar_es_salaam = {
+		picture = tanzania_shop
+		potential = {
+			owns = 2036
+			capital_scope = {
+				OR = {
+					has_country_flag = sunni_country
+					has_country_flag = shiite_country
+					has_country_flag = ibadi_country
+				}
+			}
+			NOT = { has_global_flag = dar_es_salaam_built }
+		}
+
+		allow = {
+			war = no
+			money = 1000
+			OR = {
+				civilized = yes
+				admin_reform = yes_admin_reform
+				civilization_progress = 0.5
+				year = 1865
+			}
+		}
+
+		effect = {
+			set_global_flag = dar_es_salaam_built
+			money = -1000
+			2036 = { any_pop = { militancy = -1 } add_province_modifier = { name = recently_built_city duration = 365 } change_province_name = "Dar Es Salaam" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,0 +1,7 @@
+owner = BEN
+controller = BEN
+ 
+#add_core = MUG
+add_core = BEN
+trade_goods = cotton
+life_rating = 32

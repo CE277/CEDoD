@@ -1,0 +1,36 @@
+political_decisions = {
+		return_home_BTV = {
+			potential = {
+				tag = BTV
+			}
+		
+			allow = {
+				NOT = { NET = { exists = yes } }
+				NOT = { war = yes }
+				NET = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+				BTV = {
+					all_core = {
+						OR = {
+						empty = yes
+						owned_by = THIS
+						}
+					}
+				}
+			}
+		
+			effect = {
+				prestige = 20
+				change_tag = NET
+				add_accepted_culture = boer
+				primary_culture = dutch
+				capital = 375
+			}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+}

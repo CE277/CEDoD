@@ -1,0 +1,686 @@
+political_decisions = {
+	  	
+	form_dravida = {
+		potential = {
+			is_culture_group = dravidian
+			NOT = {
+				exists = DRA
+				exists = BHA
+			}
+		}
+		
+		allow = {
+                mass_politics = 1
+		NOT = { war = yes }
+		  prestige = 10
+			HYD = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							}
+					}	
+				}
+			}
+			VIJ = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							}
+					}	
+				}
+			}
+			NAG = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							}
+					}	
+				}
+			}
+			MDR = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							}
+					}	
+				}
+			}
+			TRA = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							}
+					}	
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			badboy = 10
+			capital = 1304
+			change_tag = DRA
+			VIJ = { all_core = { add_core =  DRA} }
+			NAG = { all_core = { add_core =  DRA} }
+			HYD = { all_core = { add_core =  DRA} }
+			TRA = { all_core = { add_core =  DRA} }
+			MDR = { all_core = { add_core =  DRA} }
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					OR = {
+				    in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	form_bharata = {
+		picture = chakra_bharata
+		potential = {
+			OR = {
+				tag = HND
+				tag = DRA
+			}
+			NOT = {
+				exists = BHA
+			}
+		}
+		
+		allow = {
+			NOT = { war = yes }
+			prestige = 10
+			OR = { 
+				AND = { 
+					MUG = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					BEN = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					KAS = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					BER = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					BIK = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					JAI = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					JOD = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					JAS = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					MEW = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								} 
+							}
+						}
+					}
+					1231 = { OR = { owned_by = THIS
+								owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS } } }
+					SIN_1288 = { OR = { owned_by = THIS
+								owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS } } }
+					ENG_1258 = { OR = { owned_by = THIS
+								owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS } } }
+				}
+				HND = {
+					all_core = {
+						OR = {
+							owned_by = THIS	
+							owner = {
+									OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+									}
+								}
+						}
+					}
+				}
+			}
+			OR = {
+				AND = { 
+					HYD = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								}
+							}	
+						}
+					}
+					VIJ = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								}
+							}	
+						}
+					}
+					NAG = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								}
+							}	
+						}
+					}
+					MDR = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								}
+							}	
+						}
+					}
+					TRA = {
+						all_core = {
+							OR = {
+								owned_by = THIS	
+								owner = {
+									OR = {
+										in_sphere = THIS
+										vassal_of = THIS
+									}
+								}
+							}	
+						}
+					}
+				}
+				DRA = {
+					all_core = {
+						OR = {
+							owned_by = THIS	
+							owner = {
+								OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+							}
+						}	
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 40
+			DRA = { all_core = {  add_core = BHA } }
+			HND = { all_core = { add_core = BHA } }
+			change_tag = BHA
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = south_asian
+						is_culture_group = dravidian
+					}
+					OR = {
+				    in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_hindustan = {
+		potential = {
+		is_culture_group = south_asian
+			NOT = {
+				exists = HND
+				exists = BHA
+			}
+		}
+		
+		allow = {
+                        mass_politics = 1
+			NOT = { war = yes }
+			prestige = 10
+			MUG = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			BEN = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			KAS = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			BER = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			BIK = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			JAI = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			JOD = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			JAS = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			MEW = {
+				all_core = {
+					OR = {
+						owned_by = THIS	
+						owner = {
+							    OR = {
+							     in_sphere = THIS
+							     vassal_of = THIS
+							   }
+							} 
+					}
+				}
+			}
+			1231 = { OR = { owned_by = THIS
+								owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS } } }
+			SIN_1288 = { OR = { owned_by = THIS
+								owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS } } }
+			ENG_1258 = { OR = { owned_by = THIS
+								owner = { in_sphere = THIS }
+								owner = { vassal_of = THIS } } }
+		}
+		effect = {
+			prestige = 40
+			change_tag = HND
+			MUG = { all_core = { add_core = HND } }
+			BEN = { all_core = { add_core = HND } }
+			BER = { all_core = { add_core = HND } }
+			KAS = { all_core = { add_core = HND } }
+			JOD = { all_core = { add_core = HND } }
+			JAI = { all_core = { add_core = HND } }
+			JAS = { all_core = { add_core = HND } }
+			BIK = { all_core = { add_core = HND } }
+			MEW = { all_core = { add_core = HND } }
+			PAN_1227 = { add_core = HND }
+			SIN_1288 = { add_core = HND }
+			ENG_1258 = { add_core = HND }
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					OR = {
+						is_culture_group = south_asian
+					}
+					OR = {
+				    in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+
+	
+	seize_bengal = {
+	
+	picture = Mughals
+		
+	potential = { 
+	tag = MUG 
+	NOT = { has_country_flag = Bengal_MUG }
+	}
+	
+	allow = { 
+	owns = 1251
+	owns = 1257 
+	}
+	
+	effect = { 
+	BEN = { all_core = { add_core = THIS } }
+	set_country_flag = Bengal_MUG
+	}
+	
+	}
+
+	integrating_the_indo_aryans = {
+	
+	picture = Mughals
+	
+	potential = {
+	OR = {
+	tag = BEN
+    tag = HYD
+    tag = DRA
+    tag = VIJ
+	}
+	}
+	allow = {
+	nationalism_n_imperialism = 1  
+	}                          
+	
+	effect = {
+	add_accepted_culture = indo-aryan
+	set_country_flag = indo_aryan
+	}
+	
+}
+	
+	integrating_the_bengali = {
+	
+	picture = Mughals
+	
+	potential = {
+	OR = {tag = MUG
+	tag = HND }
+	NOT = { has_country_flag = Bengali_MUG }
+	}
+	
+	allow = {
+	civilized = yes
+	nationalism_n_imperialism = 1
+	}             
+	
+	effect = {
+	add_accepted_culture = bengali
+	set_country_flag = Bengali_MUG
+	}
+}
+	
+	
+	integrating_the_aryans = {
+	
+	potential = {
+	OR = { tag = MUG
+	tag = BEN
+	tag = HND
+        tag = DRA
+        tag = VIJ
+        tag = HYD
+        tag = BHA }
+	NOT = { has_country_flag = aryan_accepted }
+	}
+	
+	allow = {
+	mass_politics = 1 
+	}
+	
+	effect = {
+	add_accepted_culture = aryan
+	set_country_flag = aryan_accepted
+	}
+}
+
+	
+	integrating_the_dravidians = {
+	
+	potential = {
+	OR = { tag = MUG
+	tag = BEN
+	tag = HND }
+	NOT = { has_country_flag = dravidian_accepted }
+	}
+	
+	allow = {
+	revolution_n_counterrevolution = 1
+	}
+	
+	effect = {
+	add_accepted_culture = dravidian
+	set_country_flag = dravidian_accepted
+	}
+}
+
+	integrating_the_bengalis_dravid = {
+	
+	potential = {
+	OR = { tag = HYD
+	tag = VIJ
+	tag = DRA }
+	NOT = { has_country_flag = bengali_accepted }
+	}
+	
+	allow = {
+	revolution_n_counterrevolution = 1
+	}
+	
+	effect = {
+	add_accepted_culture = bengali
+	set_country_flag = bengali_accepted
+	}
+}
+
+}

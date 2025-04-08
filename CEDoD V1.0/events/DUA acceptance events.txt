@@ -1,0 +1,113 @@
+country_event = {
+	id = 222201
+	title = "English Integration"
+	desc = "We have successfully integrated the English population into our realm at last!"
+	is_triggered_only = yes
+
+	option = {
+		name = "Fantastic"
+		add_accepted_culture = english
+		clr_country_flag = integrating_english
+		set_country_flag = integrated_english
+		ENL = { all_core = { remove_core = ENL }
+	}
+}
+}
+
+country_event = {
+	id = 222202
+	title = "French Integration"
+	desc = "We have successfully integrated the French population into our realm at last!"
+	is_triggered_only = yes
+
+	option = {
+		name = "Fantastic"
+		add_accepted_culture = french
+		clr_country_flag = integrating_french
+		set_country_flag = integrated_french
+		FRA = { all_core = { remove_core = FRA }
+		FRA_399 = {add_core = FRA}
+		FRA_428 = {add_core = FRA}
+	}
+}
+}
+
+country_event = {
+	id = 222203
+	title = "Provencal Integration"
+	desc = "We have successfully integrated the Provencal population into our realm at last!"
+	is_triggered_only = yes
+
+	option = {
+		name = "Fantastic"
+		add_accepted_culture = provencal
+		clr_country_flag = integrating_provencal
+		set_country_flag = integrated_provencal
+		OCC = { all_core = { remove_core = OCC }
+	}
+}
+}
+
+country_event = {
+	id = 222204
+	title = "Irish Integration"
+	desc = "We have successfully integrated the Irish population into our realm at last!"
+	is_triggered_only = yes
+
+	option = {
+		name = "Fantastic"
+		add_accepted_culture = irish
+		clr_country_flag = integrating_irish
+		set_country_flag = integrated_irish
+		IRE = { all_core = { remove_core = IRE }
+	}
+}
+
+}
+
+
+country_event = {
+	id = 222205
+	title = "Anglois Success"
+	desc = "We have successfully integrated all the cultures of our realm!"
+
+	trigger = { 
+	tag = DUA 
+	has_country_flag = dual_integration 
+	has_country_flag = integrated_english
+	has_country_flag = integrated_french
+	has_country_flag = integrated_provencal
+	has_country_flag = integrated_irish
+	}
+
+	option = {
+		name = "Fantastic"
+		clr_country_flag = dual_integration
+		set_country_flag = Anglois_accepted 
+		prestige = 50
+	}
+}
+
+
+country_event = {
+	id = 222206
+	title = "Dual Path"
+	desc = "We have delayed far too long in deciding the course of our nation! As a result we have been forced into trying to unite our realm as one!"
+
+	trigger = { 
+	tag = DUA
+	year = 1841
+	NOT = { has_country_flag = DUA_set_focus }
+	}
+
+	immediate = {
+	set_country_flag = DUA_set_focus
+		set_country_flag = DUA_dual_path
+		set_country_flag = dual_integration
+		set_global_flag = anglois_int
+		}
+
+	option = {
+		name = "Oh No!"
+	}
+}

@@ -1,0 +1,12 @@
+owner = CLM
+controller = CLM
+add_core = UCA
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+ 
+trade_goods = coffee
+life_rating = 35

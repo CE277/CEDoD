@@ -1,0 +1,679 @@
+
+#country_event = {
+#
+#	id = 650201
+#	title = "DUA1.T"
+#	desc = "DUA1.D"
+#
+#	major = yes
+#	fire_only_once = yes
+#	
+#	trigger = {
+#	fire_only_once = yes
+#	tag = DUA
+#	year = 1840
+#	NOT = { has_country_flag = french_integration }
+#	NOT = { has_country_flag = english_integration }
+#	NOT = { has_country_flag = dual_integration }
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = -1
+#	}
+#	
+#	option = {
+#		name = "650201.A"
+#		set_country_flag = french_integration
+#		set_global_flag = french_int
+#		add_accepted_culture = french
+#		add_accepted_culture = provencal
+#		add_accepted_culture = basque
+#		any_pop = {
+#			limit = {
+#				culture = french
+#				location = {
+#					is_core = FRA
+#				}
+#			}
+#			militancy = -4
+#		}
+#		random_owned = {
+#				limit = {
+#					FRA = { exists = no }
+#				}
+#				FRA = { all_core = { remove_core = FRA } }
+#			}
+#		ai_chance = { 
+#		factor = 50
+#		}
+#	}
+#	
+#	option = {
+#		name = "650201.B"
+#		set_country_flag = english_integration
+#		set_global_flag = english_int
+#		remove_accepted_culture = breton
+#		add_accepted_culture = english
+#		add_accepted_culture = irish
+#		add_accepted_culture = scottish
+#		capital = 300
+#		any_pop = {
+#			limit = {
+#				culture = english
+#				location = {
+#					is_core = ENL
+#				}
+#			}
+#			militancy = -4
+#		}
+#		random_owned = {
+#			ENL = { all_core = { remove_core = ENL } }
+#		}
+#		ai_chance = { 
+#			factor = 20
+#			}
+#	}
+#	option = {
+#		name = "650201.C"
+#		set_country_flag = dual_integration
+#		set_global_flag = anglois_int
+#		add_country_modifier = { 
+#			name = anglois_dilemma
+#			duration = 15000
+#		}
+#		ai_chance = { 
+#			factor = 30
+#		}
+#	}
+#}
+
+#country_event = {
+#
+#	id = 650248
+#	title = "DUA48.T"
+#	desc = "DUA48.D"
+#
+#	major = yes
+#	fire_only_once = yes
+#	
+#	trigger = {
+#	tag = DUA
+#	has_country_flag = dual_integration
+#	OR = {
+#		AND = {
+#			has_country_flag = dual_integration
+#			year = 1865
+#			OR = {
+#				NOT = { owns = 428 }
+#				NOT = { owns = 399 }
+#				NOT = { owns = 272 }
+#				NOT = { owns = 267 }
+#			}
+#			
+#		}
+#		AND = {
+#			owns = 428 
+#			owns = 399 
+#			owns = 272 
+#			owns = 267 		
+#			has_country_flag = dual_integration
+#			year = 1860		
+#		}
+#	}
+#}
+#	
+#	mean_time_to_happen = {
+#		days = 10
+#	}
+#	
+#	option = {
+#		name = "650248.A"
+#		set_country_flag = Anglois_accepted 
+#		remove_country_modifier = anglois_dilemma
+#		prestige = 100
+#		add_accepted_culture = french 
+#		add_accepted_culture = english 
+#		any_pop = { 
+#		militancy = -3 
+#		}
+#		any_country = {
+#				any_owned = {
+#					limit = {
+#					is_core = ENL
+#					owned_by = THIS				
+#						}
+#					remove_core = ENL
+#				}
+#			}
+#		any_country = {
+#				any_owned = {
+#					limit = {
+#					is_core = FRA 
+#					owned_by = THIS
+#						}
+#					remove_core = FRA
+#				}
+#			}
+#		any_owned = {
+#					limit = {
+#					is_core = FRA 
+#					owned_by = THIS	
+#						}
+#					remove_core = FRA
+#			}
+#		any_owned = {
+#					limit = {
+#					is_core = ENL 
+#					owned_by = THIS	
+#					}
+#				remove_core = ENL
+#			}	
+#	}
+#}
+	
+country_event = { #Springtime of Nations
+	id = 650258
+	title = "DUA58.T"
+	desc = "DUA58.D"
+	picture = "people_revolution"
+	fire_only_once = yes
+	
+	
+	trigger = { 
+	tag = DUA 
+	has_country_flag = dual_integration 
+	NOT = {  
+	has_country_flag = Anglois_accepted
+	}
+	has_country_modifier = springtime_of_nations 
+	NOT = { has_country_flag = springtime_DUA }
+	}
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = { 
+	name = "650258.A"
+	set_country_flag = springtime_DUA
+	any_pop = { 
+	limit = { OR = { culture = english culture = french culture = provencal } }
+	militancy = 1 
+	consciousness = 4
+	}
+}
+}
+
+country_event = { #Springtime of Nations
+	id = 650259
+	title = "DUA59.T"
+	desc = "DUA59.D"
+	picture = "people_revolution"
+	fire_only_once = yes
+	
+	
+	trigger = { 
+	tag = DUA 
+	has_country_flag = dual_integration 
+	NOT = { 
+	has_country_flag = Anglois_accepted
+	}
+	has_country_flag = had_liberal_revolution 
+	NOT = { has_country_flag = springtime_DUA_end }
+	}
+	
+	mean_time_to_happen = { days = 2 }
+	
+	option = { 
+	name = "650259.A"
+	set_country_flag = springtime_DUA_end
+	}
+}
+
+country_event = {  # Give England cores if DUA has suceeded and someone else owns it
+	id = 650296
+	title = "EVTNAME650296"
+	desc = "EVTDESC650296"
+	allow_multiple_instances  = no
+	
+	trigger = {
+		NOT = { tag = DUA }
+		OR = {
+			has_global_flag = english_int
+			DUA = { has_country_flag = Anglois_accepted }
+		}
+		any_owned_province = {
+			OR = {
+				province_id = 273
+				province_id = 274
+				province_id = 275
+				province_id = 276
+				province_id = 277
+				province_id = 278
+				province_id = 279
+				province_id = 280
+				province_id = 281
+				province_id = 282
+				province_id = 283
+				province_id = 284
+				province_id = 285
+				province_id = 286
+				province_id = 287
+				province_id = 288
+				province_id = 289
+				province_id = 290
+				province_id = 291
+				province_id = 292
+				province_id = 293
+				province_id = 294
+				province_id = 295
+				province_id = 296
+				province_id = 297
+				province_id = 298
+				province_id = 299
+				province_id = 300
+				province_id = 301
+				province_id = 302
+				province_id = 303
+				province_id = 304
+			}
+			owned_by = THIS
+			NOT = { is_core = ENL }
+		}	
+	}
+
+	mean_time_to_happen = { days = 3 }
+	
+	option = { 
+	name = "EVTOPTA650296"
+	any_owned = {
+		limit = {
+			OR = {
+				province_id = 273
+				province_id = 274
+				province_id = 275
+				province_id = 276
+				province_id = 277
+				province_id = 278
+				province_id = 279
+				province_id = 280
+				province_id = 281
+				province_id = 282
+				province_id = 283
+				province_id = 284
+				province_id = 285
+				province_id = 286
+				province_id = 287
+				province_id = 288
+				province_id = 289
+				province_id = 290
+				province_id = 291
+				province_id = 292
+				province_id = 293
+				province_id = 294
+				province_id = 295
+				province_id = 296
+				province_id = 297
+				province_id = 298
+				province_id = 299
+				province_id = 300
+				province_id = 301
+				province_id = 302
+				province_id = 303
+				province_id = 304		
+			}
+			owned_by = THIS
+			NOT = { is_core = ENL }		
+		}
+	
+	add_core = ENL
+	
+	}
+
+		
+	}
+	
+}
+
+country_event = {  # Remove England cores if DUA owns it and has suceeded
+	id = 650297
+	title = "EVTNAME650297"
+	desc = "EVTDESC650297"
+	allow_multiple_instances  = no
+	
+	trigger = {
+		tag = DUA 
+		OR = {
+			has_global_flag = english_int
+			DUA = { has_country_flag = Anglois_accepted }
+		}
+		any_owned_province = {
+			OR = {
+				province_id = 273
+				province_id = 274
+				province_id = 275
+				province_id = 276
+				province_id = 277
+				province_id = 278
+				province_id = 279
+				province_id = 280
+				province_id = 281
+				province_id = 282
+				province_id = 283
+				province_id = 284
+				province_id = 285
+				province_id = 286
+				province_id = 287
+				province_id = 288
+				province_id = 289
+				province_id = 290
+				province_id = 291
+				province_id = 292
+				province_id = 293
+				province_id = 294
+				province_id = 295
+				province_id = 296
+				province_id = 297
+				province_id = 298
+				province_id = 299
+				province_id = 300
+				province_id = 301
+				province_id = 302
+				province_id = 303
+				province_id = 304
+			}
+			owned_by = THIS
+			is_core = ENL
+		}	
+	}
+
+	mean_time_to_happen = { days = 3 }
+	
+	option = { 
+	name = "EVTOPTA650297"
+	any_owned = {
+		limit = {
+			OR = {
+				province_id = 273
+				province_id = 274
+				province_id = 275
+				province_id = 276
+				province_id = 277
+				province_id = 278
+				province_id = 279
+				province_id = 280
+				province_id = 281
+				province_id = 282
+				province_id = 283
+				province_id = 284
+				province_id = 285
+				province_id = 286
+				province_id = 287
+				province_id = 288
+				province_id = 289
+				province_id = 290
+				province_id = 291
+				province_id = 292
+				province_id = 293
+				province_id = 294
+				province_id = 295
+				province_id = 296
+				province_id = 297
+				province_id = 298
+				province_id = 299
+				province_id = 300
+				province_id = 301
+				province_id = 302
+				province_id = 303
+				province_id = 304		
+			}
+			owned_by = THIS
+			is_core = ENL		
+		}
+	
+	remove_core = ENL
+	
+	}
+
+		
+	}
+}
+
+
+country_event = {  # Give France cores if DUA has suceeded and someone else owns it
+	id = 650298
+	title = "EVTNAME650298"
+	desc = "EVTDESC650298"
+	allow_multiple_instances  = no
+	
+	trigger = {
+		NOT = { tag = DUA }
+		OR = {
+			has_global_flag = french_int
+			DUA = { has_country_flag = Anglois_accepted }
+		}
+		any_owned_province = {
+			OR = {
+				province_id = 399
+				province_id = 400
+				province_id = 401
+				province_id = 402
+				province_id = 403
+				province_id = 404
+				province_id = 406
+				province_id = 407
+				province_id = 408
+				province_id = 415
+				province_id = 416
+				province_id = 417
+				province_id = 418
+				province_id = 420
+				province_id = 421
+				province_id = 422
+				province_id = 423
+				province_id = 424
+				province_id = 425
+				province_id = 426
+				province_id = 427
+				province_id = 428
+				province_id = 429
+				province_id = 430
+				province_id = 431
+				province_id = 434
+				province_id = 435
+				province_id = 436
+				province_id = 437
+				province_id = 438
+				province_id = 439
+				province_id = 440
+				province_id = 441
+				province_id = 442
+				province_id = 443
+				province_id = 444
+				province_id = 445
+				province_id = 446
+				province_id = 2570			
+			}
+			owned_by = THIS
+			NOT = { is_core = FRA }
+		}	
+	}
+
+	mean_time_to_happen = { days = 3 }
+	
+	option = { 
+	name = "EVTOPTA650296"
+	any_owned = {
+		limit = {
+			OR = {
+				province_id = 399
+				province_id = 400
+				province_id = 401
+				province_id = 402
+				province_id = 403
+				province_id = 404
+				province_id = 406
+				province_id = 407
+				province_id = 408
+				province_id = 415
+				province_id = 416
+				province_id = 417
+				province_id = 418
+				province_id = 420
+				province_id = 421
+				province_id = 422
+				province_id = 423
+				province_id = 424
+				province_id = 425
+				province_id = 426
+				province_id = 427
+				province_id = 428
+				province_id = 429
+				province_id = 430
+				province_id = 431
+				province_id = 434
+				province_id = 435
+				province_id = 436
+				province_id = 437
+				province_id = 438
+				province_id = 439
+				province_id = 440
+				province_id = 441
+				province_id = 442
+				province_id = 443
+				province_id = 444
+				province_id = 445
+				province_id = 446
+				province_id = 2570		
+			}
+			owned_by = THIS
+			NOT = { is_core = FRA }		
+		}
+	
+	add_core = FRA
+	
+	}
+
+		
+	}
+	
+}
+
+country_event = {  # Remove France cores if DUA has suceeded and owns it
+	id = 650299
+	title = "EVTNAME650299"
+	desc = "EVTDESC650299"
+	allow_multiple_instances  = no
+	
+	trigger = {
+		tag = DUA
+		OR = {
+			has_global_flag = french_int
+			DUA = { has_country_flag = Anglois_accepted }
+		}
+		any_owned_province = {
+			OR = {
+				province_id = 399
+				province_id = 400
+				province_id = 401
+				province_id = 402
+				province_id = 403
+				province_id = 404
+				province_id = 406
+				province_id = 407
+				province_id = 408
+				province_id = 415
+				province_id = 416
+				province_id = 417
+				province_id = 418
+				province_id = 420
+				province_id = 421
+				province_id = 422
+				province_id = 423
+				province_id = 424
+				province_id = 425
+				province_id = 426
+				province_id = 427
+				province_id = 428
+				province_id = 429
+				province_id = 430
+				province_id = 431
+				province_id = 434
+				province_id = 435
+				province_id = 436
+				province_id = 437
+				province_id = 438
+				province_id = 439
+				province_id = 440
+				province_id = 441
+				province_id = 442
+				province_id = 443
+				province_id = 444
+				province_id = 445
+				province_id = 446
+				province_id = 2570			
+			}
+			owned_by = THIS
+			is_core = FRA
+		}	
+	}
+
+	mean_time_to_happen = { days = 3 }
+	
+	option = { 
+	name = "EVTOPTA650297"
+	any_owned = {
+		limit = {
+			OR = {
+				province_id = 399
+				province_id = 400
+				province_id = 401
+				province_id = 402
+				province_id = 403
+				province_id = 404
+				province_id = 406
+				province_id = 407
+				province_id = 408
+				province_id = 415
+				province_id = 416
+				province_id = 417
+				province_id = 418
+				province_id = 420
+				province_id = 421
+				province_id = 422
+				province_id = 423
+				province_id = 424
+				province_id = 425
+				province_id = 426
+				province_id = 427
+				province_id = 428
+				province_id = 429
+				province_id = 430
+				province_id = 431
+				province_id = 434
+				province_id = 435
+				province_id = 436
+				province_id = 437
+				province_id = 438
+				province_id = 439
+				province_id = 440
+				province_id = 441
+				province_id = 442
+				province_id = 443
+				province_id = 444
+				province_id = 445
+				province_id = 446
+				province_id = 2570		
+			}
+			owned_by = THIS
+			is_core = FRA		
+		}
+	
+	remove_core = FRA
+	
+	}
+
+		
+	}
+	
+}
+
+

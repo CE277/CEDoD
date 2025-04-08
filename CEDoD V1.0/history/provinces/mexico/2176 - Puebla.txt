@@ -1,0 +1,22 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+ 
+add_core = MEX
+1836.1.4 = {
+add_core = SPA
+}
+trade_goods = dye
+life_rating = 35
+1861.1.1 = {
+	state_building = {
+		level = 3
+		building = fabric_factory
+		upgrade = yes
+	}
+}

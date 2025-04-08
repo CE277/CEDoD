@@ -1,0 +1,8 @@
+owner = SIN
+controller = SIN
+add_core = SIN
+add_core = BLC
+add_core = AFG
+trade_goods = fish
+terrain = mountain
+life_rating = 35

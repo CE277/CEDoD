@@ -1,0 +1,202 @@
+political_decisions = {
+
+####Base Accepted Decisions
+
+	english_path = {
+		potential = {
+			NOT = { has_country_flag = DUA_schooling }
+			NOT = { has_country_flag = DUA_set_focus }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		year = 1840
+		}
+		
+		effect = {
+		set_country_flag = english_integration
+		set_global_flag = english_int
+		set_country_flag = DUA_set_focus
+		remove_accepted_culture = breton
+		add_accepted_culture = english
+		add_accepted_culture = irish
+		add_accepted_culture = scottish
+		capital = 300
+		any_pop = {
+			limit = {
+				culture = english
+				location = {
+					is_core = ENL
+				}
+			}
+			militancy = -4
+		}
+		random_owned = {
+			ENL = { all_core = { remove_core = ENL } }
+		}
+		}
+	}
+	
+	french_path = {
+		potential = {
+			NOT = { has_country_flag = DUA_schooling }
+			NOT = { has_country_flag = DUA_set_focus }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		year = 1840
+		}
+		
+		effect = {
+		set_country_flag = french_integration
+		set_country_flag = DUA_set_focus
+		set_global_flag = french_int
+		add_accepted_culture = french
+		add_accepted_culture = provencal
+		add_accepted_culture = basque
+		remove_accepted_culture = welsh
+		any_pop = {
+			limit = {
+				culture = french
+				location = {
+					is_core = FRA
+				}
+			}
+			militancy = -4
+		}
+		random_owned = {
+				limit = {
+					FRA = { exists = no }
+				}
+				FRA = { all_core = { remove_core = FRA } }
+			}
+			random_owned = {
+				limit = {
+					OCC = { exists = no }
+				}
+				OCC = { all_core = { remove_core = OCC } }
+			}
+		}
+	}
+
+	####Dual Path###
+
+	dual_path = {
+		potential = {
+			NOT = { has_country_flag = DUA_schooling }
+			NOT = { has_country_flag = DUA_set_focus }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		year = 1840
+		}
+		
+		effect = {
+		set_country_flag = DUA_set_focus
+		set_country_flag = DUA_dual_path
+		set_country_flag = dual_integration
+		set_global_flag = anglois_int
+		}
+	}
+
+	english_acceptance = {
+	picture = enl
+		potential = {
+			has_country_flag = DUA_dual_path 
+			has_country_flag = DUA_set_focus 
+			NOT = { has_country_flag = integrating_english }
+			NOT = { has_country_flag = integrated_english }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		NOT = {
+			has_country_modifier = dm_acceptance
+		}
+		}
+		
+		effect = {
+		DUA = { add_country_modifier = { name = dm_acceptance duration = 5110 } }
+		DUA = { country_event = { id = 222201 days = 5110 } } # will happen in 14 years for DUA
+		set_country_flag = integrating_english
+		}
+	}
+
+	french_acceptance = {
+	picture = fra
+		potential = {
+			has_country_flag = DUA_dual_path 
+			has_country_flag = DUA_set_focus
+			NOT = { has_country_flag = integrating_french }
+			NOT = { has_country_flag = integrated_french }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		NOT = {
+			has_country_modifier = dm_acceptance
+		}
+		}
+		
+		effect = {
+		DUA = { add_country_modifier = { name = dm_acceptance duration = 5110 } }
+		DUA = { country_event = { id = 222202 days = 5110 } } # will happen in 14 years for DUA
+		set_country_flag = integrating_french
+		}
+	}
+
+	provencal_acceptance = {
+	picture = occitania
+		potential = {
+			has_country_flag = DUA_dual_path 
+			has_country_flag = DUA_set_focus
+			NOT = { has_country_flag = integrating_provencal }
+			NOT = { has_country_flag = integrated_provencal }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		NOT = {
+			has_country_modifier = dm_acceptance
+		}
+		}
+		
+		effect = {
+		DUA = { add_country_modifier = { name = dm_acceptance duration = 4380 } }
+		DUA = { country_event = { id = 222203 days = 4380 } } # will happen in 12 years for DUA
+		set_country_flag = integrating_provencal
+		}
+	}
+
+	irish_acceptance = {
+	picture = ireland
+		potential = {
+			has_country_flag = DUA_dual_path 
+			has_country_flag = DUA_set_focus
+			NOT = { has_country_flag = integrating_irish }
+			NOT = { has_country_flag = integrated_irish }
+			tag = DUA
+			ai = no
+		}
+
+		allow = {
+		NOT = {
+			has_country_modifier = dm_acceptance
+		}
+		}
+		
+		effect = {
+		DUA = { add_country_modifier = { name = dm_acceptance duration = 3285 } }
+		DUA = { country_event = { id = 222204 days = 3285 } } # will happen in 9 years for DUA
+		set_country_flag = integrating_irish
+		}
+	}
+}

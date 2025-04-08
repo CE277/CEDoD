@@ -1,0 +1,123 @@
+political_decisions = {
+	unite_principalities = {
+		potential = {
+			NOT = {	ROM = { exists = yes }	}
+			primary_culture = romanian
+		}
+
+		allow = {
+			NOT = { war = yes }
+			NOT = { is_vassal = yes }
+			AND = {
+				MOL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+								}
+						}
+					}
+				}
+				WAL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+								}
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 20
+			change_tag = ROM
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = THIS
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}
+			MOL = { all_core = { add_core =  ROM} }
+			WAL = { all_core = { add_core =  ROM} }
+			MOL = { all_core = { remove_core = MOL } }
+			WAL = { all_core = { remove_core = WAL } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+	unite_with_romania = {
+		picture = create_romania
+		potential = {
+			is_culture_group = pan_romanian
+			exists = ROM
+			NOT = {
+				has_country_flag = unite_with_romania
+				tag = ROM
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				is_vassal = no
+				overlord = { is_our_vassal = ROM }
+			}
+			OR = {
+				part_of_sphere = no
+				sphere_owner = { is_sphere_leader_of = ROM }
+			}
+			ROM = {
+				war = no
+				neighbour = THIS
+			}
+		}
+
+		effect = {
+			set_country_flag = unite_with_romania
+			random_country = {
+				limit = {
+					tag = ROM
+					ai = yes
+					THIS = { ai = yes }
+				}
+				inherit = THIS
+			}
+			random_country = {
+				limit = {
+					tag = ROM
+					ai = yes
+					THIS = { ai = no }
+				}
+				any_owned = { secede_province = THIS }
+				THIS = {
+					random_owned = {
+						limit = { province_id = 664 }
+						owner = { capital = 664 }
+					}
+					change_tag = ROM
+				}	
+			}
+			random_country = {
+				limit = {
+					tag = ROM
+					ai = no
+				}
+				country_event = 60130
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,8 @@
+ 
+add_core = DNG
+trade_goods = timber
+terrain = plains
+life_rating = 30
+colonial = 1
+
+

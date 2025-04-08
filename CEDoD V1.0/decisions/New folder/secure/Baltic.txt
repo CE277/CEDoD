@@ -1,0 +1,176 @@
+political_decisions = {
+	
+	dominium_maris_baltici = {
+		potential = {
+			tag = SCA 
+			NOT = { has_country_flag = baltic_claimed }
+		}
+			
+		allow = { 
+			owns = 354
+			owns = 546 	 
+			state_n_government = 1
+		}
+			
+		effect = { 
+			prestige = 10
+			badboy = 8
+			PRU = { all_core = { add_core = SCA } }
+			set_country_flag = baltic_claimed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lithuania_kidnapping = {
+		potential = {
+			tag = SCA
+			has_country_flag = baltic_claimed
+			NOT = { has_country_flag = lol_gg }
+		}
+			
+		allow = {
+			owns = 357
+			owns = 354
+			owns = 546
+			owns = 695 
+			revolution_n_counterrevolution = 1
+			
+		}
+			
+		effect = {
+			set_country_flag = lol_gg
+			country_event = 22240
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reclaimPOM = {
+	
+		potential = { 
+			tag = SCA 
+			NOT = {
+				544 = { is_core  = THIS }
+				has_country_flag = lol_rekt
+			}
+		}
+		
+		allow = { 
+			war_policy = jingoism
+		}
+		
+		effect = {
+			set_country_flag = lol_rekt
+			PRU_690 = { add_core = SCA }
+			PRU_546 = { add_core = SCA }
+			badboy = 10
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	act_of_union = {
+
+		potential = {
+			tag = PLC 
+			NOT = { has_country_flag = lublin_new }
+			OR = {
+				LIT = { substate_of = PLC }
+				BLR = { substate_of = PLC }
+				UKR = { substate_of = PLC }
+				PRU = { substate_of = PLC }
+			}
+		}
+	
+		allow = { 
+               state_n_government = 1
+			OR = {
+				LIT = { substate_of = PLC }
+				BLR = { substate_of = PLC }
+				UKR = { substate_of = PLC }
+				PRU = { substate_of = PLC }
+			}
+			OR = {
+				LIT = { substate_of = PLC }
+				LIT = { exists = no }
+			}
+			OR = {
+				BLR = { substate_of = PLC }
+				BLR = { exists = no }
+			}
+			OR = {
+				UKR = { substate_of = PLC }
+				UKR = { exists = no }
+			}
+			OR = {
+				PRU = { substate_of = PLC }
+				PRU = { exists = no }
+			}
+			war = no
+		}
+	
+		effect = {
+			prestige = 30
+			badboy = 5
+			any_country = {
+				limit = {
+					OR = {
+						tag = LIT
+						tag = BLR
+						tag = UKR
+						tag = PRU
+					}
+					substate_of = THIS
+				}
+				annex_to = THIS
+			}
+			any_pop = {
+				limit = {
+					OR = {
+					has_pop_culture = north_german
+					has_pop_culture = russian
+					}
+				}
+				militancy = 6
+			}
+			relation = { who = MUS value = -200 }
+			relation = { who = RUS value = -200 }
+			relation = { who = SCA value = -200 }
+			relation = { who = BOH value = -200 }
+			relation = { who = CAE value = -200 }
+			relation = { who = HLR value = -200 }
+			set_country_flag = lublin_new
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	romanian_cherson = { 
+		potential = { 
+		tag = ROM 
+		NOT = { has_country_flag = ROM_cherson }
+			}
+			
+		allow = { 
+		nationalism_n_imperialism = 1 
+		rank = 16 
+		OR = { 
+		all_core = { owned_by = THIS }
+		war_policy = jingoism
+			}
+		}	
+		
+		effect = { 
+		set_country_flag = ROM_cherson
+		badboy = 5 
+		RUS_965 = { add_core = ROM }
+		}
+	}	
+}	

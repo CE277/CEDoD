@@ -1,0 +1,12 @@
+owner = TAI
+controller = TAI
+ 
+add_core = TAI
+add_core = CHI
+1836.1.2 = {
+	controller = CHI
+	owner = CHI
+}
+ 
+trade_goods = fish
+life_rating = 32

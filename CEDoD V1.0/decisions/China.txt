@@ -1,0 +1,305 @@
+political_decisions = {
+	form_china_chagatai = {
+      picture = form_china
+  		potential = {
+  			OR = { tag = CHG
+			tag = MGL }
+  		}
+  		
+  		allow = {
+        	civilized = yes
+  			NOT = { war = yes }
+			owns = 1612 #Beijing
+			owns = 1555 #All 3 Manchurian regions
+			owns = 1552
+			owns = 1083
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = YUA
+			add_accepted_culture = manchu
+			any_country = {
+  				limit = {
+  					OR = {
+  						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+						primary_culture = uighur
+						primary_culture = tibetan
+  					}
+  					in_sphere = THIS
+  					NOT = {
+  						tag = THIS
+  					}
+  				}
+  				annex_to = THIS
+  			}
+			CHI_5 = { add_core = YUA }
+			CHI_1082 = { add_core = YUA }
+			CHI_1553 = { add_core = YUA }
+			CHI_1 = { add_core = YUA }
+			CHI_1618 = { add_core = YUA }
+			CHI_2 = { add_core = YUA }
+			CHI_1563 = { add_core = YUA }
+			CHI_1614 = { add_core = YUA }
+			CHI_1576 = { add_core = YUA }
+			CHI_3 = { add_core = YUA }
+			capital = 1612
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+
+	form_china_claimant = { 
+      picture = form_china
+  		potential = {
+		is_culture_group = chinese
+  		NOT = { OR = { exists = CHI 
+		tag = TAI } }
+		}
+  		
+  		allow = { 
+			civilized = yes
+  			NOT = { war = yes }
+			CHI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+			remove_country_modifier = tungning_nerf
+  			change_tag = CHI  
+  			primary_culture = beifaren
+			add_accepted_culture = min
+			add_accepted_culture = manchu
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			MIG = { all_core = { remove_core = MIG } }
+			capital = 2221
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+	form_china_claimant_Taiping = { 
+      picture = form_china
+  		potential = {
+		is_culture_group = chinese
+		tag = TAI
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = { 
+			civilized = yes
+  			NOT = { war = yes }
+			CHI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+			remove_country_modifier = tungning_nerf
+  			change_tag = CHI  
+  			primary_culture = beifaren
+			add_accepted_culture = min
+			add_accepted_culture = yue
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			MIG = { all_core = { remove_core = MIG } }
+			capital = 2221
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+#	form_china_return = {
+#      picture = form_china
+#  		potential = {
+#  			OR = { 
+#				  primary_culture = qingqiuan
+#				  primary_culture = ganguan
+#				  primary_culture = tionghoa
+#			  }
+#  			NOT = {
+#				exists = CHI
+#  			}
+#  		}
+#  		
+#  		allow = {  
+#			civilized = yes
+# 			NOT = { war = yes }
+#			CHI_1601 = {
+#				owner = {
+#					OR = {
+#						tag = THIS
+#						in_sphere = THIS
+#						vassal_of = THIS
+#					}
+#				}
+#			}
+#			MCK = {
+#			all_core = {
+#				owner = {
+#					OR = {
+#						tag = THIS
+#						in_sphere = THIS
+#						vassal_of = THIS
+#					}
+#				}
+#			}
+#			}
+#			TAI = {
+#			all_core = {
+#				owner = {
+#					OR = {
+#						tag = THIS
+#						in_sphere = THIS
+#						vassal_of = THIS
+#					}
+#				}
+#			}
+#			}
+#			MIG = {
+#			all_core = {
+#				owner = {
+#					OR = {
+#						tag = THIS
+#						in_sphere = THIS
+#						vassal_of = THIS
+#					}
+#				}
+#			}
+#			}
+#  		}
+#  		effect = {
+#  			prestige = 30
+#  			change_tag = CHI 
+#			add_accepted_culture = beifaren
+#			any_country = {
+#				limit = {
+#					is_culture_group = chinese
+#					in_sphere = THIS
+#					NOT = {
+#						tag = THIS
+#					}
+#				}
+#				annex_to = THIS
+#			}
+#			MCK = { all_core = { add_core =  CHI} }
+#			TAI = { all_core = { add_core =  CHI} }
+#			MIG = { all_core = { add_core =  CHI} }
+#			MCK = { all_core = { remove_core = MCK } }
+#			TAI = { all_core = { remove_core = TAI } }
+#			MIG = { all_core = { remove_core = MIG } }
+#			1502 = { add_core = CHI }
+#			1603 = { add_core = CHI }
+#			capital = 2221
+#  		}
+#  		ai_will_do = {
+#  			factor = 1
+#  		}
+#	}
+	
+	form_china_tibet = {  
+      picture = form_china
+  		potential = {
+  			tag = TIB
+  			NOT = {
+				exists = CHI
+  			}
+  		}
+  		
+  		allow = { 
+			civilized = yes
+  			NOT = { war = yes }
+			CHI = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = CHI 
+			add_accepted_culture = beifaren
+			any_country = {
+				limit = {
+					OR = {
+						is_culture_group = chinese
+ 						primary_culture = tibetan
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			MCK = { all_core = { add_core =  CHI} }
+			TAI = { all_core = { add_core =  CHI} }
+			MIG = { all_core = { add_core =  CHI} }
+			MCK = { all_core = { remove_core = MCK } }
+			TAI = { all_core = { remove_core = TAI } }
+			MIG = { all_core = { remove_core = MIG } }
+			1502 = { add_core = CHI }
+			1603 = { add_core = CHI }
+			capital = 2221
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+}

@@ -1,0 +1,5 @@
+ 
+add_core = DNG
+trade_goods = tropical_wood
+life_rating = 35
+colonial = 1

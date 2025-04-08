@@ -1,0 +1,55 @@
+political_decisions = {
+form_lesser_germany = {
+		picture = frankfurt_parliament
+		potential = {
+			primary_culture = south_german
+			NOT = {
+				exists = SGF
+				exists = GER
+			}
+		}
+		
+		allow = {
+			war = no
+			BAV = { all_core = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } }
+			WUR = { all_core = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } }
+			AUS_612 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			AUS_613 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			AUS_619 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+		}
+		
+		effect = {
+		    change_tag = SGF
+			primary_culture = south_german
+			add_accepted_culture = north_german
+			add_accepted_culture = rheinish 
+			add_accepted_culture = pomeranian
+			prestige = 10
+			any_country = {
+				limit = {
+					OR = { primary_culture = south_german
+						tag = WUR 
+						tag = BAD 
+						tag = SWI 
+						tag = HES }
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = { tag = THIS }
+				}
+				annex_to = THIS
+			}
+			AUS = { all_core = { limit = { is_core = GER } add_core = SGF } }
+			BAV = { all_core = { add_core = SGF } }
+			WUR = { all_core = { add_core = SGF } }
+			BAD_586 = { add_core = SGF }
+			SWI = { all_core = { add_core = SGF } }
+			BAV = { all_core = { remove_core = BAV } }
+			AUS = { all_core = { remove_core = AUS } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

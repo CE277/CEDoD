@@ -1,0 +1,117 @@
+political_decisions = {
+
+research_nukes = {
+	picture = "nuclear_ultimatum"
+		potential = {
+			NOT = { has_country_flag = nuclear_cap_low }
+			
+			year = 1920
+		}
+		
+		allow = {
+			#all techs required
+			modern_army_doctrine = 1
+			modern_divisional_structure = 1
+			heavy_armament_dunno = 1
+			aeronautics = 1
+			great_war_experience = 1
+			
+			modern_naval_doctrine = 1
+			oil_driven_ships = 1
+			modern_naval_design = 1
+			naval_integration = 1
+			modern_naval_training = 1
+			
+			mutual_funds = 1
+			market-determined_exchange_rates = 1
+			keynesian_economics = 1
+			government_interventionism = 1
+			organizational_development = 1
+			
+			mass_culture_n_the_avant_garde = 1
+			anti__rationalism = 1
+			social_alienation = 1
+			mass_politics = 1
+			behaviorism = 1
+			
+			electrical_power_generation = 1
+			shift_work = 1
+			electric_furnace = 1
+			limited_access_roads = 1
+			synthetic_polymers = 1
+			
+			money = 500000
+		}
+		
+		effect = {
+			money = -500000
+			add_country_modifier = { name = develop_atomic_bomb duration = 1825 }
+			set_country_flag = nuclear_cap_low
+		}
+}			
+			
+nuclear_ultimatum = {
+	picture = "nuclear_ultimatum"
+		potential = {
+			has_country_flag = nuclear_cap_low
+			NOT = { has_country_modifier = develop_atomic_bomb }
+		}
+
+		allow = {
+			
+			war = yes
+			
+			#Pacifists will never choose to blow up the world
+			NOT = { war_policy = pacifism }
+
+			OR = { 
+			
+				ai = no
+				
+				#Escalation if tatical nukes were used
+				AND = { 
+					NOT = { war_policy = pacifism } 
+					any_owned_province = { has_province_modifier = tactical_nuked } 
+				}
+
+				#Normal willingness
+				AND = { 
+					national_provinces_occupied = 0.40 
+					war_policy = jingoism 
+				}
+				
+				#Special cases
+				AND = { 
+					national_provinces_occupied = 0.20
+				}
+
+			}
+
+			NOT = { has_country_modifier = nukes_used_recently }
+		}
+
+		effect = {
+
+			#Choose what kind of ultimatum
+			country_event = 1331427
+
+			add_country_modifier = { name = nukes_used_recently duration = 365 }
+
+			badboy = 10
+
+			#Increase Pacifism
+			any_pop = {
+				dominant_issue = {
+					value = pacifism
+					factor = 0.25
+				}
+			}
+
+		}
+	
+		ai_will_do = { 
+			factor = 0.75 
+		}
+
+	}
+}

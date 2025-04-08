@@ -1,0 +1,26 @@
+political_decisions = {
+
+	mech_construction = {
+		alert = yes
+		potential = {
+			year = 1920
+			NOT = { has_country_flag = mechs_researched }
+			}
+		
+		allow = { 
+			#all army techs required
+			modern_army_doctrine = 1
+			modern_divisional_structure = 1
+			heavy_armament_dunno = 1
+			aeronautics = 1
+			great_war_experience = 1
+			year = 1930
+			money = 500000
+			}
+		effect = {
+			money = -500000
+			set_country_flag = mechs_researched
+		}
+
+	}
+}

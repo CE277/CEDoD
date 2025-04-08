@@ -1,0 +1,603 @@
+political_decisions = {
+		form_russia = {
+			potential = {
+				is_culture_group = east_slavic	
+				
+				
+				NOT = {
+					exists = RUS
+				}
+			}
+		
+			allow = {
+				NOT = { war = yes }
+				state_n_government = 1
+				prestige = 10
+				MUS = {
+					all_core = {
+						owner = {
+							OR = {
+								tag = THIS
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+				NOV = {
+					all_core = {
+						owner = {
+							OR = {
+								tag = THIS
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		
+			effect = {
+				prestige = 20
+				change_tag = RUS
+				add_accepted_culture = russian
+				add_accepted_culture = ugrian
+				any_country = {
+					limit = {
+						is_culture_group = east_slavic
+						   OR = {
+						    in_sphere = THIS
+							vassal_of = THIS
+							}
+					}
+					country_event = 11101
+				}
+			NOV = { all_core = { add_core =  RUS} }
+			PSV = { all_core = { add_core =  RUS} }
+			MUS = { all_core = { add_core =  RUS} }
+			MUS = { all_core = { remove_core = MUS } }
+			NOV = { all_core = { remove_core = NOV } }
+			PSV = { all_core = { remove_core = PSV } }
+			SIB = { all_core = { add_core =  RUS} }
+			RUS_1034 = { add_core =  RUS}
+			RUS_1060 = { add_core =  RUS}
+			RUS_1041 = { add_core =  RUS}
+			RUS_980 = { add_core =  RUS}
+			RUS_979 = { add_core =  RUS}
+			}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+
+
+	mongolian_protectorate = {
+		potential = {
+			OR = { 
+			tag = RUS
+			tag = JAP 
+			}
+			is_greater_power = yes
+			MGL = {
+				exists = yes
+				is_vassal = no
+				neighbour = THIS
+				OR = {
+					in_sphere = THIS
+					part_of_sphere = no
+				}
+			}
+			NOT = { has_country_flag = mongolian_protectorate }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			MGL = {
+				war = no
+				NOT = { truce_with = THIS }
+				in_sphere = THIS
+			}
+		}
+		
+		effect = {
+			set_country_flag = mongolian_protectorate
+			MGL = { country_event = 80115 }
+		}
+	}
+
+	#Russian Northern Route
+	enter_northern = {
+		potential = {
+			tag = RUS
+			NOT = { 
+				OR = {
+					has_country_flag = baltic_focus
+					has_country_flag = central_focus
+					has_country_flag = southern_focus
+					has_country_flag = emergency_focus
+				}
+			}
+		}
+		
+		allow = {
+			OR = { FIN = { all_core = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } }
+				AND = { RUS_354 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+					RUS_349 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } } }
+		}
+		
+		effect = {
+			prestige = 10
+			set_global_flag = baltic_focus
+			set_country_flag = baltic_focus
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	finnish_acc = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+		}
+		
+		allow = {
+		revolution_n_counterrevolution = 1 
+		}
+		
+		effect = {
+			RUS = { add_accepted_culture = finnish }
+			NOT = { has_country_flag = finnish_culture }
+			set_country_flag = finnish_culture
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	baltic_acc = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			NOT = { has_country_flag = baltic_culture }
+		}
+		
+		allow = {
+		revolution_n_counterrevolution = 1   
+		}
+		
+		effect = {
+			RUS = { add_accepted_culture = estonian }
+			RUS = { add_accepted_culture = latvian }
+			set_country_flag = baltic_culture
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	northern_RUS1 = {
+		potential = {
+			tag = RUS
+			has_global_flag = baltic_focus
+			NOT = { has_global_flag = baltic_focusfinland }
+		}
+		
+		allow = {
+					FIN = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			FIN = { all_core = { add_core = RUS } }
+			set_global_flag = baltic_focusfinland
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	northern_RUS2 = {
+		potential = {
+			tag = RUS
+			has_global_flag = baltic_focus
+			NOT = { has_global_flag = baltic_focusbaltic }
+		}
+		
+		allow = {
+		RUS_354 = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } }
+			RUS_349 = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } }
+		}
+		
+		effect = {
+			RUS_354 = { add_core = RUS }
+			RUS_349 = { add_core = RUS }
+			set_global_flag = baltic_focusbaltic
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	###Russian Southern Route
+
+	enter_southern = {
+		potential = {
+			tag = RUS
+			NOT = { 
+				OR = {
+					has_country_flag = baltic_focus
+					has_country_flag = central_focus
+					has_country_flag = southern_focus
+					has_country_flag = emergency_focus
+				}
+			}
+		}
+		
+		allow = {
+			ASK = { all_core = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } }
+			CRI = { all_core = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } }
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = southern_focus
+			set_global_flag = southern_focus
+			ASK = { all_core = { add_core =  RUS } }
+			CRI = { all_core = { add_core =  RUS } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	integrate_tatar_culture = {
+		potential = {
+			tag = RUS
+			OR = { has_country_flag = southern_focus
+			has_country_flag = baltic_focus
+			}
+			NOT = { accepted_culture = tatar}
+			NOT = { has_country_flag = tatar_culture }
+		}
+		#Ruthenes have higher tech requirements and lower capitol movement requirements. 
+		allow = {
+			nationalism_n_imperialism = 1 
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = tatar
+			set_country_flag = tatar_culture 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	integrate_astrakhani_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { has_country_flag = astrakhan_culture }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = astrakhani
+			ASK = { all_core = { add_core =  RUS } }
+			set_country_flag = astrakhan_culture 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	integrate_georgian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { accepted_culture = georgian}
+			NOT = { has_country_flag = georgian_culture }
+		}
+		#Georgians, being further away but Orthodox Christian, take a while.
+		allow = {
+			revolution_n_counterrevolution = 1 
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = georgian
+			set_country_flag = georgian_culture
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	southern_RUS1 = {
+		potential = {
+			tag = RUS
+			has_global_flag = southern_focus
+			NOT = { has_global_flag = georgiacore }
+		}
+		
+		allow = {
+			GEO = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			GEO = { all_core = { add_core = RUS } }
+			set_global_flag = georgiacore
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	southern_RUS2 = {
+		potential = {
+			tag = RUS
+			has_global_flag = southern_focus
+			NOT = { has_global_flag = azerbaijancore }
+		}
+		
+		allow = {
+			RUS_1102 = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			RUS_1102 = {
+				add_core = RUS
+			}
+			set_global_flag = azerbaijancore
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	southern_RUS3 = {
+		potential = {
+			tag = RUS
+			has_global_flag = southern_focus
+			NOT = { has_global_flag = armeaniacore }
+		}
+		
+		allow = {
+			RUS_1098 = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			RUS_1098 = {
+				add_core = RUS
+			}
+			set_global_flag = armeniacore
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	###Russian Panslavism Route
+
+	enter_central = {
+		potential = {
+			tag = RUS
+			NOT = { 
+				OR = {
+					has_country_flag = baltic_focus
+					has_country_flag = central_focus
+					has_country_flag = southern_focus
+					has_country_flag = emergency_focus
+				}
+			}
+		}
+		
+		allow = {
+			RUS_958  = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+			RUS_944  = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			prestige = 10
+			set_country_flag = central_focus
+			set_global_flag = central_focus
+			UKR = { all_core = { add_core =  RUS } }
+			RUS_944 = {
+				add_core = RUS
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	central_RUS1 = {
+		potential = {
+			tag = RUS
+			has_global_flag = central_focus
+			NOT = { has_global_flag = belaruscore }
+		}
+		
+		allow = {
+			RUS_718 = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			RUS_718 = {
+				add_core = RUS
+			}
+			set_global_flag = belaruscore
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	central_RUS2 = {
+		potential = {
+			tag = RUS
+			has_global_flag = central_focus
+			NOT = { has_global_flag = rutheniancore }
+		}
+		
+		allow = {
+			RUS_938 = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+			RUS_955 = { all_core = { owner = { OR = { tag = RUS in_sphere = RUS vassal_of = RUS } } } }
+		}
+		
+		effect = {
+			RUS_938 = {
+				add_core = RUS
+			}
+			RUS_955 = {
+				add_core = RUS
+			}
+			set_global_flag = rutheniancore
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	integrate_ruthenian_culture = {
+		potential = {
+			tag = RUS
+			has_country_flag = central_focus
+			NOT = { accepted_culture = ruthenian}
+		}
+		allow = {
+			revolution_n_counterrevolution = 1   
+		}
+		effect = {
+			prestige = 5
+			add_accepted_culture = ruthenian
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	###Emergency Route####
+
+	emergency_route = {
+		potential = {
+			tag = RUS
+			year = 1875
+			NOT = {  
+				OR = {
+					has_country_flag = baltic_focus
+					has_country_flag = central_focus
+					has_country_flag = southern_focus
+					has_country_flag = emergency_focus
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			prestige = -25
+			RUS = {
+				country_event = 202201	
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	moscow_expansion_steppes = { 
+	picture = RUS_tsar
+	potential = { 
+	tag = MUS
+	NOT = { has_country_flag = steppes_conquest }
+	NOT = { TAR = { exists = yes }}
+	}
+	
+	allow = {
+	OR = { 
+		AND = { 
+		rank = 16 
+		NOT = { SCA = { is_greater_power = yes } }
+			}
+		AND = { 
+		rank = 16 
+		year = 1845 
+				}
+		is_greater_power = yes 
+			}
+		}
+	
+	effect = { 
+	set_country_flag = steppes_conquest
+	prestige = 15 
+	RUS_1034 = { add_core = THIS }
+	RUS_979 = { add_core = THIS }
+	RUS_980 = { add_core = THIS }
+		}
+	
+	}
+
+	#St. Petersburg will be named after Mikhail I ("Mikhailgrad")
+	move_capital_to_nyenschantz = {
+		potential = {
+			tag = RUS
+			has_country_flag = baltic_focus
+			NOT = { has_country_flag = RUS_moved_capital }
+		}
+
+		#Must control all of Estonia and Karelia
+		allow = {
+			RUS_339 = { owned_by = THIS }
+			RUS_349 = { owned_by = THIS }
+		}
+
+		effect = {
+			prestige = 10
+			capital = 994
+			994 = {
+				    life_rating = 5
+				    change_province_name = "Mikhailgrad" 
+				    add_province_modifier = {
+				    	name = gateway_to_russia
+						duration = 7300
+	 				}  	  
+			}
+			set_country_flag = RUS_moved_capital 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Rostov retains its name.
+	move_capital_to_rostov = {
+		potential = {
+			tag = RUS
+			has_country_flag = southern_focus
+			NOT = { has_country_flag = RUS_moved_capital }
+		}
+
+		#Must control Crimea, Luhansk, and Rostov regions
+		allow = {
+			RUS_964 = { owned_by = THIS }
+			RUS_980 = { owned_by = THIS }
+			RUS_1048 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 10
+			capital = 979
+			979 = {
+				life_rating = 5
+				add_province_modifier = {
+					name = gateway_to_russia
+					duration = 7300
+				}      
+			}
+			set_country_flag = RUS_moved_capital 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,7 @@
+controller = ARA
+owner = ARA
+add_core = MDR
+#add_core = TRA
+colonial = 1
+trade_goods = silk
+life_rating = 32

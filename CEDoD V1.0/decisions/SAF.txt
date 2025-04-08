@@ -1,0 +1,90 @@
+political_decisions = {
+
+	form_batavia = { 
+	
+	potential = { 
+	OR = { tag = LWE  tag = TRN tag = NFL }
+	}
+	
+	allow = { 
+	LWE = {
+			all_core = {
+					OR = {
+						empty = yes
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+	
+				}
+			}
+	TRN = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+	
+				}
+			}
+	NFL = {
+			all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+	
+				}
+			}
+			
+	}
+	
+	effect = { 
+	any_country = {
+				limit = {
+					primary_culture = boer
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				annex_to = THIS
+			}	
+	ENG_2087 = { add_core = BTV }
+	LWE = { all_core = { add_core = BTV } }
+	GRQ = { all_core = { add_core = BTV } }
+	XHO = { all_core = { add_core = BTV } }
+	NFL = { all_core = { add_core = BTV } }
+	TRN = { all_core = { add_core = BTV } }
+	BSH = { all_core = { add_core = BTV } }
+	SUA = { all_core = { add_core = BTV } }
+	ZUL = { all_core = { add_core = BTV } }
+	LWE = { all_core = { remove_core = LWE } }
+	GRQ = { all_core = { remove_core = GRQ } }
+	XHO = { all_core = { remove_core = XHO } }
+	NFL = { all_core = { remove_core = NFL } }
+	TRN = { all_core = { remove_core = TRN } }
+	BSH = { all_core = { remove_core = BSH } }
+	SUA = { all_core = { remove_core = SUA } }
+	ZUL = { all_core = { remove_core = ZUL } }
+	change_tag = BTV 
+	set_country_flag = batavia_immigration
+	set_country_flag = new_world_nation
+	prestige = 10 
+	}
+}
+}

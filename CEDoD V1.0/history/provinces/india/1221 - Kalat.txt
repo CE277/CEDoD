@@ -1,0 +1,8 @@
+owner = SIN
+controller = SIN 
+add_core = SIN
+add_core = ARY
+add_core = BLC
+add_core = AFG
+trade_goods = wool
+life_rating = 35

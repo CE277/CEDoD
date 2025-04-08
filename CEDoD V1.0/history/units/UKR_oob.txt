@@ -1,0 +1,21 @@
+army = {
+	name = "First Army of Ukraine"
+	location = 958
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 963
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 958
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = hussar
+		home = 960
+	}
+}

@@ -1,0 +1,6 @@
+owner = NAN
+controller = NAN
+add_core = NAN
+trade_goods = tropical_wood
+terrain = savanna
+life_rating = 35

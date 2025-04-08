@@ -1,0 +1,22 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+ 
+add_core = MEX
+1836.1.4 = {
+add_core = SPA
+}
+ 
+add_core = UCA
+trade_goods = cotton
+life_rating = 35
+1861.1.1 = {
+	owner = MEX
+	controller = MEX
+	remove_core = UCA
+}

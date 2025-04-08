@@ -1,0 +1,16 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+add_core = LST
+add_core = MEX
+1836.1.4 = {
+add_core = SPA
+}
+terrain = new_world_semidesert
+trade_goods = cattle
+life_rating = 35

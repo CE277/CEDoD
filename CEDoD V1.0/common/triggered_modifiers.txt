@@ -1,0 +1,271 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+fairer_taxation = {
+	trigger = {
+		ai = no
+		civilized = yes
+		year = 1890
+		OR = {
+			economic_policy = planned_economy
+			economic_policy = state_capitalism
+			economic_policy = interventionism
+		}	
+	}
+	max_tax = 0.8
+	icon = 9
+}
+
+tariff_efficiency_boost = {
+	trigger = {
+		exists = yes
+	}
+	tariff_efficiency_modifier = 0.1
+	icon = 9
+}
+
+vassal_nation = {
+	trigger = {
+		exists = yes
+		is_vassal = yes
+	}
+	icon = 10
+	prestige = -0.1
+}
+
+own_kiel_canal = {
+	trigger = {
+		exists = yes
+		owns = 369
+		civilized = yes
+		is_canal_enabled = 1
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.05
+}
+
+own_suez_canal = {
+	trigger = {
+		exists = yes
+		owns = 1755
+		civilized = yes
+		is_canal_enabled = 2
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.1
+	tax_efficiency = 0.1
+	prestige = 0.01
+}
+
+own_panama_canal = {
+	trigger = {
+		exists = yes
+		owns = 1723
+		civilized = yes
+		is_canal_enabled = 3
+	}
+	icon = 9
+	tariff_efficiency_modifier = 0.1
+	tax_efficiency = 0.1
+	prestige = 0.02
+}
+
+small_but_efficient = {
+	trigger = {
+		exists = yes
+		capital_scope = { continent = europe }
+		civilized = yes
+		NOT = { number_of_states = 4 }
+		NOT = { num_of_cities = 8 }
+		NOT = { total_pops = 500000 }
+		NOT = { money = 1000000 }
+		NOT = { year = 1886 }
+		OR = {
+			NOT = { 
+				is_culture_group = south_slavic
+				is_culture_group = pan_romanian
+				is_culture_group = levantine
+			}
+			NOT = { num_of_cities = 4 }
+		}
+	}
+	
+	icon = 9
+	tax_efficiency = 0.4
+	administrative_efficiency_modifier = 0.3
+	tariff_efficiency_modifier = 0.3
+	supply_consumption = -0.9
+}
+
+social_reformed_nation = {
+		trigger = {
+			exists = yes
+			wage_reform = good_minimum_wage
+			work_hours = eight_hours
+			safety_regulations = good_safety
+			unemployment_subsidies = good_subsidies
+			pensions = good_pensions
+			health_care = good_health_care
+			school_reforms = good_schools
+			 
+		}
+		
+	social_reform_desire = -1.0
+	icon = 13
+}
+
+political_reformed_nation = {
+		trigger = {
+			exists = yes
+			slavery = no_slavery
+			vote_franschise = universal_voting
+			public_meetings = yes_meeting
+			press_rights = free_press
+			political_parties = secret_ballots
+		}
+		
+	political_reform_desire = -1.0
+	social_reform_desire = 0.5
+	icon = 13
+}
+
+powerful_HRE = { 
+	trigger = { 
+		OR = { 
+		primary_culture = south_german
+		primary_culture = rheinish 
+		primary_culture = north_german 
+			}
+		in_sphere = BOH 
+		NOT = { year = 1849 }
+	}
+	prestige = -0.50 
+}
+
+#########################################
+#			FEMBOY MODIFIERS			#
+#########################################
+
+player_unciv_mobilization = {
+	trigger = {
+		ai = no
+		civilized = no
+		NOT = { ai = yes }
+		NOT = { civilized = yes }
+	}
+
+	mobilisation_size = 0.01
+	icon = 9
+}
+
+civ_mobilization = {
+	trigger = {
+		civilized = yes
+		NOT = { civilized = no }
+	}
+
+	mobilisation_size = 0.03
+	icon = 9
+}
+
+too_rich_nation = { # To destroy China
+	trigger = {
+		has_country_flag = is_China
+		ai = yes
+		money = 500000
+		civilized = no
+			}
+	icon = 5
+	tax_efficiency = -0.1 # Slight nudge so they can't survive off of taxes alone, likely unneeded
+	tariff_efficiency_modifier = 0.8 # This is to increase the effectiveness of -100% tariffs
+	min_military_spending = 1.0 # Extra costs in case tariffs aren't enough, likely unneeded
+	min_tariff = -1.0 # Force Tariff to -100%
+	max_tariff = -2.0 # Force Tariff to -100%
+	goods_demand = 0.40 # Make it that they cannot produce enough locally to outdo the THIRST for external goods
+}
+
+infamy_decay_1 = {
+	trigger = {
+		has_global_flag = infamy_decay_1
+	}
+	badboy = -0.05
+}	
+
+infamy_decay_2 = {
+	trigger = {
+		has_global_flag = infamy_decay_2
+	}
+	badboy = -0.1
+}
+
+infamy_decay_3 = {
+	trigger = {
+		has_global_flag = infamy_decay_3
+	}
+	badboy = -0.15
+}
+
+infamy_decay_4 = {
+	trigger = {
+		has_global_flag = infamy_decay_4
+	}
+	badboy = -0.2
+}
+
+infamy_decay_5 = {
+	trigger = {
+		has_global_flag = infamy_decay_5
+	}
+	badboy = -24.75
+}
+
+infamy_gain_1 = {
+	trigger = {
+		has_global_flag = infamy_gain_1
+		war = no
+	}
+	badboy = 0.05
+}
+
+infamy_gain_2 = {
+	trigger = {
+		has_global_flag = infamy_gain_2
+		war = no
+	}
+	badboy = 0.1
+}
+
+infamy_gain_3 = {
+	trigger = {
+		has_global_flag = infamy_gain_3
+		war = no
+	}
+	badboy = 0.15
+}
+
+infamy_gain_4 = {
+	trigger = {
+		has_global_flag = infamy_gain_4
+		war = no
+	}
+	badboy = 0.2
+}
+
+republican_government = {
+		trigger = {
+			exists = yes
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = democracy
+                        government = merchant_republic
+                        government = proletarian_dictatorship
+		}
+		
+	political_reform_desire = 0.1
+	social_reform_desire = 0.1
+        education_efficiency_modifier = 0.05
+        assimilation_rate = 0.01
+        global_immigrant_attract = 0.1
+}

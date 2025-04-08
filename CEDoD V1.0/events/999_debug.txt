@@ -1,0 +1,110 @@
+country_event = {
+    id = 4769999
+    title = "world annex"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        any_country = {
+
+            limit = {
+                civilized = yes
+                NOT  = { tag = LCT }
+             }
+
+        country_event = { id=4769998 days=0 } 
+
+        }
+    }
+}
+
+country_event = {
+    id = 47699991
+    title = "goods"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        any_country = {
+
+        country_event = { id=47699988 days=0 } 
+
+        }
+    }
+}
+
+country_event = {
+    id = 47699990
+    title = "world annex"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        any_country = {
+
+            limit = {
+                civilized = no
+                NOT  = { tag = LCT }
+             }
+
+        country_event = { id=4769998 days=0 } 
+
+        }
+    }
+}
+
+country_event = {
+    id = 4769998
+    title = "begone"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        FROM = { inherit = THIS }
+    }
+}
+
+country_event = {
+    id = 47699988
+    title = "begone"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        iron = 2000
+        coal = 2000
+        cotton = 2000
+        wool = 2000
+        silk = 2000
+        sulphur = 2000
+        cattle = 2000
+        fish = 2000
+        fruit = 2000
+        grain = 2000
+        timber = 2000
+        tropical_wood = 2000
+        tobacco = 2000
+        tea = 2000
+        coffee = 2000
+        opium = 2000
+        rubber = 2000
+        oil = 2000
+    }
+}
+
+country_event = {
+    id = 47699999
+    title = "begone"
+
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = {
+        activate_invention = water_wheel_power
+    }
+}

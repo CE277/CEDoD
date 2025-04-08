@@ -1,0 +1,7 @@
+owner = DUA
+controller = DUA
+trade_goods = tropical_wood
+life_rating = 32
+colonial = 1
+
+ 

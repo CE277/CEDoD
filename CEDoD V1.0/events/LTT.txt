@@ -1,0 +1,85 @@
+#Little Italy Core Loss (Triggers through decision)
+
+country_event = {
+
+  id = 6000044
+  title = "Little Italy Core Loss"
+  desc = "We have lost former Venetian Cores!"
+
+  is_triggered_only = yes
+
+  option = {
+  name = "Shit!"
+    }
+  }
+
+province_event = { 
+  id = 6000055
+  title = "Little Italy cores event"
+  desc = "Removes Little Italy cores."
+
+  trigger = {
+    is_core = LTT
+    is_core = VEN
+    NOT = { owner = { tag = LTT } }
+    NOT = { region = GRE_826 }
+    NOT = { region = EGY_843 }
+    NOT = { region = TUR_855 }
+    NOT = { region = TUR_806 }
+    NOT = { has_province_modifier = lttcoreremoval }
+  }
+
+  mean_time_to_happen = {
+    days = -1
+  }
+
+  option = {
+    name = "Woah!"
+    add_province_modifier = {
+      name = lttcoreremoval
+      duration = -1
+    }
+    set_global_flag = lttcoreremoval
+  }
+}
+
+#Capital Change
+
+country_event = {
+
+  id = 60000666
+  title = "Little Italy Capital Change"
+  desc = "We can now choose our Capital!"
+
+  is_triggered_only = yes
+
+  option = {
+  name = "Porto Dandolo!"
+  capital = 199
+    }
+
+    option = {
+  name = "Havana!"
+  capital = 2209
+    }
+
+    option = {
+  name = "Eendrachtsland!"
+  capital = 2217
+    }
+
+    option = {
+  name = "Provestenen!"
+  capital = 2213
+    }
+
+    option = {
+  name = "Gundershavn!"
+  capital = 2230
+    }
+
+    option = {
+  name = "Neu-Kurland!"
+  capital = 2229
+    }
+  }

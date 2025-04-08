@@ -1,0 +1,6 @@
+owner = CHG
+controller = CHG
+add_core = CHG
+trade_goods = fruit
+terrain = desert
+life_rating = 15

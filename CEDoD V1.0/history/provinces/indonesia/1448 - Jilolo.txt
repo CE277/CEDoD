@@ -1,0 +1,7 @@
+owner = SCA
+controller = SCA
+add_core = MKS
+ 
+trade_goods = fish
+life_rating = 30
+colonial = 1

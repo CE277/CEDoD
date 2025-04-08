@@ -1,0 +1,1 @@
+owner = CLMcontroller = CLMadd_core = CLM1836.1.4 = {owner = SPAcontroller = SPAremove_core = CLM} add_core = MEX1836.1.4 = {add_core = SPA}   add_core = UCA    trade_goods = timberlife_rating = 351835.1.1 = {	controller = SPA} 1837.1.1 = {	controller = CLM}

@@ -1,0 +1,9 @@
+owner = NOV
+controller = NOV
+
+add_core = NOV
+add_core = MUS
+ 
+trade_goods = grain
+terrain = montane_tundra
+life_rating = 15

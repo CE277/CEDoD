@@ -1,0 +1,182 @@
+leader = {
+	name = "Marco Monteverdi"
+	type = land
+	date = 1836.1.1
+	personality = modest
+	background = elder_statesman
+}
+
+leader = {
+	name = "Pietro Vivaldi"
+	type = sea
+	date = 1836.1.1
+	personality = independent
+	background = gambler
+}
+
+army = {
+	name = "Army of the Serenessima"
+	location = 729
+	regiment = {
+		name= "1. infantry"
+		type = infantry
+		home = 199
+	}
+
+	regiment = {
+		name= "2. infantry"
+		type = infantry
+		home = 199
+	}
+
+	regiment = {
+		name= "3. infantry"
+		type = infantry
+		home = 729
+	}
+
+	regiment = {
+		name= "4. infantry"
+		type = infantry
+		home = 736
+	}
+
+	regiment = {
+		name= "1. hussar"
+		type = artillery
+		home = 737
+	}
+
+	regiment = {
+		name= "2. hussar"
+		type = artillery
+		home = 841
+	}
+
+	regiment = {
+		name= "1. hussar"
+		type = artillery
+		home = 837
+	}
+
+	regiment = {
+		name= "2. hussar"
+		type = artillery
+		home = 840
+	}
+
+	regiment = {
+		name= "2. hussar"
+		type = artillery
+		home = 834
+	}
+
+	regiment = {
+		name= "3. hussar"
+		type = hussar
+		home = 734
+	}
+
+}
+
+army = {
+	name = "Army of Senegal"
+	location = 1784
+
+	regiment = {
+		name= "2. Colonial"
+		type = infantry
+		home = 1789
+	}
+}
+
+
+navy = {
+	name = "Fleet of the Serenessima"
+	location = 729
+	ship = {
+		name= "Costanza Guerriera"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Giovanni Battista"
+		type = frigate
+	}
+
+	ship = {
+		name= "Redentor del Mondo"
+		type = frigate
+	}
+
+	ship = {
+		name= "San Lorenzo Giustian"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "1a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Squadrone Transporti"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Stella Maris"
+		type = manowar
+	}
+
+	ship = {
+		name= "Colomba d'Oro"
+		type = frigate
+	}
+
+	ship = {
+		name= "Croce Rossa"
+		type = frigate
+	}
+}
+

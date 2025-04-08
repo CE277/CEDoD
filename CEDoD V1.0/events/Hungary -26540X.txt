@@ -1,0 +1,56 @@
+country_event = { 
+	id = 265401
+	title = "HUN1.T"
+	desc = "HUN1.D"
+	
+	is_triggered_only = yes 
+	
+	option = { 
+	name = "265401.A"
+	clr_global_flag = crown_stefen
+	relation = { who = HUN value = 200 }
+	diplomatic_influence = { who = HUN value = 400 }
+	ai_chance = { 
+	factor = 10
+	modifier = { 
+	factor = 2 
+	HUN = { is_greater_power = yes }
+			}
+	modifier = { 
+	factor = 1.2 
+	relation = { who = HUN value = 100 }
+			}
+	modifier = { 
+	factor = 1.3 
+	relation = { who = HUN value = 150 }
+			}
+	modifier = { 
+	factor = 2 
+	war = yes
+			}
+		}
+	}
+	
+	option = { 
+	name = "265401.E"
+	ai_chance = { 
+	factor = 10
+	modifier = { 
+	factor = 1.9 
+	NOT = { relation = { who = HUN value = 0 } }
+			}
+	modifier = { 
+	factor = 3 
+	NOT = { relation = { who = HUN value = -100 } }
+			}
+	modifier = { 
+	factor = 0
+	HUN = { is_greater_power = yes }
+			}
+	modifier = { 
+	factor = 0.5 
+	war = yes
+			}
+		}
+	}
+}

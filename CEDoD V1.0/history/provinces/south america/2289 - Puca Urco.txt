@@ -1,0 +1,14 @@
+owner = CLM 
+controller = CLM
+add_core = CLM
+add_core = GRA
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+ 
+ 
+ 
+trade_goods = timber
+life_rating = 35

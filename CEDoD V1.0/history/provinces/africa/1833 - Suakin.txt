@@ -1,0 +1,7 @@
+owner = FUN
+controller = FUN
+add_core = FUN
+trade_goods = cotton
+life_rating = 10
+
+ 

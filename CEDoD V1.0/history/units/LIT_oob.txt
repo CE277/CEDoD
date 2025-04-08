@@ -1,0 +1,21 @@
+army = {
+	name = "First Army of Lithuania"
+	location = 361
+	regiment = {
+		name= "5.1st Division"
+		type = hussar
+		home = 360
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 719
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 937
+	}
+}

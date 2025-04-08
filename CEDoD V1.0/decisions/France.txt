@@ -1,0 +1,238 @@
+political_decisions = {
+	annex_OCC = { 
+	picture = Occitania
+	potential = { 
+	tag = FRA 
+	NOT = { has_country_flag = occitania_reclaime }
+		}
+		
+	allow = { 
+	OCC = { in_sphere = THIS }
+		}
+	
+	effect = { 
+	inherit = OCC
+	OCC = { all_core = { add_core = THIS }}
+	add_accepted_culture = provencal
+	set_country_flag = occitania_reclaime
+		}
+	
+	}
+	
+	claim_OCC = { 
+	picture = Occitania
+	potential = { 
+	tag = FRA 
+	NOT = { accepted_culture = provencal }
+	NOT = { OCC = { exists = yes } }
+	NOT = { has_country_flag = occitania_reclaime }
+		}
+		
+	allow = { 
+	455 = { owned_by = THIS }
+		}
+	
+	effect = { 
+	OCC = { all_core = { add_core = THIS } }
+	add_accepted_culture = provencal 
+	set_country_flag = occitania_reclaime
+		}
+	
+	}
+	
+	savoy_cores_OCC = { 
+	potential = { 
+	OR = { tag = OCC
+	AND = { tag = FRA 
+			has_country_flag = occitania_reclaime
+			}
+		}
+	NOT = { has_global_flag = savoy_cores }
+	}
+	
+	allow = { 
+	owns = 466 
+	}
+	
+	effect = { 
+	SAR_466 = { remove_core = ITA }
+	set_global_flag = savoy_cores
+		}
+	
+	}
+	
+	savoy_cores_ITA = { 
+	potential = { 
+	tag = ITA
+	NOT = { has_global_flag = savoy_cores }
+	}
+	
+	allow = { 
+	owns = 466 
+	}
+	
+	effect = { 
+	SAR_466 = { remove_core = OCC remove_core = FRA }
+	set_global_flag = savoy_cores
+		}
+	
+	}
+	
+#	integrating_provencal = { 
+#	potential = {
+#	NOT = { has_country_flag = Paris_congress }
+#	NOT = { has_country_flag = provencal_acc }
+#	NOT = { has_country_flag = DUA_schooling }
+#	tag = DUA 
+#	OR = { has_country_flag = Anglois_accepted 
+#	has_global_flag = french_int }
+#	}
+#	
+#	allow = { 
+#	year = 1850
+#	}
+#	
+#	effect = { 
+#	set_country_flag = provencal_acc
+#	add_accepted_culture = provencal 
+#	}
+#	
+#	}
+	
+#	integrating_irish = { 
+#	potential = {
+#	NOT = { has_country_flag = Paris_congress }
+#	NOT = { has_country_flag = irish_acc }
+#	NOT = { has_country_flag = DUA_schooling }
+#	tag = DUA 
+#	OR = { has_country_flag = Anglois_accepted 
+#	has_global_flag = english_int }
+#	}
+#	
+#	allow = { 
+#	year = 1850 
+#	}
+#	
+#	effect = { 
+#	set_country_flag = irish_acc
+#	add_accepted_culture = irish 
+#		}
+#	
+#	}
+	
+	integrate_scotland = { 
+		potential = {
+			tag = DUA 
+			NOT = { has_country_flag = Paris_congress }
+			NOT = { has_country_flag = scotland_acc }
+		}
+		
+		allow = { 
+			SCO = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = { 
+			set_country_flag = scotland_acc 
+			SCO = { all_core = { add_core = THIS } }
+		}
+	}
+	
+#	integrating_scottish = { 
+#	potential = {
+#	NOT = { has_country_flag = Paris_congress }
+#	NOT = { has_country_flag = scottish_acc }
+#	NOT = { has_country_flag = DUA_schooling }
+#	tag = DUA 
+#	has_country_flag = scotland_acc
+#	}
+#	effect = { 
+#	set_country_flag = scottish_acc
+#	add_accepted_culture = scottish 
+#		}
+#	
+#	}
+	
+#	integrating_english = { 
+#	potential = {
+#	NOT = { has_country_flag = Paris_congress }
+#	NOT = { has_country_flag = english_acc }
+#	NOT = { has_country_flag = DUA_schooling }
+#	has_global_flag = english_int
+#	tag = DUA 
+#	}
+#	effect = { 
+#	set_country_flag = english_acc
+#	add_accepted_culture = english 
+#		}
+#	
+#	}
+	
+#	integrating_french = { 
+#	potential = {
+#	NOT = { has_country_flag = Paris_congress }
+#	NOT = { has_country_flag = french_acc }
+#	NOT = { has_country_flag = DUA_schooling }
+#	has_global_flag = french_int
+#	tag = DUA 
+#	}
+#	
+#	effect = { 
+#	set_country_flag = french_acc
+#	add_accepted_culture = french
+#		}
+#	
+#	}
+	
+#	integrating_breton_and_welsh = { 
+#	potential = {
+#	NOT = { has_country_flag = Paris_congress }
+#	NOT = { has_country_flag = breton_and_welsh_acc }
+#	NOT = { has_country_flag = DUA_schooling }
+#	has_global_flag = anglois_int
+#	tag = DUA 
+#	}
+#	
+#	allow = { 
+#	year = 1850
+#	}
+#	
+#	effect = { 
+#	set_country_flag = breton_and_welsh_acc
+#	add_accepted_culture = breton
+#	add_accepted_culture = welsh
+#		}
+#	
+#	}
+	
+	integrating_basque = { 
+	potential = {
+	tag = DUA
+	NOT = { has_country_flag = Paris_congress }
+	NOT = { has_country_flag = basque_acc }
+	NOT = { has_country_flag = DUA_schooling }
+	has_global_flag = french_int 
+	}
+	
+	allow = { 
+			NAV = {
+				all_core = {
+				owner = {
+					OR = {
+						tag = THIS
+						vassal_of = THIS
+					}
+				  }
+				}
+			}
+#	year = 1850 
+	}
+	
+	effect = { 
+	set_country_flag = basque_acc
+	ESK_1 = {
+		add_core = DUA
+		}
+	add_accepted_culture = basque 
+		}
+	}
+}

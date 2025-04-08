@@ -1,0 +1,23 @@
+owner = TAI
+controller = TAI
+add_core = TAI
+add_core = CHI
+1836.1.2 = {
+	controller = CHI
+	owner = CHI
+}
+add_core = MIG
+add_core = CHI
+1836.1.2 = {
+	controller = CHI
+	owner = CHI
+}
+ 
+ 
+trade_goods = cattle
+life_rating = 32
+1861.1.1 = {
+	owner = TPG
+	controller = TPG
+	add_core = TPG
+}

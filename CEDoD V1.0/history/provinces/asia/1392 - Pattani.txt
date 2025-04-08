@@ -1,0 +1,7 @@
+owner = JOH
+controller = JOH
+#add_core = PAT
+add_core = JOH
+ 
+trade_goods = coal
+life_rating = 35

@@ -1,0 +1,92 @@
+CLM = {
+   value = -100
+   truce_until = "1841.1.1"
+}
+
+leader = {
+	name = "Sapa Inca"
+	type = land
+	date = 1836.1.1
+	personality = arrogant
+	background = old_school
+}
+
+army = {
+	name = "Army of the Great Inca"
+	location = 2308
+	regiment = {
+		name= "1. infantry"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "2. infantry"
+		type = infantry
+		home = 2310
+	}
+
+	regiment = {
+		name= "3. infantry"
+		type = infantry
+		home = 2314
+	}
+	regiment = {
+		name= "1. hussar"
+		type = hussar
+		home = 2312
+	}
+}
+
+army = {
+	name = "Army of Cuzco"
+	location = 2310
+	regiment = {
+		name= "1. infantry"
+		type = infantry
+		home = 2319
+	}
+
+	regiment = {
+		name= "2. infantry"
+		type = infantry
+		home = 2325
+	}
+
+	regiment = {
+		name= "3. infantry"
+		type = infantry
+		home = 2368
+	}
+	regiment = {
+		name= "1. hussar"
+		type = hussar
+		home = 2324
+	}
+}
+
+army = {
+	name = "Army of the South"
+	location = 2373
+	regiment = {
+		name= "1. infantry"
+		type = infantry
+		home = 2313
+	}
+
+	regiment = {
+		name= "2. infantry"
+		type = infantry
+		home = 2322
+	}
+	regiment = {
+		name= "3. infantry"
+		type = infantry
+		home = 2324
+	}
+	regiment = {
+		name= "1. hussar"
+		type = hussar
+		home = 2387
+	}
+}

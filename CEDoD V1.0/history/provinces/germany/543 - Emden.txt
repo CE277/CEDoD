@@ -1,0 +1,12 @@
+owner = FRI
+controller = FRI
+add_core = FRI
+add_core = GER
+trade_goods = fish
+life_rating = 40
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+1861.1.1 = { railroad = 3 }

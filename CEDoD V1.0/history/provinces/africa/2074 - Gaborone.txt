@@ -1,0 +1,7 @@
+owner = GRQ
+controller = GRQ
+add_core = GRQ
+trade_goods = wool
+life_rating = 25
+
+ 

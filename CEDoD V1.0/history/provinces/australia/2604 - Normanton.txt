@@ -1,0 +1,6 @@
+ 
+add_core = DNG
+trade_goods = tropical_wood
+terrain = savanna
+life_rating = 35
+colonial = 1

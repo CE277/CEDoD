@@ -1,0 +1,35 @@
+political_decisions = {
+
+	day_one_setup = {
+		potential = {
+			tag = GHO
+			NOT = { has_global_flag = day_one_setup }
+		}
+		allow = {
+		}
+		effect = {
+			GHO = {
+			country_event = { id=700700 days=0 }
+		}
+		any_country = {
+		limit = { ai = no }
+				treasury = 200000
+				any_pop = {
+				money = 50
+			}
+			}
+		any_country = {
+		activate_technology = classicism_n_early_romanticism
+			}
+		set_global_flag = day_one_setup
+				enable_canal = 11
+		enable_canal = 12
+		enable_canal = 13
+		enable_canal = 14
+		}
+		 ai_will_do = {
+            factor = 100
+        }
+	}
+}
+

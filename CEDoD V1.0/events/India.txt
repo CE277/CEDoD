@@ -1,0 +1,108 @@
+country_event = {
+
+	id = 881304
+	title = "IND1.T"
+	desc = "IND1.D"
+    fire_only_once = yes
+	trigger = {
+
+	tag = VIJ
+	civilized = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = "881304.A"
+		remove_accepted_culture = aryan
+		remove_accepted_culture = indo-aryan
+		remove_accepted_culture = bengali
+		
+	}
+
+}
+}
+
+country_event = {
+
+	id = 881310
+	title = "IND1.T"
+	desc = "IND1.D"
+    fire_only_once = yes
+	trigger = {
+
+	tag = HYD
+	civilized = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = "881304.A"
+		remove_accepted_culture = aryan
+		remove_accepted_culture = indo-aryan
+		remove_accepted_culture = bengali
+		
+	}
+
+}
+}
+
+
+country_event = {
+
+	id = 881305
+	title = "IND1.T"
+	desc = "IND1.D"
+	fire_only_once = yes
+	trigger = {
+
+	tag = MUG
+	civilized = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = "881304.A"
+		remove_accepted_culture = dravidian
+		remove_accepted_culture = aryan
+		remove_accepted_culture = bengali
+		
+	}
+
+}
+}
+
+country_event = {
+
+	id = 881306
+	title = "IND1.T"
+	desc = "IND1.D"
+	fire_only_once = yes
+	trigger = {
+
+	tag = BEN
+	civilized = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = "881304.A"
+		remove_accepted_culture = dravidian
+		remove_accepted_culture = indo-aryan
+		remove_accepted_culture = aryan
+		
+	}
+
+}
+}

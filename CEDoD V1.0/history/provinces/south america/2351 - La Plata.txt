@@ -1,0 +1,1 @@
+owner = NANcontroller = NANadd_core = NAN1836.1.4 = {owner = SICcontroller = SICadd_core = SIC}trade_goods = fishterrain = farmlandslife_rating = 35

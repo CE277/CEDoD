@@ -1,0 +1,30 @@
+##############Northern Route;;;;;;;;;;;;;;x
+enter_northern_title;Enter the Northern Route;;;;;;;;;;;;;;x
+enter_northern_desc;This decision enters you into the Northern Route! \nThe Northern Route gives cores on Finland, Latvia and Estonia. You must conquer this land to receive the cores. To core Finland you must take both Finnish states and to core Latvia and Estonia you must take both. You will recieve Tartar accepted pops in 1850 with Nationalism & Imperalism and Finnish, Latvian and Estonian in 1870 with Revolution & Counter-Revolution. \nThis decision is irreversible! \n§RIf we fail to enter a path by 1875 you will be given an emergency option which gives you the opportunity to enter a path immediately and immediately recieve all the benefits of that path!;;;;;;;;;;;;;;x
+finnish_acc_title;Integrate the Finnish;;;;;;;;;;;;;;x
+finnish_acc_desc;We may incorporate the Finnish peoples into our realm.;;;;;;;;;;;;;;x
+baltic_acc_title;Integrate the Baltics;;;;;;;;;;;;;;x
+baltic_acc_desc;We may incorporate the Baltic peoples into our realm.;;;;;;;;;;;;;;x
+northern_RUS1_title;Lay our claims to Finland;;;;;;;;;;;;;;x
+northern_RUS1_desc;With the successful conquest of Finland we may now proclaim it as core Russian land!;;;;;;;;;;;;;;x
+northern_RUS2_title;Lay our claims to the Baltics;;;;;;;;;;;;;;x
+northern_RUS2_desc;With the successful conquest of the Baltics we may now proclaim it as core Russian land!;;;;;;;;;;;;;;x
+###############Southern Route;;;;;;;;;;;;;;x
+enter_southern_title;Enter the Southern Route;;;;;;;;;;;;;;x
+enter_southern_desc;This decision enters you into the Southern Route! \nThe Southern Route gives cores on Crimea, Astrakhan, Georgia, Armenia and Azerbaijan. You must conquer this land to receive the cores. You will recieve Tartar and Astrakhani accepted pops in 1850 with Nationalism & Imperalism and Georgian in 1870 with Revolution & Counter-Revolution. \nThis decision is irreversible! \n§RIf we fail to enter a path by 1875 you will be given an emergency option which gives you the opportunity to enter a path immediately and immediately recieve all the benefits of that path!;;;;;;;;;;;;;;x
+southern_RUS1_title;Lay our claims to Georgia;;;;;;;;;;;;;;x
+southern_RUS1_desc;With the successful conquest of Georgia we may now proclaim it as core Russian land!;;;;;;;;;;;;;;x
+southern_RUS2_title;Lay our claims to Azerbaijan;;;;;;;;;;;;;;x
+southern_RUS2_desc;With the successful conquest of Azerbaijan we may now proclaim it as core Russian land!;;;;;;;;;;;;;;x
+southern_RUS3_title;Lay our claims to Armenia;;;;;;;;;;;;;;x
+southern_RUS3_desc;With the successful conquest of Armenia we may now proclaim it as core Russian land!;;;;;;;;;;;;;;x
+###############Central Route;;;;;;;;;;;;;;x
+enter_central_title;Enter the Panslavism Route;;;;;;;;;;;;;;x
+enter_central_desc;This decision enters you into the Panslavism Route! \nThe Panslavism Route gives cores on Kiev, Orsha, Minsk, Lida and Rovne. You must conquer this land to receive the cores. When you take Kiev and Orsha you will core it. Then when you take Minsk you will core that. You must take both Lida and Rovne to recieve cores on them as it cannot be done seperately. You may take Lida and Rovne before Minsk or vice versa if you wish. You will recieve Ruthenian accepted pops in 1870 with Revolution & Counter-Revolution. \nThis decision is irreversible! \n§RIf we fail to enter a path by 1875 you will be given an emergency option which gives you the opportunity to enter a path immediately and immediately recieve all the benefits of that path!;;;;;;;;;;;;;;x
+central_RUS1_title;Lay our claims to Minsk;;;;;;;;;;;;;;x
+central_RUS1_desc;With the successful conquest of Minsk we may now proclaim it as core Russian land!;;;;;;;;;;;;;;x
+central_RUS2_title;Lay our claims to Lida & Rovne;;;;;;;;;;;;;;x
+central_RUS2_desc;With the successful conquest of Lida & Rovne we may now proclaim the territory as core Russian land!;;;;;;;;;;;;;;x
+################Emergency Route;;;;;;;;;;;;;;x
+emergency_route_title;Emergency Russian Expansion;;;;;;;;;;;;;;x
+emergency_route_desc;We have totally failed to expand our lands! We must take the loss to our national prestige and hastily make a decision that will determine our nations future! \nThis decision will allow you to enter any path of your choosing and immediately recieve all the cores and accepted pops that path would give you!;;;;;;;;;;;;;;x

@@ -1,0 +1,7 @@
+owner = XHO
+controller = XHO
+ 
+trade_goods = wool
+life_rating = 35
+colonial = 2
+ 

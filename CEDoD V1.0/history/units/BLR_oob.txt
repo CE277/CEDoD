@@ -1,0 +1,21 @@
+army = {
+	name = "First Army of Byelorussia"
+	location = 718
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 718
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 945
+	}
+
+	regiment = {
+		name= "5.1st Division"
+		type = hussar
+		home = 949
+	}
+}

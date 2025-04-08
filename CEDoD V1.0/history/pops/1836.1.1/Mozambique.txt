@@ -1,0 +1,1434 @@
+#Gaza Region (872000)
+#uncolonized in 1836
+#Maputo (244000/61000)
+2049 = {
+    aristocrats = {
+        culture = boer
+        religion = protestant
+        size = 1725
+    }
+
+    capitalists = {
+        culture = boer
+        religion = protestant
+        size = 1725
+    }
+
+    clergymen = {
+        culture = boer
+        religion = animist
+        size = 196
+    }
+
+    artisans = {
+        culture = boer
+        religion = protestant
+        size = 9350
+    }
+
+    soldiers = {
+        culture = boer
+        religion = protestant
+        size = 11650
+    }
+
+    farmers = {
+        culture = boer
+        religion = animist
+        size = 15820
+    }
+
+    slaves = {
+        culture = boer
+        religion = animist
+        size = 3500
+    }
+
+    clergymen = {
+        culture = boer
+        religion = animist
+        size = 126
+    }
+
+    farmers = {
+        culture = boer
+        religion = animist
+        size = 5334
+    }
+
+    slaves = {
+        culture = boer
+        religion = animist
+        size = 9100
+    }
+
+    clergymen = {
+        culture = boer
+        religion = protestant
+        size = 515
+    }
+
+    craftsmen = {
+        culture = boer
+        religion = protestant
+        size = 1515
+    }
+
+    farmers = {
+        culture = boer
+        religion = protestant
+        size = 17555
+    }
+
+    bureaucrats = {
+        culture = boer
+        religion = protestant
+        size = 750
+    }
+
+    officers = {
+        culture = boer
+        religion = protestant
+        size = 400
+    }
+
+    clergymen = {
+        culture = boer
+        religion = protestant
+        size = 138
+    }
+
+    farmers = {
+        culture = boer
+        religion = protestant
+        size = 9066
+    }
+
+    soldiers = {
+        culture = boer
+        religion = protestant
+        size = 6000
+    }
+
+    slaves = {
+        culture = boer
+        religion = protestant
+        size = 9400
+    }
+}
+#Chaimate (280000/70000 POPS)
+2050 = {
+    clergymen = {
+        culture = boer
+        religion = animist
+        size = 392
+    }
+
+    artisans = {
+        culture = boer
+        religion = protestant
+        size = 5450
+    }
+
+    farmers = {
+        culture = boer
+        religion = animist
+        size = 10020
+    }
+
+    slaves = {
+        culture = boer
+        religion = animist
+        size = 3500
+    }
+
+    clergymen = {
+        culture = boer
+        religion = animist
+        size = 420
+    }
+
+    farmers = {
+        culture = boer
+        religion = animist
+        size = 10682
+    }
+
+    slaves = {
+        culture = boer
+        religion = animist
+        size = 9200
+    }
+
+    aristocrats = {
+        culture = boer
+        religion = protestant
+        size = 590
+    }
+
+    clergymen = {
+        culture = boer
+        religion = protestant
+        size = 590
+    }
+
+    farmers = {
+        culture = boer
+        religion = protestant
+        size = 14465
+    }
+
+    soldiers = {
+        culture = boer
+        religion = protestant
+        size = 7465
+    }
+
+    clergymen = {
+        culture = boer
+        religion = protestant
+        size = 348
+    }
+
+    farmers = {
+        culture = boer
+        religion = protestant
+        size = 10158
+    }
+
+    slaves = {
+        culture = boer
+        religion = protestant
+        size = 6300
+    }
+}
+#Inhambane (176000/44000 POPS)
+2051 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 250
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 600
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 8975
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2000
+    }
+
+    bureaucrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    officers = {
+        culture = mande
+        religion = animist
+        size = 20
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 2975
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 300
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 600
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 1400
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 400
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 18600
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 11000
+    }
+}
+#Massekisse (172000/43000 POPS)
+2052 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 50
+    }
+
+    officers = {
+        culture = mande
+        religion = animist
+        size = 300
+    }
+
+    bureaucrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 200
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 3650
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 350
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 375
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 1800
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 1000
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 39375
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 22700
+    }
+}
+#Zambezia Region (912000)
+#Ruled (loosely) by Portugal in 1836)
+#Sena (176000/43000 POPS)
+2053 = {
+    aristocrats = {
+        culture = mande
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = protestant
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = protestant
+        size = 100
+    }
+
+    soldiers = {
+        culture = mande
+        religion = protestant
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = protestant
+        size = 1000
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 700
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 10850
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 250
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 200
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 1100
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 250
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 42700
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2500
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 250
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 975
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 3000
+    }
+}
+#Quelimane (84000/21000 POPS)
+2059 = {
+    aristocrats = {
+        culture = mande
+        religion = protestant
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = protestant
+        size = 50
+    }
+
+    artisans = {
+        culture = mande
+        religion = protestant
+        size = 325
+    }
+
+    soldiers = {
+        culture = mande
+        religion = protestant
+        size = 50
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 275
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 250
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 650
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 300
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 9925
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2000
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 50
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 975
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 350
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 1425
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 5000
+    }
+}
+#Uncolonized in 1836
+#Tete (104000/26000 POPS)
+2054 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 125
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 7125
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 400
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 4850
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2500
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 350
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 6425
+    }
+}
+#Songo (164000/41000 POPS)
+2055 = {
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 400
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 2000
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 27700
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 10000
+    }
+}
+#Zombo (104000/26000 POPS)
+2056 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 400
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 10100
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2100
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 550
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 125
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 650
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 35925
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 12710
+    }
+}
+#Sofala (144000/36000 POPS)
+2057 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 400
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 17800
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2500
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 125
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 525
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 27100
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 700
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 10850
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 3000
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 975
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 5000
+    }
+}
+#Mossurize (136000/34000 POPS)
+2058 = {
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 375
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 1750
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 21275
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 10000
+    }
+}
+#Mocambique Region (964000)
+#Ruled by Portugal 1836
+#Mocambique (88000/22000 POPS)
+2060 = {
+    aristocrats = {
+        culture = mande
+        religion = protestant
+        size = 275
+    }
+
+    clergymen = {
+        culture = mande
+        religion = protestant
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = mande
+        religion = protestant
+        size = 25
+    }
+
+    officers = {
+        culture = mande
+        religion = protestant
+        size = 20
+    }
+
+    artisans = {
+        culture = mande
+        religion = protestant
+        size = 600
+    }
+
+    soldiers = {
+        culture = mande
+        religion = protestant
+        size = 50
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 300
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 400
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 1050
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 450
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 13300
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 6000
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = sunni
+        size = 150
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 200
+    }
+}
+#uncolonized in 1836
+#Angoche (128000/32000 POPS)
+2061 = {
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 200
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 700
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 4900
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 9000
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 300
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 750
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 12750
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 150
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 2925
+    }
+}
+#Ibo (208000/52000 POPS)
+2063 = {
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 2500
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 500
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 50000
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2000
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 100
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 1950
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 3000
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 550
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 275
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 825
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 300
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 850
+    }
+}
+#Nampula (208000/52000 POPS)
+2064 = {
+    aristocrats = {
+        culture = mande
+        religion = sunni
+        size = 250
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 250
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 1250
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 300
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 21950
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 1100
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 200
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 200
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 900
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 200
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 40500
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 1000
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 3000
+    }
+}
+#Milange (108000/27000 POPS)
+2065 = {
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 250
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 1250
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 18450
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 3500
+    }
+
+    aristocrats = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    clergymen = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    artisans = {
+        culture = mande
+        religion = animist
+        size = 150
+    }
+
+    soldiers = {
+        culture = mande
+        religion = animist
+        size = 100
+    }
+
+    farmers = {
+        culture = mande
+        religion = animist
+        size = 750
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2000
+    }
+}
+#Mataka (224000/56000 POPS)
+2581 = {
+    aristocrats = {
+        culture = mande
+        religion = sunni
+        size = 450
+    }
+
+    clergymen = {
+        culture = mande
+        religion = sunni
+        size = 400
+    }
+
+    artisans = {
+        culture = mande
+        religion = sunni
+        size = 2100
+    }
+
+    soldiers = {
+        culture = mande
+        religion = sunni
+        size = 450
+    }
+
+    farmers = {
+        culture = mande
+        religion = sunni
+        size = 35600
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 2000
+    }
+
+    slaves = {
+        culture = mande
+        religion = animist
+        size = 15000
+    }
+}

@@ -1,0 +1,6 @@
+ 
+add_core = DNG
+trade_goods = wool
+terrain = semidesert
+life_rating = 35
+colonial = 1

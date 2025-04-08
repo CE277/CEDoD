@@ -1,0 +1,28 @@
+country_event = {
+	id = 650249
+	title = "HRE1.T"
+	desc = "HRE1.D"
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HLR
+		has_country_flag = HRE_formation
+		NOT = { has_country_modifier = HRE_formation }
+	}
+	
+	mean_time_to_happen = {
+		days = -1
+	}
+	
+	option = {
+		name = "650249.A"
+		clr_country_flag = HRE_formation
+		primary_culture = rheinish 
+		add_accepted_culture = czech 
+		add_accepted_culture = north_german 
+		add_accepted_culture = south_german 
+		add_accepted_culture = pomeranian
+	}
+}

@@ -1,0 +1,448 @@
+political_decisions = {
+	form_arcadia_vinland = { # Vinland
+		picture = "UniteARC"
+		potential = {
+			tag = VIN
+			NOT = { ARC = { exists = yes } }
+			has_country_flag = vin_manifest_destiny
+		}
+		
+		allow = { #All original Vinlandic Cores + Original Belgian Confederacy
+			war = no
+			VIN_5 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } } # Requires original land + all cores added by manifest destiny which aren't west of the nation
+			VIN_10 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			VIN_9 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			VIN_175 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			VIN_4 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			VIN_60 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			VIN_3 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			VIN_7 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NBG_7 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NBG_3 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NBG_2 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NBG_6 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NBG_4 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NBG_1 = { owner = { OR = { tag = THIS in_sphere = THIS vassal_of = THIS } } }
+			NOT = { PLA = { is_greater_power = yes } }
+			NOT = { NBG = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 20   
+			VIN = { all_core = { add_core = ARC	} }
+			PLA = { all_core = { add_core = ARC	} }
+			NBG = { all_core = { add_core = ARC	} }
+			VIN = { all_core = { remove_core = VIN	} }
+		
+			change_tag = ARC
+			any_country = {
+				limit = {
+					OR = {
+						tag = PLA
+						tag = NBG
+						tag = KKN
+						tag = ATS
+					}
+					OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+		}  
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+  
+	form_arcadia_septiman = { # 7Rep  
+		picture = "UniteARC"
+		potential = {
+			tag = NBG
+			NOT = { ARC = { exists = yes } }
+			has_country_flag = nbg_manifest_destiny
+		}
+		
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			NOT = { PLA = { is_greater_power = yes } }
+			NOT = { VIN = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 20  
+			VIN = { all_core = { add_core = ARC	} }
+			PLA = { all_core = { add_core = ARC	} }
+			NBG = { all_core = { add_core = ARC	} }
+			NBG = { all_core = { remove_core = NBG	} }
+			change_tag = ARC 
+			any_country = {
+				limit = {
+					OR = {
+						tag = PLA
+						tag = VIN
+						tag = ATS
+					}
+				    OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+		}   
+		ai_will_do = {
+			factor = 1
+		}
+	}
+  
+  
+	form_arcadia_plantagenia = { # Plantagenia    
+		picture = "UniteARC"
+		potential = {
+			tag = PLA
+			NOT = { ARC = { exists = yes } }
+			has_country_flag = pla_manifest_destiny
+		}
+		
+		allow = {
+			all_core = {
+				owned_by = THIS
+			}
+			NOT = { VIN = { is_greater_power = yes } }
+			NOT = { NBG = { is_greater_power = yes } }
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 20  
+			VIN = { all_core = { add_core = ARC	} }
+			PLA = { all_core = { add_core = ARC	} }
+			NBG = { all_core = { add_core = ARC	} }
+			PLA = { all_core = { remove_core = PLA } }
+			change_tag = ARC  
+			any_country = {
+				limit = {
+					OR = {
+						tag = VIN
+						tag = NBG
+						tag = LST
+						tag = ATS
+					}
+				    OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = 333458
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+  }
+  ###################################################################
+	erase_vinland = { # Vinland   
+		picture = "Vinland"
+		potential = {
+			tag = ARC
+			NOT = { accepted_culture = vinlander } 
+			NOT = { primary_culture = vinlander }
+		}
+		
+		allow = {
+			VIN = { exists = no }
+			VIN_3 = { owned_by = THIS }
+			VIN_4 = { owned_by = THIS }
+			VIN_9 = { owned_by = THIS }
+			VIN_10 = { owned_by = THIS }
+			VIN_60 = { owned_by = THIS }
+			VIN_175 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = vinlander
+		}  
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}        
+	erase_nbg = { # 7Rep    
+		picture = "SevenRep"
+		potential = {
+			tag = ARC
+			NOT = { accepted_culture = septiman } 
+			NOT = { primary_culture = septiman }
+			
+		}
+		
+		allow = {
+			NBG = { exists = no }
+			NBG_1 = { owned_by = THIS }
+			NBG_2 = { owned_by = THIS }
+			NBG_3 = { owned_by = THIS }
+			NBG_6 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 10
+			add_accepted_culture = septiman  
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	erase_plantagenia = { # Plantagenia
+		picture = "Plantagenia"
+		potential = {
+			tag = ARC
+			NOT = { accepted_culture = plantagenian } 
+			NOT = { primary_culture = plantagenian }
+		}
+		
+		allow = {
+			PLA = { exists = no }
+			PLA_1 = { owned_by = THIS }
+			PLA_2 = { owned_by = THIS }
+			PLA_6 = { owned_by = THIS }
+			PLA_7 = { owned_by = THIS }
+			PLA_9 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 10
+			add_accepted_culture = plantagenian
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	} 
+  
+	erase_lusitania = { # Lusitania, bonus treatment for PLA 
+		picture = "lusitania"
+		potential = {
+			tag = ARC
+			primary_culture = plantagenian
+			NOT = { accepted_culture = lusitanian } 
+		}
+		
+		allow = {
+			LST = { all_core = { owned_by = THIS } }
+		}
+		effect = {
+			prestige = 10
+			add_accepted_culture = lusitanian
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  ###################################################################
+	embrace_panarcadianism = {       
+		picture = "Panarcadianism"
+		potential = {
+			tag = ARC
+			NOT = { has_country_flag = panarcadianism }
+			VIN = { exists = no }
+			NBG = { exists = no }
+			PLA = { exists = no }
+		}
+		
+		allow = {
+			is_greater_power = yes
+			war = no  
+		}
+		
+		effect = {
+			prestige = 30			
+			set_country_flag = panarcadianism 
+			any_pop = {
+				limit = {
+					is_accepted_culture = yes
+				}
+				militancy = -2
+				consciousness = 2
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 1
+				}      
+			}         
+			any_pop = {
+				limit = {
+					is_primary_culture = yes
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+				} 
+				scaled_militancy = {
+					ideology = fascist
+					factor = 3
+				}    
+				scaled_militancy = {
+					ideology = conservative
+					factor = 1
+				} 
+				scaled_consciousness = {
+					ideology = reactionary
+					factor = 3
+				} 
+				scaled_consciousness = {
+					ideology = fascist
+					factor = 3
+				}    
+				scaled_consciousness = {
+					ideology = conservative
+					factor = 1
+				}
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 1
+				}   
+				scaled_militancy = {
+					ideology = liberal
+					factor = 1
+				}        
+			}         
+			add_country_modifier = {
+				name = the_homestead_act
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	discuss_capital = {      
+		picture = "ARCcapital"
+		potential = {
+			tag = ARC
+			has_country_flag = panarcadianism
+			NOT = { has_country_flag = new_capital }
+		}
+		allow = {
+			war = no 
+			money = 50000     
+			VIN_3 = { owned_by = THIS }
+			VIN_4 = { owned_by = THIS }
+			VIN_9 = { owned_by = THIS }
+			VIN_10 = { owned_by = THIS }
+			VIN_60 = { owned_by = THIS }
+			VIN_175 = { owned_by = THIS }
+			NBG_1 = { owned_by = THIS }
+			NBG_2 = { owned_by = THIS }
+			NBG_3 = { owned_by = THIS }
+			NBG_6 = { owned_by = THIS }
+			PLA_1 = { owned_by = THIS }
+			PLA_2 = { owned_by = THIS }
+			PLA_6 = { owned_by = THIS }
+			PLA_7 = { owned_by = THIS }
+			PLA_9 = { owned_by = THIS }
+		}
+		effect = {	
+			set_country_flag = new_capital   
+			country_event = 333453
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	} 
+
+###########################
+#	Caribbean cultures	  #
+###########################
+	accepting_athesia = {
+		picture = "athesia"
+		potential = {
+			OR = { tag = PLA 
+			tag = ARC 
+			tag = CUB 
+			tag = SFJ 
+			tag = AZL }
+			NOT = { accepted_culture = athesian }
+		}
+
+		allow = {
+			NA_16 = { owned_by = THIS }
+			ATS = { exists = no }
+			state_n_government = 1
+		}
+		
+		effect = {
+			add_accepted_culture = athesian 
+			any_pop = { 
+				limit = { culture = athesian }
+				militancy = -3
+			}
+			NA_16 = { add_core = THIS }
+		}
+	}
+	
+	accepting_caribenos = { 
+		potential = {
+			OR = { tag = PLA
+				tag = CLM
+				tag = ARC
+				tag = ATS
+				tag = SFJ
+				tag = AZL } 
+			NOT = { accepted_culture = caribeno }
+		}
+
+		allow = {
+			SPA_2209 = { owned_by = THIS }
+			CUB = { exists = no }
+			state_n_government = 1
+		}
+	
+		effect = { 
+			add_accepted_culture = caribeno
+			any_pop = { 
+				limit = { culture = caribeno }
+				militancy = -3
+			}
+			SPA_2209 = { add_core = THIS }
+		}
+	}
+	
+	accepting_ayitians = { 
+		potential = {
+			OR = { tag = PLA
+			tag = VIN
+			tag = ARC 
+			tag = ATS 
+			tag = CUB 
+			tag = AZL }
+			NOT = { accepted_culture = ayitian }
+		}
+
+		allow = { 
+			HAI_2213 = { owned_by = THIS }
+			NOT = { SFJ = { exists = yes } }
+			state_n_government = 1 
+		}
+		
+		effect = { 
+			add_accepted_culture = ayitian
+			any_pop = { 
+				limit = { culture = ayitian }
+				militancy = -3
+			}
+			HAI_2213 = { add_core = THIS }
+		}
+	}
+}

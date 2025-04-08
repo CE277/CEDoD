@@ -1,0 +1,7 @@
+controller = BRG
+owner = BRG
+add_core = LWE
+trade_goods = wool
+life_rating = 35
+colonial = 2
+ 

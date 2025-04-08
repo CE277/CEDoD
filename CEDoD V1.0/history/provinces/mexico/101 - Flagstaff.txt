@@ -1,0 +1,12 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+1836.1.4 = {
+owner = SPA
+controller = SPA
+remove_core = CLM
+}
+add_core = LST
+ 
+trade_goods = iron
+life_rating = 35
