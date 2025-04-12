@@ -1,4 +1,4 @@
-V1.2 (Checksum: )
+V1.2 (Checksum: XDLK )
 
 Bug-fixes:
 
