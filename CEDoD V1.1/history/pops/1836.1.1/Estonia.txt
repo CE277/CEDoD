@@ -1,0 +1,216 @@
+#Estonia Region (436000)
+#under the rule of Russia in 1836
+#Tallinn/Reval (160000/40000 POPS)
+349 = {
+    aristocrats = {
+        culture =  estonian
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture =  estonian
+        religion = animist
+        size = 1170
+    }
+
+    artisans = {
+        culture =  estonian
+        religion = animist
+        size = 8550
+    }
+
+    soldiers = {
+        culture =  estonian
+        religion = animist
+        size = 2025
+    }
+
+    farmers = {
+        culture =  estonian
+        religion = animist
+        size = 58464
+    }
+
+    aristocrats = {
+        culture =  scandinavian
+        religion = animist
+        size = 1260
+    }
+
+    clergymen = {
+        culture =  scandinavian
+        religion = animist
+        size = 810
+    }
+
+    artisans = {
+        culture =  scandinavian
+        religion = animist
+        size = 7740
+    }
+
+    soldiers = {
+        culture =  scandinavian
+        religion = animist
+        size = 1500
+    }
+
+    farmers = {
+        culture =  scandinavian
+        religion = animist
+        size = 7869
+    }
+}
+#Narva (184000/46000 POPS)
+350 = {
+    clergymen = {
+        culture =  estonian
+        religion = animist
+        size = 1530
+    }
+
+    artisans = {
+        culture =  estonian
+        religion = animist
+        size = 4140
+    }
+
+    farmers = {
+        culture =  estonian
+        religion = animist
+        size = 68340
+    }
+
+    clergymen = {
+        culture =  russian
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture =  russian
+        religion = animist
+        size = 180
+    }
+
+    farmers = {
+        culture =  russian
+        religion = animist
+        size = 1674
+    }
+}
+#Parnu (92000/23000 POPS)
+351 = {
+    clergymen = {
+        culture =  north_german
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture =  north_german
+        religion = animist
+        size = 990
+    }
+
+    clergymen = {
+        culture =  estonian
+        religion = animist
+        size = 1440
+    }
+
+    artisans = {
+        culture =  estonian
+        religion = animist
+        size = 1080
+    }
+
+    farmers = {
+        culture =  estonian
+        religion = animist
+        size = 34819
+    }
+}
+#Tartu/Dorpat (156000/39000 POPS)
+352 = {
+    clergymen = {
+        culture =  north_german
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture =  north_german
+        religion = animist
+        size = 990
+    }
+
+    clergymen = {
+        culture =  estonian
+        religion = animist
+        size = 1260
+    }
+
+    artisans = {
+        culture =  estonian
+        religion = animist
+        size = 2340
+    }
+
+    farmers = {
+        culture =  estonian
+        religion = animist
+        size = 57753
+    }
+
+    clergymen = {
+        culture =  russian
+        religion = animist
+        size = 90
+    }
+
+    artisans = {
+        culture =  russian
+        religion = animist
+        size = 180
+    }
+
+    farmers = {
+        culture =  russian
+        religion = animist
+        size = 2217
+    }
+}
+#Kuressaare (16000/4000 POPS)
+353 = {
+    clergymen = {
+        culture =  north_german
+        religion = animist
+        size = 36
+    }
+
+    artisans = {
+        culture =  north_german
+        religion = animist
+        size = 90
+    }
+
+    clergymen = {
+        culture =  estonian
+        religion = animist
+        size = 180
+    }
+
+    artisans = {
+        culture =  estonian
+        religion = animist
+        size = 270
+    }
+
+    farmers = {
+        culture =  estonian
+        religion = animist
+        size = 6067
+    }
+}

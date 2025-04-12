@@ -1,0 +1,11237 @@
+#
+# Allowed variables 
+#
+# attack = + or - on dice roll in combat when attacking. (like skill in eu3)
+# defence = + or - on dice roll in combat. (like skill in eu3)
+# morale = % modifier on morale.
+# organisation = % bonus on org.
+# reconnaissance = % bonus on reconaissance.
+# speed = % bonus on movement
+# attrition = penalty on attrition. (negative is good)
+# experience = % bonus on experience gain.
+# reliability = mil gain or loss for pop associated.
+#
+
+
+
+background = {
+	no_background = {
+		attack = -2
+		morale = -0.10
+		organisation = -0.10
+		speed = -0.05
+		experience = -0.25
+	}
+	attack+1a = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1b = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1c = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1d = {
+		attack = 1
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack+1e = {
+		attack = 1
+		organisation = -0.05
+		reliability = 0.5
+	}
+	attack+1f = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1g = {
+		attack = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	attack+1h = {
+		attack = 1
+		morale = 0.10
+		organisation = -0.05
+		experience = -0.10
+		reliability = 0.5
+	}
+	attack+1i = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1j = {
+		attack = 1
+		morale = 0.10
+		speed = 0.05
+		reliability = 0.5
+	}
+	attack+1k = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1l = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1m = {
+		attack = 1
+		organisation = 0.05
+		reliability = 0.5
+	}
+	attack+1n = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1o = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1p = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1q = {
+		attack = 1
+		reconnaissance = 0.05
+		morale = 0.1
+		reliability = 0.5
+	}
+	attack+1r = {
+		attack = 1
+		morale = 0.10
+		organisation = -0.05
+		experience = -0.10
+		reliability = 0.5
+	}
+	attack+1s = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1t = {
+		attack = 1
+		morale = 0.10
+		speed = 0.10
+		reliability = 0.5
+	}
+	attack+1u = {
+		attack = 1
+		morale = 0.30
+		reliability = 0.5
+	}
+	attack+1v = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1w = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1x = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1a_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1b_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1c_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1d_1 = {
+		attack = 1
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack+1e_1 = {
+		attack = 1
+		organisation = -0.05
+		reliability = 0.5
+	}
+	attack+1f_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1g_1 = {
+		attack = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	attack+1h_1 = {
+		attack = 1
+		morale = 0.10
+		organisation = -0.05
+		experience = -0.10
+		reliability = 0.5
+	}
+	attack+1i_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1j_1 = {
+		attack = 1
+		morale = 0.10
+		speed = 0.05
+		reliability = 0.5
+	}
+	attack+1k_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1l_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1m_1 = {
+		attack = 1
+		organisation = 0.05
+		reliability = 0.5
+	}
+	attack+1n_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1o_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1p_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1q_1 = {
+		attack = 1
+		reconnaissance = 0.05
+		morale = 0.1
+		reliability = 0.5
+	}
+	attack+1r_1 = {
+		attack = 1
+		morale = 0.10
+		organisation = -0.05
+		experience = -0.10
+		reliability = 0.5
+	}
+	attack+1s_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1t_1 = {
+		attack = 1
+		morale = 0.10
+		speed = 0.10
+		reliability = 0.5
+	}
+	attack+1u_1 = {
+		attack = 1
+		morale = 0.30
+		reliability = 0.5
+	}
+	attack+1v_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1w_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1x_1 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1a_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1b_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1c_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1d_2 = {
+		attack = 1
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack+1e_2 = {
+		attack = 1
+		organisation = -0.05
+		reliability = 0.5
+	}
+	attack+1f_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1g_2 = {
+		attack = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	attack+1h_2 = {
+		attack = 1
+		morale = 0.10
+		organisation = -0.05
+		experience = -0.10
+		reliability = 0.5
+	}
+	attack+1i_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1j_2 = {
+		attack = 1
+		morale = 0.10
+		speed = 0.05
+		reliability = 0.5
+	}
+	attack+1k_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1l_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1m_2 = {
+		attack = 1
+		organisation = 0.05
+		reliability = 0.5
+	}
+	attack+1n_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1o_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1p_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1q_2 = {
+		attack = 1
+		reconnaissance = 0.05
+		morale = 0.1
+		reliability = 0.5
+	}
+	attack+1r_2 = {
+		attack = 1
+		morale = 0.10
+		organisation = -0.05
+		experience = -0.10
+		reliability = 0.5
+	}
+	attack+1s_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1t_2 = {
+		attack = 1
+		morale = 0.10
+		speed = 0.10
+		reliability = 0.5
+	}
+	attack+1u_2 = {
+		attack = 1
+		morale = 0.30
+		reliability = 0.5
+	}
+	attack+1v_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1w_2 = {
+		attack = 1
+		reliability = 0.5
+	}
+	attack+1x_2 = {
+		attack = 1
+		reliability = 0.5
+	}	attack+2a = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2b = {
+		attack = 2
+		morale = -0.10
+		reliability = 0.5
+	}
+	attack+2c = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2d = {
+		attack = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack+2e = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2f = {
+		attack = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	attack+2g = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2h = {
+		attack = 2
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack+2i = {
+		attack = 2
+		organisation = 0.10
+		reliability = 0.5
+	}
+	attack+2j = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2k = {
+		attack = 2
+		organisation = -0.05
+		reliability = 0.5
+	}
+	attack+2l = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2m = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2n = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2o = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2a_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2b_1 = {
+		attack = 2
+		morale = -0.10
+		reliability = 0.5
+	}
+	attack+2c_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2d_1 = {
+		attack = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack+2e_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2f_1 = {
+		attack = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	attack+2g_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2h_1 = {
+		attack = 2
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack+2i_1 = {
+		attack = 2
+		organisation = 0.10
+		reliability = 0.5
+	}
+	attack+2j_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2k_1 = {
+		attack = 2
+		organisation = -0.05
+		reliability = 0.5
+	}
+	attack+2l_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2m_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2n_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2o_1 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2a_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2b_2 = {
+		attack = 2
+		morale = -0.10
+		reliability = 0.5
+	}
+	attack+2c_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2d_2 = {
+		attack = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack+2e_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2f_2 = {
+		attack = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	attack+2g_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2h_2 = {
+		attack = 2
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack+2i_2 = {
+		attack = 2
+		organisation = 0.10
+		reliability = 0.5
+	}
+	attack+2j_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2k_2 = {
+		attack = 2
+		organisation = -0.05
+		reliability = 0.5
+	}
+	attack+2l_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2m_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2n_2 = {
+		attack = 2
+		reliability = 0.5
+	}
+	attack+2o_2 = {
+		attack = 2
+		reliability = 0.5
+	}	attack+3a = {
+		attack = 3
+		morale = -0.30
+		reliability = 0.5
+	}
+	attack+3b = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3c = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3d = {
+		attack = 3
+		organisation = 0.15
+		reliability = 0.5
+	}
+	attack+3e = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3a_1 = {
+		attack = 3
+		morale = -0.30
+		reliability = 0.5
+	}
+	attack+3b_1 = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3c_1 = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3d_1 = {
+		attack = 3
+		organisation = 0.15
+		reliability = 0.5
+	}
+	attack+3e_1 = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3a_2 = {
+		attack = 3
+		morale = -0.30
+		reliability = 0.5
+	}
+	attack+3b_2 = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3c_2 = {
+		attack = 3
+		reliability = 0.5
+	}
+	attack+3d_2 = {
+		attack = 3
+		organisation = 0.15
+		reliability = 0.5
+	}
+	attack+3e_2 = {
+		attack = 3
+		reliability = 0.5
+	}	attack+4a = {
+		attack = 4
+		reliability = 0.75
+	}
+	attack+4b = {
+		attack = 4
+		reliability = 0.75
+	}
+	attack+4c = {
+		attack = 4
+		organisation = 0.15
+		reliability = 0.75
+	}
+	attack+4d = {
+		attack = 4
+		reliability = 0.75
+	}
+	attack+5a = {
+		attack = 5
+		reliability = 0.99
+	}
+	speed+a = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+d = {
+		organisation = 0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed-b = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	speed--a = {
+		speed = -0.15
+		reliability = 0.5
+	}
+	morale+a = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale-a = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience++a = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience++b = {
+		morale = -0.10
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	reliability-a = {
+		reliability = 0.5
+	}
+	reliability++a = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	reliability+++a = {
+		reliability = 0.5
+	}
+	reliability++b = {
+		reliability = 0.5
+	}
+	reliability++c = {
+		reliability = 0.5
+	}
+	reliability+a = {
+		reliability = 0.5
+	}
+	reliability+b = {
+		reliability = 0.5
+	}
+	organisation+a = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	morale+a = {
+		morale = 0.20
+		organisation = 0.10
+		reliability = 0.5
+	}
+	morale+++a = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale++a = {
+		morale = 0.30
+		reliability = 0.5
+	}
+	organisation-a = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation+a = {
+		organisation = 0.05
+		reliability = 0.5
+	}
+	organisation++a = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	organisation+++a = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation+b = {
+		organisation = 0.05
+		reliability = 0.5
+	}
+	organisation++b = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	organisation+++b = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	reconnaissance+a = {
+		organisation = 0.05
+		reconnaissance = 0.05
+		reliability = 0.5
+	}
+	reconnaissance++a = {
+		organisation = 0.05
+		reconnaissance = 0.15
+		reliability = 0.5
+	}
+	reconnaissance+++a = {
+		organisation = 0.05
+		reconnaissance = 0.25
+		reliability = 0.5
+	}
+	organisation-a = {
+		organisation = -0.025
+		reliability = 0.5
+	}
+	organisation-b = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativea = {
+		morale = -0.20
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativeb = {
+		morale = -0.30
+		experience = -0.20
+		reliability = 0.5
+	}
+	negativec = {
+		morale = -0.30
+		experience = -0.30
+		reliability = 0.5
+	}
+	negatived = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativee = {
+		organisation = -0.20
+		reliability = 0.5
+	}
+	negativef = {
+		morale = -0.20
+		reliability = 0.5
+	}
+	reliability-b = {
+		reliability = 0.5
+	}
+	reliability--a = {
+		reliability = 0.5
+	}
+	reliability-b = {
+		reliability = 0.5
+	}
+	morale-a = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	morale--a = {
+		morale = -0.20
+		reliability = 0.5
+	}
+	morale---a = {
+		morale = -0.30
+		reliability = 0.5
+	}
+	speed+a_1 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_1 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_1 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+d_1 = {
+		organisation = 0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_1 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_1 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_1 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed-b_1 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	speed--a_1 = {
+		speed = -0.15
+		reliability = 0.5
+	}
+	morale+a_1 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_1 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_1 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale-a_1 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_1 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience++a_1 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience++b_1 = {
+		morale = -0.10
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_1 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	reliability-a_1 = {
+		reliability = 0.5
+	}
+	reliability++a_1 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	reliability+++a_1 = {
+		reliability = 0.5
+	}
+	reliability++b_1 = {
+		reliability = 0.5
+	}
+	reliability++c_1 = {
+		reliability = 0.5
+	}
+	reliability+a_1 = {
+		reliability = 0.5
+	}
+	reliability+b_1 = {
+		reliability = 0.5
+	}
+	organisation+a_1 = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	morale+a_1 = {
+		morale = 0.20
+		organisation = 0.10
+		reliability = 0.5
+	}
+	morale+++a_1 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale++a_1 = {
+		morale = 0.30
+		reliability = 0.5
+	}
+	organisation-a_1 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation+a_1 = {
+		organisation = 0.05
+		reliability = 0.5
+	}
+	organisation++a_1 = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	organisation+++a_1 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation+b_1 = {
+		organisation = 0.05
+		reliability = 0.5
+	}
+	organisation++b_1 = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	organisation+++b_1 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	reconnaissance+a_1 = {
+		organisation = 0.05
+		reconnaissance = 0.05
+		reliability = 0.5
+	}
+	reconnaissance++a_1 = {
+		organisation = 0.05
+		reconnaissance = 0.15
+		reliability = 0.5
+	}
+	reconnaissance+++a_1 = {
+		organisation = 0.05
+		reconnaissance = 0.25
+		reliability = 0.5
+	}
+	organisation-a_1 = {
+		organisation = -0.025
+		reliability = 0.5
+	}
+	organisation-b_1 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_1 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativea_1 = {
+		morale = -0.20
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativeb_1 = {
+		morale = -0.30
+		experience = -0.20
+		reliability = 0.5
+	}
+	negativec_1 = {
+		morale = -0.30
+		experience = -0.30
+		reliability = 0.5
+	}
+	negatived_1 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativee_1 = {
+		organisation = -0.20
+		reliability = 0.5
+	}
+	negativef_1 = {
+		morale = -0.20
+		reliability = 0.5
+	}
+	reliability-b_1 = {
+		reliability = 0.5
+	}
+	reliability--a_1 = {
+		reliability = 0.5
+	}
+	reliability-b_1 = {
+		reliability = 0.5
+	}
+	morale-a_1 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	morale--a_1 = {
+		morale = -0.20
+		reliability = 0.5
+	}
+	morale---a_1 = {
+		morale = -0.30
+		reliability = 0.5
+	}
+	speed+a_2 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_2 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_2 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+d_2 = {
+		organisation = 0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_2 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_2 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_2 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed-b_2 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	speed--a_2 = {
+		speed = -0.15
+		reliability = 0.5
+	}
+	morale+a_2 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_2 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_2 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale-a_2 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_2 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience++a_2 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience++b_2 = {
+		morale = -0.10
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_2 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	reliability-a_2 = {
+		reliability = 0.5
+	}
+	reliability++a_2 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	reliability+++a_2 = {
+		reliability = 0.5
+	}
+	reliability++b_2 = {
+		reliability = 0.5
+	}
+	reliability++c_2 = {
+		reliability = 0.5
+	}
+	reliability+a_2 = {
+		reliability = 0.5
+	}
+	reliability+b_2 = {
+		reliability = 0.5
+	}
+	organisation+a_2 = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	morale+a_2 = {
+		morale = 0.20
+		organisation = 0.10
+		reliability = 0.5
+	}
+	morale+++a_2 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale++a_2 = {
+		morale = 0.30
+		reliability = 0.5
+	}
+	organisation-a_2 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation+a_2 = {
+		organisation = 0.05
+		reliability = 0.5
+	}
+	organisation++a_2 = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	organisation+++a_2 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation+b_2 = {
+		organisation = 0.05
+		reliability = 0.5
+	}
+	organisation++b_2 = {
+		organisation = 0.10
+		reliability = 0.5
+	}
+	organisation+++b_2 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	reconnaissance+a_2 = {
+		organisation = 0.05
+		reconnaissance = 0.05
+		reliability = 0.5
+	}
+	reconnaissance++a_2 = {
+		organisation = 0.05
+		reconnaissance = 0.15
+		reliability = 0.5
+	}
+	reconnaissance+++a_2 = {
+		organisation = 0.05
+		reconnaissance = 0.25
+		reliability = 0.5
+	}
+	organisation-a_2 = {
+		organisation = -0.025
+		reliability = 0.5
+	}
+	organisation-b_2 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_2 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativea_2 = {
+		morale = -0.20
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativeb_2 = {
+		morale = -0.30
+		experience = -0.20
+		reliability = 0.5
+	}
+	negativec_2 = {
+		morale = -0.30
+		experience = -0.30
+		reliability = 0.5
+	}
+	negatived_2 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativee_2 = {
+		organisation = -0.20
+		reliability = 0.5
+	}
+	negativef_2 = {
+		morale = -0.20
+		reliability = 0.5
+	}
+	reliability-b_2 = {
+		reliability = 0.5
+	}
+	reliability--a_2 = {
+		reliability = 0.5
+	}
+	reliability-b_2 = {
+		reliability = 0.5
+	}
+	morale-a_2 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	morale--a_2 = {
+		morale = -0.20
+		reliability = 0.5
+	}
+	morale---a_2 = {
+		morale = -0.30
+		reliability = 0.5
+	}	attack-1a = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1b = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1c = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1d = {
+		attack = -1
+		speed = -0.10
+		reliability = 0.5
+	}
+	attack-1e = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1f = {
+		attack = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-1g = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1h = {
+		attack = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack-1i = {
+		attack = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-1j = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1a_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1b_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1c_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1d_1 = {
+		attack = -1
+		speed = -0.10
+		reliability = 0.5
+	}
+	attack-1e_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1f_1 = {
+		attack = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-1g_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1h_1 = {
+		attack = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack-1i_1 = {
+		attack = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-1j_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1a_2 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1b_2 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1c_2 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1d_2 = {
+		attack = -1
+		speed = -0.10
+		reliability = 0.5
+	}
+	attack-1e_2 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1f_2 = {
+		attack = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-1g_2 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-1h_2 = {
+		attack = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	attack-1i_2 = {
+		attack = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-1j_2 = {
+		attack = -1
+		reliability = 0.5
+	}	
+	attack-2a = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2b = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2c = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2d = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2e = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2f = {
+		attack = -2
+		speed = -0.10
+		reliability = 0.5
+	}
+	attack-2g = {
+		attack = -2
+		morale = -0.20
+		speed = -0.20
+		reliability = 0.5
+	}
+	attack-2h = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2i = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2a_1 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2b_1 = {
+		attack = -1
+		reliability = 0.5
+	}
+	attack-2c_1 = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2d_1 = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2e_1 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2f_1 = {
+		attack = -2
+		speed = -0.10
+		reliability = 0.5
+	}
+	attack-2g_1 = {
+		attack = -2
+		morale = -0.20
+		speed = -0.20
+		reliability = 0.5
+	}
+	attack-2h_1 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2i_1 = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2a_2 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2b_2 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2c_2 = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2d_2 = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+	attack-2e_2 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2f_2 = {
+		attack = -2
+		speed = -0.10
+		reliability = 0.5
+	}
+	attack-2g_2 = {
+		attack = -2
+		morale = -0.20
+		speed = -0.20
+		reliability = 0.5
+	}
+	attack-2h_2 = {
+		attack = -2
+		reliability = 0.5
+	}
+	attack-2i_2 = {
+		attack = -2
+		morale = -0.20
+		reliability = 0.5
+	}
+}
+
+personality = {
+	no_personality = {
+		defence = -2
+		morale = -0.10
+		organisation = -0.10
+		speed = -0.05
+		experience = -0.25
+	}
+	defence+1a = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_1 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_1 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_1 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_1 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_1 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_1 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_1 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_1 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_1 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_1 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_1 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_1 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_2 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_2 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_2 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_2 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_2 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_2 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_2 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_2 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_2 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_2 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_2 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_2 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_3 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_3 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_3 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_3 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_3 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_3 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_3 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_3 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_3 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_3 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_3 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_3 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_4 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_4 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_4 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_4 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_4 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_4 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_4 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_4 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_4 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_4 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_4 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_4 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_5 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_5 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_5 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_5 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_5 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_5 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_5 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_5 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_5 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_5 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_5 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_5 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_6 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_6 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_6 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_6 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_6 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_6 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_6 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_6 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_6 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_6 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_6 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_6 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_7 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_7 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_7 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_7 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_7 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_7 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_7 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_7 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_7 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_7 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_7 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_7 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_8 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_8 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_8 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_8 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_8 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_8 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_8 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_8 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_8 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_8 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_8 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_8 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_9 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_9 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_9 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_9 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_9 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_9 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_9 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_9 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_9 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_9 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_9 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_9 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_10 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_10 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_10 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_10 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_10 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_10 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_10 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_10 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_10 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_10 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_10 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_10 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_11 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_11 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_11 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_11 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_11 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_11 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_11 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_11 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_11 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_11 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_11 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_11 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_12 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_12 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_12 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_12 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_12 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_12 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_12 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_12 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_12 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_12 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_12 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_12 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1a_13 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1b_13 = {
+		defence = 1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+1c_13 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1d_13 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1e_13 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1f_13 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1g_13 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1h_13 = {
+		defence = 1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+1i_13 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+1j_13 = {
+		defence = 1
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+1k_13 = {
+		defence = 1
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+1l_13 = {
+		defence = 1
+		reliability = 0.5
+	}
+	defence+2a = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_1 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_1 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_1 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_1 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_1 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_1 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_2 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_2 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_2 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_2 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_2 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_2 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_3 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_3 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_3 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_3 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_3 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_3 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_4 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_4 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_4 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_4 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_4 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_4 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_5 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_5 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_5 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_5 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_5 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_5 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_6 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_6 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_6 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_6 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_6 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_6 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_7 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_7 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_7 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_7 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_7 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_7 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_8 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_8 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_8 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_8 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_8 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_8 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_9 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_9 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_9 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_9 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_9 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_9 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_10 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_10 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_10 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_10 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_10 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_10 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_11 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_11 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_11 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_11 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_11 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_11 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_12 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_12 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_12 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_12 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_12 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_12 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_13 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_13 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_13 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_13 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_13 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_13 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_14 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_14 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_14 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_14 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_14 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_14 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_15 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_15 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_15 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_15 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_15 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_15 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence+2a_16 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2b_16 = {
+		defence = 2
+		morale = 0.50
+		reliability = 0.5
+	}
+	defence+2c_16 = {
+		defence = 2
+		reliability = 0.5
+	}
+	defence+2d_16 = {
+		defence = 2
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence+2e_16 = {
+		defence = 2
+		morale = -0.40
+		reliability = 0.5
+	}
+	defence+2f_16 = {
+		defence = 2
+		speed = 0.10
+		reliability = 0.5
+	}	
+	defence+3a = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3a_1 = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b_1 = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c_1 = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k_1 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3a_2 = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b_2 = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c_2 = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k_2 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3a_3 = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b_3 = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c_3 = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k_3 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3a_4 = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b_4 = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c_4 = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k_4 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3a_5 = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b_5 = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c_5 = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k_5 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3a_6 = {
+		defence = 3
+		speed = -0.05
+		reliability = 0.5
+	}	
+	defence+3b_6 = {
+		defence = 3
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence+3c_6 = {
+		defence = 3
+		morale = 0.10
+		reliability = 0.5
+	}
+	defence+3d_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3e_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3f_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3g_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3h_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3i_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3j_6 = {
+		defence = 3
+		reliability = 0.5
+	}
+	defence+3k_6 = {
+		defence = 3
+		reliability = 0.5
+	}	defence+4a = {
+		defence = 4
+		reliability = 0.75
+	}	
+	defence+4b = {
+		defence = 4
+		reliability = 0.75
+	}
+	defence+4c = {
+		defence = 4
+		morale = 0.10
+		reliability = 0.75
+	}
+	defence+4d = {
+		defence = 4
+		organisation = 0.10
+		reliability = 0.75
+	}
+	defence+4e = {
+		defence = 4
+		speed = -0.05
+		reliability = 0.75
+	}
+	defence+4f = {
+		defence = 4
+		reliability = 0.75
+	}
+	defence+4g = {
+		defence = 4
+		reliability = 0.75
+	}	
+	defence+5a = {
+		defence = 5
+		reliability = 0.95
+	}	
+	defence+5b = {
+		defence = 5
+		reliability = 0.95
+	}	defence+6a = {
+		defence = 6
+		reliability = 0.99
+	}		speed+a = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a = {
+		reliability = 0.5
+	}
+	reliability+b = {
+		reliability = 0.5
+	}
+	reliability-a = {
+		reliability = 0.5
+	}
+	reliability-a = {
+		reliability = 0.5
+	}
+	speed+a_1 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_1 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_1 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_1 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_1 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_1 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_1 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_1 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_1 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_1 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_1 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_1 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_1 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_1 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_1 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_1 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_1 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_1 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_1 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_1 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_1 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_1 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_1 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_1 = {
+		reliability = 0.5
+	}
+	reliability+b_1 = {
+		reliability = 0.5
+	}
+	reliability-a_1 = {
+		reliability = 0.5
+	}
+	reliability-a_1 = {
+		reliability = 0.5
+	}
+	speed+a_2 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_2 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_2 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_2 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_2 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_2 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_2 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_2 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_2 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_2 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_2 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_2 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_2 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_2 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_2 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_2 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_2 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_2 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_2 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_2 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_2 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_2 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_2 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_2 = {
+		reliability = 0.5
+	}
+	reliability+b_2 = {
+		reliability = 0.5
+	}
+	reliability-a_2 = {
+		reliability = 0.5
+	}
+	reliability-a_2 = {
+		reliability = 0.5
+	}
+	speed+a_3 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_3 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_3 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_3 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_3 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_3 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_3 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_3 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_3 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_3 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_3 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_3 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_3 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_3 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_3 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_3 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_3 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_3 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_3 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_3 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_3 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_3 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_3 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_3 = {
+		reliability = 0.5
+	}
+	reliability+b_3 = {
+		reliability = 0.5
+	}
+	reliability-a_3 = {
+		reliability = 0.5
+	}
+	reliability-a_3 = {
+		reliability = 0.5
+	}
+	speed+a_4 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_4 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_4 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_4 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_4 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_4 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_4 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_4 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_4 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_4 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_4 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_4 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_4 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_4 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_4 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_4 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_4 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_4 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_4 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_4 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_4 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_4 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_4 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_4 = {
+		reliability = 0.5
+	}
+	reliability+b_4 = {
+		reliability = 0.5
+	}
+	reliability-a_4 = {
+		reliability = 0.5
+	}
+	reliability-a_4 = {
+		reliability = 0.5
+	}
+	speed+a_5 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_5 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_5 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_5 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_5 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_5 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_5 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_5 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_5 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_5 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_5 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_5 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_5 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_5 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_5 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_5 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_5 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_5 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_5 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_5 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_5 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_5 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_5 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_5 = {
+		reliability = 0.5
+	}
+	reliability+b_5 = {
+		reliability = 0.5
+	}
+	reliability-a_5 = {
+		reliability = 0.5
+	}
+	reliability-a_5 = {
+		reliability = 0.5
+	}
+	speed+a_6 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_6 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_6 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_6 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_6 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_6 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_6 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_6 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_6 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_6 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_6 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_6 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_6 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_6 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_6 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_6 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_6 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_6 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_6 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_6 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_6 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_6 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_6 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_6 = {
+		reliability = 0.5
+	}
+	reliability+b_6 = {
+		reliability = 0.5
+	}
+	reliability-a_6 = {
+		reliability = 0.5
+	}
+	reliability-a_6 = {
+		reliability = 0.5
+	}
+	speed+a_7 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_7 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_7 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_7 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_7 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_7 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_7 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_7 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_7 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_7 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_7 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_7 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_7 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_7 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_7 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_7 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_7 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_7 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_7 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_7 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_7 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_7 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_7 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_7 = {
+		reliability = 0.5
+	}
+	reliability+b_7 = {
+		reliability = 0.5
+	}
+	reliability-a_7 = {
+		reliability = 0.5
+	}
+	reliability-a_7 = {
+		reliability = 0.5
+	}
+	speed+a_8 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_8 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_8 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_8 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_8 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_8 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_8 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_8 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_8 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_8 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_8 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_8 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_8 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_8 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_8 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_8 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_8 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_8 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_8 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_8 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_8 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_8 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_8 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_8 = {
+		reliability = 0.5
+	}
+	reliability+b_8 = {
+		reliability = 0.5
+	}
+	reliability-a_8 = {
+		reliability = 0.5
+	}
+	reliability-a_8 = {
+		reliability = 0.5
+	}
+	speed+a_9 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_9 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_9 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_9 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_9 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_9 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_9 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_9 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_9 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_9 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_9 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_9 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_9 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_9 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_9 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_9 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_9 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_9 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_9 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_9 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_9 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_9 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_9 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_9 = {
+		reliability = 0.5
+	}
+	reliability+b_9 = {
+		reliability = 0.5
+	}
+	reliability-a_9 = {
+		reliability = 0.5
+	}
+	reliability-a_9 = {
+		reliability = 0.5
+	}
+	speed+a_10 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_10 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_10 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_10 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_10 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_10 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_10 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_10 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_10 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_10 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_10 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_10 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_10 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_10 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_10 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_10 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_10 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_10 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_10 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_10 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_10 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_10 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_10 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_10 = {
+		reliability = 0.5
+	}
+	reliability+b_10 = {
+		reliability = 0.5
+	}
+	reliability-a_10 = {
+		reliability = 0.5
+	}
+	reliability-a_10 = {
+		reliability = 0.5
+	}
+	speed+a_11 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_11 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_11 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_11 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_11 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_11 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_11 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_11 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_11 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_11 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_11 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_11 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_11 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_11 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_11 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_11 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_11 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_11 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_11 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_11 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_11 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_11 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_11 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_11 = {
+		reliability = 0.5
+	}
+	reliability+b_11 = {
+		reliability = 0.5
+	}
+	reliability-a_11 = {
+		reliability = 0.5
+	}
+	reliability-a_11 = {
+		reliability = 0.5
+	}
+	speed+a_12 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_12 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_12 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_12 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_12 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_12 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_12 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_12 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_12 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_12 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_12 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_12 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_12 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_12 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_12 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_12 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_12 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_12 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_12 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_12 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_12 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_12 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_12 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_12 = {
+		reliability = 0.5
+	}
+	reliability+b_12 = {
+		reliability = 0.5
+	}
+	reliability-a_12 = {
+		reliability = 0.5
+	}
+	reliability-a_12 = {
+		reliability = 0.5
+	}
+	speed+a_13 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_13 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_13 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_13 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_13 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_13 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_13 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_13 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_13 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_13 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_13 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_13 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_13 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_13 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_13 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_13 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_13 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_13 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_13 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_13 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_13 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_13 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_13 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_13 = {
+		reliability = 0.5
+	}
+	reliability+b_13 = {
+		reliability = 0.5
+	}
+	reliability-a_13 = {
+		reliability = 0.5
+	}
+	reliability-a_13 = {
+		reliability = 0.5
+	}
+	speed+a_14 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_14 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_14 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_14 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_14 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_14 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_14 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_14 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_14 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_14 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_14 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_14 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_14 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_14 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_14 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_14 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_14 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_14 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_14 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_14 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_14 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_14 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_14 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_14 = {
+		reliability = 0.5
+	}
+	reliability+b_14 = {
+		reliability = 0.5
+	}
+	reliability-a_14 = {
+		reliability = 0.5
+	}
+	reliability-a_14 = {
+		reliability = 0.5
+	}
+	speed+a_15 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_15 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_15 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_15 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_15 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_15 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_15 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_15 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_15 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_15 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_15 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_15 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_15 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_15 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_15 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_15 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_15 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_15 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_15 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_15 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_15 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_15 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_15 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_15 = {
+		reliability = 0.5
+	}
+	reliability+b_15 = {
+		reliability = 0.5
+	}
+	reliability-a_15 = {
+		reliability = 0.5
+	}
+	reliability-a_15 = {
+		reliability = 0.5
+	}
+	speed+a_16 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_16 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_16 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_16 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_16 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_16 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_16 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_16 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_16 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_16 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_16 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_16 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_16 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_16 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_16 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_16 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_16 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_16 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_16 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_16 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_16 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_16 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_16 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_16 = {
+		reliability = 0.5
+	}
+	reliability+b_16 = {
+		reliability = 0.5
+	}
+	reliability-a_16 = {
+		reliability = 0.5
+	}
+	reliability-a_16 = {
+		reliability = 0.5
+	}
+	speed+a_17 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_17 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_17 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_17 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_17 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_17 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_17 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_17 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_17 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_17 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_17 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_17 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_17 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_17 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_17 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_17 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_17 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_17 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_17 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_17 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_17 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_17 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_17 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_17 = {
+		reliability = 0.5
+	}
+	reliability+b_17 = {
+		reliability = 0.5
+	}
+	reliability-a_17 = {
+		reliability = 0.5
+	}
+	reliability-a_17 = {
+		reliability = 0.5
+	}
+	speed+a_18 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_18 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_18 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_18 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_18 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_18 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_18 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_18 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_18 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_18 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_18 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_18 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_18 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_18 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_18 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_18 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_18 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_18 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_18 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_18 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_18 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_18 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_18 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_18 = {
+		reliability = 0.5
+	}
+	reliability+b_18 = {
+		reliability = 0.5
+	}
+	reliability-a_18 = {
+		reliability = 0.5
+	}
+	reliability-a_18 = {
+		reliability = 0.5
+	}
+	speed+a_19 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_19 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_19 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_19 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_19 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_19 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_19 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_19 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_19 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_19 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_19 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_19 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_19 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_19 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_19 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_19 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_19 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_19 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_19 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_19 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_19 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_19 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_19 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_19 = {
+		reliability = 0.5
+	}
+	reliability+b_19 = {
+		reliability = 0.5
+	}
+	reliability-a_19 = {
+		reliability = 0.5
+	}
+	reliability-a_19 = {
+		reliability = 0.5
+	}
+	speed+a_20 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_20 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_20 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_20 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_20 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_20 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_20 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_20 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_20 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_20 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_20 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_20 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_20 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_20 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_20 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_20 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_20 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_20 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_20 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_20 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_20 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_20 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_20 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_20 = {
+		reliability = 0.5
+	}
+	reliability+b_20 = {
+		reliability = 0.5
+	}
+	reliability-a_20 = {
+		reliability = 0.5
+	}
+	reliability-a_20 = {
+		reliability = 0.5
+	}
+	speed+a_21 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_21 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_21 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_21 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_21 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_21 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_21 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_21 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_21 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_21 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_21 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_21 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_21 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_21 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_21 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_21 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_21 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_21 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_21 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_21 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_21 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_21 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_21 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_21 = {
+		reliability = 0.5
+	}
+	reliability+b_21 = {
+		reliability = 0.5
+	}
+	reliability-a_21 = {
+		reliability = 0.5
+	}
+	reliability-a_21 = {
+		reliability = 0.5
+	}
+	speed+a_22 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_22 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_22 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_22 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_22 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_22 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_22 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_22 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_22 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_22 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_22 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_22 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_22 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_22 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_22 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_22 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_22 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_22 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_22 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_22 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_22 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_22 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_22 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_22 = {
+		reliability = 0.5
+	}
+	reliability+b_22 = {
+		reliability = 0.5
+	}
+	reliability-a_22 = {
+		reliability = 0.5
+	}
+	reliability-a_22 = {
+		reliability = 0.5
+	}
+	speed+a_23 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_23 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_23 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_23 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_23 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_23 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_23 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_23 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_23 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_23 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_23 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_23 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_23 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_23 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_23 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_23 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_23 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_23 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_23 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_23 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_23 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_23 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_23 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_23 = {
+		reliability = 0.5
+	}
+	reliability+b_23 = {
+		reliability = 0.5
+	}
+	reliability-a_23 = {
+		reliability = 0.5
+	}
+	reliability-a_23 = {
+		reliability = 0.5
+	}
+	speed+a_24 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_24 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_24 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_24 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_24 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_24 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_24 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_24 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_24 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_24 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_24 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_24 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_24 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_24 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_24 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_24 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_24 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_24 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_24 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_24 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_24 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_24 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_24 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_24 = {
+		reliability = 0.5
+	}
+	reliability+b_24 = {
+		reliability = 0.5
+	}
+	reliability-a_24 = {
+		reliability = 0.5
+	}
+	reliability-a_24 = {
+		reliability = 0.5
+	}
+	speed+a_25 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_25 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_25 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_25 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_25 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_25 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_25 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_25 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_25 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_25 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_25 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_25 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_25 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_25 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_25 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_25 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_25 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_25 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_25 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_25 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_25 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_25 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_25 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_25 = {
+		reliability = 0.5
+	}
+	reliability+b_25 = {
+		reliability = 0.5
+	}
+	reliability-a_25 = {
+		reliability = 0.5
+	}
+	reliability-a_25 = {
+		reliability = 0.5
+	}
+	speed+a_26 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_26 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_26 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_26 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_26 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_26 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_26 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_26 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_26 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_26 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_26 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_26 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_26 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_26 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_26 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_26 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_26 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_26 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_26 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_26 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_26 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_26 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_26 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_26 = {
+		reliability = 0.5
+	}
+	reliability+b_26 = {
+		reliability = 0.5
+	}
+	reliability-a_26 = {
+		reliability = 0.5
+	}
+	reliability-a_26 = {
+		reliability = 0.5
+	}
+	speed+a_27 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_27 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_27 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_27 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_27 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_27 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_27 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_27 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_27 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_27 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_27 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_27 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_27 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_27 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_27 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_27 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_27 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_27 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_27 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_27 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_27 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_27 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_27 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_27 = {
+		reliability = 0.5
+	}
+	reliability+b_27 = {
+		reliability = 0.5
+	}
+	reliability-a_27 = {
+		reliability = 0.5
+	}
+	reliability-a_27 = {
+		reliability = 0.5
+	}
+	speed+a_28 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_28 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_28 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_28 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_28 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_28 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_28 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_28 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_28 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_28 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_28 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_28 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_28 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_28 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_28 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_28 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_28 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_28 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_28 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_28 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_28 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_28 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_28 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_28 = {
+		reliability = 0.5
+	}
+	reliability+b_28 = {
+		reliability = 0.5
+	}
+	reliability-a_28 = {
+		reliability = 0.5
+	}
+	reliability-a_28 = {
+		reliability = 0.5
+	}
+	speed+a_29 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_29 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_29 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_29 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_29 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_29 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_29 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_29 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_29 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_29 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_29 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_29 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_29 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_29 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_29 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_29 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_29 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_29 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_29 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_29 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_29 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_29 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_29 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_29 = {
+		reliability = 0.5
+	}
+	reliability+b_29 = {
+		reliability = 0.5
+	}
+	reliability-a_29 = {
+		reliability = 0.5
+	}
+	reliability-a_29 = {
+		reliability = 0.5
+	}
+	speed+a_30 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_30 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_30 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_30 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_30 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_30 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_30 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_30 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_30 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_30 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_30 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_30 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_30 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_30 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_30 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_30 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_30 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_30 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_30 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_30 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_30 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_30 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_30 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_30 = {
+		reliability = 0.5
+	}
+	reliability+b_30 = {
+		reliability = 0.5
+	}
+	reliability-a_30 = {
+		reliability = 0.5
+	}
+	reliability-a_30 = {
+		reliability = 0.5
+	}
+	speed+a_31 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_31 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_31 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_31 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_31 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_31 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_31 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_31 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_31 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_31 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_31 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_31 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_31 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_31 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_31 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_31 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_31 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_31 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_31 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_31 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_31 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_31 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_31 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_31 = {
+		reliability = 0.5
+	}
+	reliability+b_31 = {
+		reliability = 0.5
+	}
+	reliability-a_31 = {
+		reliability = 0.5
+	}
+	reliability-a_31 = {
+		reliability = 0.5
+	}
+	speed+a_32 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_32 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_32 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_32 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_32 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_32 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_32 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_32 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_32 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_32 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_32 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_32 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_32 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_32 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_32 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_32 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_32 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_32 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_32 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_32 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_32 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_32 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_32 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_32 = {
+		reliability = 0.5
+	}
+	reliability+b_32 = {
+		reliability = 0.5
+	}
+	reliability-a_32 = {
+		reliability = 0.5
+	}
+	reliability-a_32 = {
+		reliability = 0.5
+	}
+	speed+a_33 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_33 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_33 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_33 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_33 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_33 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_33 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_33 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_33 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_33 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_33 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_33 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_33 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_33 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_33 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_33 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_33 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_33 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_33 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_33 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_33 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_33 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_33 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_33 = {
+		reliability = 0.5
+	}
+	reliability+b_33 = {
+		reliability = 0.5
+	}
+	reliability-a_33 = {
+		reliability = 0.5
+	}
+	reliability-a_33 = {
+		reliability = 0.5
+	}
+	speed+a_34 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_34 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_34 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_34 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_34 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_34 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_34 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_34 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_34 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_34 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_34 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_34 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_34 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_34 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_34 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_34 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_34 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_34 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_34 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_34 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_34 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_34 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_34 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_34 = {
+		reliability = 0.5
+	}
+	reliability+b_34 = {
+		reliability = 0.5
+	}
+	reliability-a_34 = {
+		reliability = 0.5
+	}
+	reliability-a_34 = {
+		reliability = 0.5
+	}
+	speed+a_35 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_35 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_35 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_35 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_35 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_35 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_35 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_35 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_35 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_35 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_35 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_35 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_35 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_35 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_35 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_35 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_35 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_35 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_35 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_35 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_35 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_35 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_35 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_35 = {
+		reliability = 0.5
+	}
+	reliability+b_35 = {
+		reliability = 0.5
+	}
+	reliability-a_35 = {
+		reliability = 0.5
+	}
+	reliability-a_35 = {
+		reliability = 0.5
+	}
+	speed+a_36 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_36 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_36 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_36 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_36 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_36 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_36 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_36 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_36 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_36 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_36 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_36 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_36 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_36 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_36 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_36 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_36 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_36 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_36 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_36 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_36 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_36 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_36 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_36 = {
+		reliability = 0.5
+	}
+	reliability+b_36 = {
+		reliability = 0.5
+	}
+	reliability-a_36 = {
+		reliability = 0.5
+	}
+	reliability-a_36 = {
+		reliability = 0.5
+	}
+	speed+a_37 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_37 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_37 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_37 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_37 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_37 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_37 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_37 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_37 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_37 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_37 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_37 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_37 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_37 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_37 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_37 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_37 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_37 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_37 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_37 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_37 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_37 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_37 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_37 = {
+		reliability = 0.5
+	}
+	reliability+b_37 = {
+		reliability = 0.5
+	}
+	reliability-a_37 = {
+		reliability = 0.5
+	}
+	reliability-a_37 = {
+		reliability = 0.5
+	}
+	speed+a_38 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_38 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_38 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_38 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_38 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_38 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_38 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_38 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_38 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_38 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_38 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_38 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_38 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_38 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_38 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_38 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_38 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_38 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_38 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_38 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_38 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_38 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_38 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_38 = {
+		reliability = 0.5
+	}
+	reliability+b_38 = {
+		reliability = 0.5
+	}
+	reliability-a_38 = {
+		reliability = 0.5
+	}
+	reliability-a_38 = {
+		reliability = 0.5
+	}
+	speed+a_39 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_39 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_39 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_39 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_39 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_39 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_39 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_39 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_39 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_39 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_39 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_39 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_39 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_39 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_39 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_39 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_39 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_39 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_39 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_39 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_39 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_39 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_39 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_39 = {
+		reliability = 0.5
+	}
+	reliability+b_39 = {
+		reliability = 0.5
+	}
+	reliability-a_39 = {
+		reliability = 0.5
+	}
+	reliability-a_39 = {
+		reliability = 0.5
+	}
+	speed+a_40 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_40 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_40 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_40 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_40 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_40 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_40 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_40 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_40 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_40 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_40 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_40 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_40 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_40 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_40 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_40 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_40 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_40 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_40 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_40 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_40 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_40 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_40 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_40 = {
+		reliability = 0.5
+	}
+	reliability+b_40 = {
+		reliability = 0.5
+	}
+	reliability-a_40 = {
+		reliability = 0.5
+	}
+	reliability-a_40 = {
+		reliability = 0.5
+	}
+	speed+a_41 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_41 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_41 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_41 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_41 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_41 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_41 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_41 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_41 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_41 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_41 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_41 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_41 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_41 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_41 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_41 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_41 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_41 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_41 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_41 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_41 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_41 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_41 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_41 = {
+		reliability = 0.5
+	}
+	reliability+b_41 = {
+		reliability = 0.5
+	}
+	reliability-a_41 = {
+		reliability = 0.5
+	}
+	reliability-a_41 = {
+		reliability = 0.5
+	}
+	speed+a_42 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_42 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_42 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_42 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_42 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_42 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_42 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_42 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_42 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_42 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_42 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_42 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_42 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_42 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_42 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_42 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_42 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_42 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_42 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_42 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_42 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_42 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_42 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_42 = {
+		reliability = 0.5
+	}
+	reliability+b_42 = {
+		reliability = 0.5
+	}
+	reliability-a_42 = {
+		reliability = 0.5
+	}
+	reliability-a_42 = {
+		reliability = 0.5
+	}
+	speed+a_43 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_43 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_43 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_43 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_43 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_43 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_43 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_43 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_43 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_43 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_43 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_43 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_43 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_43 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_43 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_43 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_43 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_43 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_43 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_43 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_43 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_43 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_43 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_43 = {
+		reliability = 0.5
+	}
+	reliability+b_43 = {
+		reliability = 0.5
+	}
+	reliability-a_43 = {
+		reliability = 0.5
+	}
+	reliability-a_43 = {
+		reliability = 0.5
+	}
+	speed+a_44 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_44 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_44 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_44 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_44 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_44 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_44 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_44 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_44 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_44 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_44 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_44 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_44 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_44 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_44 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_44 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_44 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_44 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_44 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_44 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_44 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_44 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_44 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_44 = {
+		reliability = 0.5
+	}
+	reliability+b_44 = {
+		reliability = 0.5
+	}
+	reliability-a_44 = {
+		reliability = 0.5
+	}
+	reliability-a_44 = {
+		reliability = 0.5
+	}
+	speed+a_45 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_45 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_45 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_45 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_45 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_45 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_45 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_45 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_45 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_45 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_45 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_45 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_45 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_45 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_45 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_45 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_45 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_45 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_45 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_45 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_45 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_45 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_45 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_45 = {
+		reliability = 0.5
+	}
+	reliability+b_45 = {
+		reliability = 0.5
+	}
+	reliability-a_45 = {
+		reliability = 0.5
+	}
+	reliability-a_45 = {
+		reliability = 0.5
+	}
+	speed+a_46 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_46 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_46 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_46 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_46 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_46 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_46 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_46 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_46 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_46 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_46 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_46 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_46 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_46 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_46 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_46 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_46 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_46 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_46 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_46 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_46 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_46 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_46 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_46 = {
+		reliability = 0.5
+	}
+	reliability+b_46 = {
+		reliability = 0.5
+	}
+	reliability-a_46 = {
+		reliability = 0.5
+	}
+	reliability-a_46 = {
+		reliability = 0.5
+	}
+	speed+a_47 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_47 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_47 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_47 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_47 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_47 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_47 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_47 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_47 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_47 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_47 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_47 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_47 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_47 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_47 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_47 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_47 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_47 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_47 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_47 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_47 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_47 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_47 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_47 = {
+		reliability = 0.5
+	}
+	reliability+b_47 = {
+		reliability = 0.5
+	}
+	reliability-a_47 = {
+		reliability = 0.5
+	}
+	reliability-a_47 = {
+		reliability = 0.5
+	}
+	speed+a_48 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_48 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_48 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_48 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_48 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_48 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_48 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_48 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_48 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_48 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_48 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_48 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_48 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_48 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_48 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_48 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_48 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_48 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_48 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_48 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_48 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_48 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_48 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_48 = {
+		reliability = 0.5
+	}
+	reliability+b_48 = {
+		reliability = 0.5
+	}
+	reliability-a_48 = {
+		reliability = 0.5
+	}
+	reliability-a_48 = {
+		reliability = 0.5
+	}
+	speed+a_49 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_49 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_49 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_49 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_49 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_49 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_49 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_49 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_49 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_49 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_49 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_49 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_49 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_49 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_49 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_49 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_49 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_49 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_49 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_49 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_49 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_49 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_49 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_49 = {
+		reliability = 0.5
+	}
+	reliability+b_49 = {
+		reliability = 0.5
+	}
+	reliability-a_49 = {
+		reliability = 0.5
+	}
+	reliability-a_49 = {
+		reliability = 0.5
+	}
+	speed+a_50 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_50 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_50 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_50 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_50 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_50 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_50 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_50 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_50 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_50 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_50 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_50 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_50 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_50 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_50 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_50 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_50 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_50 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_50 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_50 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_50 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_50 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_50 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_50 = {
+		reliability = 0.5
+	}
+	reliability+b_50 = {
+		reliability = 0.5
+	}
+	reliability-a_50 = {
+		reliability = 0.5
+	}
+	reliability-a_50 = {
+		reliability = 0.5
+	}
+	speed+a_51 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_51 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_51 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_51 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_51 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_51 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_51 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_51 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_51 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_51 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_51 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_51 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_51 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_51 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_51 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_51 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_51 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_51 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_51 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_51 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_51 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_51 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_51 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_51 = {
+		reliability = 0.5
+	}
+	reliability+b_51 = {
+		reliability = 0.5
+	}
+	reliability-a_51 = {
+		reliability = 0.5
+	}
+	reliability-a_51 = {
+		reliability = 0.5
+	}
+	speed+a_52 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_52 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_52 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_52 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_52 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_52 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_52 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_52 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_52 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_52 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_52 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_52 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_52 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_52 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_52 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_52 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_52 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_52 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_52 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_52 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_52 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_52 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_52 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_52 = {
+		reliability = 0.5
+	}
+	reliability+b_52 = {
+		reliability = 0.5
+	}
+	reliability-a_52 = {
+		reliability = 0.5
+	}
+	reliability-a_52 = {
+		reliability = 0.5
+	}
+	speed+a_53 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_53 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_53 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_53 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_53 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_53 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_53 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_53 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_53 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_53 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_53 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_53 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_53 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_53 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_53 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_53 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_53 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_53 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_53 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_53 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_53 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_53 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_53 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_53 = {
+		reliability = 0.5
+	}
+	reliability+b_53 = {
+		reliability = 0.5
+	}
+	reliability-a_53 = {
+		reliability = 0.5
+	}
+	reliability-a_53 = {
+		reliability = 0.5
+	}
+	speed+a_54 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_54 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_54 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_54 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_54 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_54 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_54 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_54 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_54 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_54 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_54 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_54 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_54 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_54 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_54 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_54 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_54 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_54 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_54 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_54 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_54 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_54 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_54 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_54 = {
+		reliability = 0.5
+	}
+	reliability+b_54 = {
+		reliability = 0.5
+	}
+	reliability-a_54 = {
+		reliability = 0.5
+	}
+	reliability-a_54 = {
+		reliability = 0.5
+	}
+	speed+a_55 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_55 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_55 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_55 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_55 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_55 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_55 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_55 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_55 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_55 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_55 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_55 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_55 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_55 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_55 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_55 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_55 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_55 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_55 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_55 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_55 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_55 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_55 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_55 = {
+		reliability = 0.5
+	}
+	reliability+b_55 = {
+		reliability = 0.5
+	}
+	reliability-a_55 = {
+		reliability = 0.5
+	}
+	reliability-a_55 = {
+		reliability = 0.5
+	}
+	speed+a_56 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_56 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_56 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_56 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_56 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_56 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_56 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_56 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_56 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_56 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_56 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_56 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_56 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_56 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_56 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_56 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_56 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_56 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_56 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_56 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_56 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_56 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_56 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_56 = {
+		reliability = 0.5
+	}
+	reliability+b_56 = {
+		reliability = 0.5
+	}
+	reliability-a_56 = {
+		reliability = 0.5
+	}
+	reliability-a_56 = {
+		reliability = 0.5
+	}
+	speed+a_57 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_57 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_57 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_57 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_57 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_57 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_57 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_57 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_57 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_57 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_57 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_57 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_57 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_57 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_57 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_57 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_57 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_57 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_57 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_57 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_57 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_57 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_57 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_57 = {
+		reliability = 0.5
+	}
+	reliability+b_57 = {
+		reliability = 0.5
+	}
+	reliability-a_57 = {
+		reliability = 0.5
+	}
+	reliability-a_57 = {
+		reliability = 0.5
+	}
+	speed+a_58 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_58 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_58 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_58 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_58 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_58 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_58 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_58 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_58 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_58 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_58 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_58 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_58 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_58 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_58 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_58 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_58 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_58 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_58 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_58 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_58 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_58 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_58 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_58 = {
+		reliability = 0.5
+	}
+	reliability+b_58 = {
+		reliability = 0.5
+	}
+	reliability-a_58 = {
+		reliability = 0.5
+	}
+	reliability-a_58 = {
+		reliability = 0.5
+	}
+	speed+a_59 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_59 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_59 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_59 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_59 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_59 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_59 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_59 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_59 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_59 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_59 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_59 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_59 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_59 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_59 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_59 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_59 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_59 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_59 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_59 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_59 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_59 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_59 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_59 = {
+		reliability = 0.5
+	}
+	reliability+b_59 = {
+		reliability = 0.5
+	}
+	reliability-a_59 = {
+		reliability = 0.5
+	}
+	reliability-a_59 = {
+		reliability = 0.5
+	}
+	speed+a_60 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_60 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_60 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_60 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_60 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_60 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_60 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_60 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_60 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_60 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_60 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_60 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_60 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_60 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_60 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_60 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_60 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_60 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_60 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_60 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_60 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_60 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_60 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_60 = {
+		reliability = 0.5
+	}
+	reliability+b_60 = {
+		reliability = 0.5
+	}
+	reliability-a_60 = {
+		reliability = 0.5
+	}
+	reliability-a_60 = {
+		reliability = 0.5
+	}
+	speed+a_61 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_61 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_61 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_61 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_61 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_61 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_61 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_61 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_61 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_61 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_61 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_61 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_61 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_61 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_61 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_61 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_61 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_61 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_61 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_61 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_61 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_61 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_61 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_61 = {
+		reliability = 0.5
+	}
+	reliability+b_61 = {
+		reliability = 0.5
+	}
+	reliability-a_61 = {
+		reliability = 0.5
+	}
+	reliability-a_61 = {
+		reliability = 0.5
+	}
+	speed+a_62 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_62 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_62 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_62 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_62 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_62 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_62 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_62 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_62 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_62 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_62 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_62 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_62 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_62 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_62 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_62 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_62 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_62 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_62 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_62 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_62 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_62 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_62 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_62 = {
+		reliability = 0.5
+	}
+	reliability+b_62 = {
+		reliability = 0.5
+	}
+	reliability-a_62 = {
+		reliability = 0.5
+	}
+	reliability-a_62 = {
+		reliability = 0.5
+	}
+	speed+a_63 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_63 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_63 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_63 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_63 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_63 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_63 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_63 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_63 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_63 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_63 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_63 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_63 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_63 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_63 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_63 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_63 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_63 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_63 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_63 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_63 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_63 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_63 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_63 = {
+		reliability = 0.5
+	}
+	reliability+b_63 = {
+		reliability = 0.5
+	}
+	reliability-a_63 = {
+		reliability = 0.5
+	}
+	reliability-a_63 = {
+		reliability = 0.5
+	}
+	speed+a_64 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_64 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_64 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_64 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_64 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_64 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_64 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_64 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_64 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_64 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_64 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_64 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_64 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_64 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_64 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_64 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_64 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_64 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_64 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_64 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_64 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_64 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_64 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_64 = {
+		reliability = 0.5
+	}
+	reliability+b_64 = {
+		reliability = 0.5
+	}
+	reliability-a_64 = {
+		reliability = 0.5
+	}
+	reliability-a_64 = {
+		reliability = 0.5
+	}
+	speed+a_65 = {
+		speed = 0.05
+		reliability = 0.5
+	}
+	speed+b_65 = {
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed+c_65 = {
+		morale = -0.20
+		speed = 0.10
+		reliability = 0.5
+	}
+	speed++a_65 = {
+		speed = 0.15
+		reliability = 0.5
+	}
+	speed+++a_65 = {
+		speed = 0.40
+		reliability = 0.5
+	}
+	speed-a_65 = {
+		speed = -0.05
+		reliability = 0.5
+	}
+	speed--a_65 = {
+		speed = -0.10
+		reliability = 0.5
+	}
+	organisation++a_65 = {
+		organisation = 0.15
+		reliability = 0.5
+	}
+	organisation-a_65 = {
+		organisation = -0.05
+		reliability = 0.5
+	}
+	organisation--a_65 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	organisation--b_65 = {
+		organisation = -0.10
+		reliability = 0.5
+	}
+	morale+a_65 = {
+		morale = 0.10
+		reliability = 0.5
+	}
+	morale++a_65 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale++b_65 = {
+		morale = 0.20
+		reliability = 0.5
+	}
+	morale+++a_65 = {
+		morale = 0.50
+		reliability = 0.5
+	}
+	morale-a_65 = {
+		morale = -0.10
+		reliability = 0.5
+	}
+	experience+a_65 = {
+		experience = 0.05
+		reliability = 0.5
+	}
+	experience+b_65 = {
+		morale = -0.10
+		reliability = 0.5
+		experience = 0.10
+	}
+	experience++a_65 = {
+		experience = 0.10
+		reliability = 0.5
+	}
+	experience+++a_65 = {
+		experience = 0.15
+		reliability = 0.5
+	}
+	experience-a_65 = {
+		experience = -0.10
+		reliability = 0.5
+	}
+	negativea_65 = {
+		morale = -0.20
+		organisation = -0.10
+		reliability = 0.5
+	}
+	negativeb_65 = {
+		organisation = -0.05
+		speed = -0.10
+		reliability = 0.5
+	}
+	reliability+a_65 = {
+		reliability = 0.5
+	}
+	reliability+b_65 = {
+		reliability = 0.5
+	}
+	reliability-a_65 = {
+		reliability = 0.5
+	}
+	reliability-a_65 = {
+		reliability = 0.5
+	}	defence-1a = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_1 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_1 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_1 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_1 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_1 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_1 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_2 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_2 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_2 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_2 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_2 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_2 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_3 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_3 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_3 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_3 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_3 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_3 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_4 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_4 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_4 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_4 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_4 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_4 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_5 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_5 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_5 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_5 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_5 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_5 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_6 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_6 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_6 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_6 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_6 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_6 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_7 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_7 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_7 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_7 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_7 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_7 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_8 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_8 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_8 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_8 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_8 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_8 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_9 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_9 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_9 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_9 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_9 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_9 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_10 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_10 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_10 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_10 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_10 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_10 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_11 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_11 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_11 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_11 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_11 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_11 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_12 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_12 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_12 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_12 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_12 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_12 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_13 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_13 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_13 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_13 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_13 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_13 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_14 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_14 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_14 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_14 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_14 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_14 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_15 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_15 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_15 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_15 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_15 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_15 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_16 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_16 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_16 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_16 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_16 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_16 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1a_17 = {
+		defence = -1
+		morale = -0.30
+		reliability = 0.5
+	}
+	defence-1b_17 = {
+		defence = -1
+		morale = -0.20
+		reliability = 0.5
+	}
+	defence-1c_17 = {
+		defence = -1
+		morale = -0.10
+		reliability = 0.5
+	}
+	defence-1d_17 = {
+		defence = -1
+		speed = -0.25
+		reliability = 0.5
+	}
+	defence-1e_17 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-1f_17 = {
+		defence = -1
+		morale = 0.20
+		reliability = 0.5
+	}	defence-2a = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_1 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_1 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_1 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_1 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_2 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_2 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_2 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_2 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_3 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_3 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_3 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_3 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_4 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_4 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_4 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_4 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_5 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_5 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_5 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_5 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_6 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_6 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_6 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_6 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_7 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_7 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_7 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_7 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_8 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_8 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_8 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_8 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_9 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_9 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_9 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_9 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_10 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_10 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_10 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_10 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_11 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_11 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_11 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_11 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_12 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_12 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_12 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_12 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_13 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_13 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_13 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_13 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_14 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_14 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_14 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_14 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_15 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_15 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_15 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_15 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_16 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_16 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_16 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_16 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_17 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_17 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_17 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_17 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2a_18 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.10
+		reliability = 0.5
+	}
+	defence-2b_18 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+	defence-2c_18 = {
+		defence = -2
+		organisation = -0.05
+		speed = 0.20
+		reliability = 0.5
+	}
+	defence-2d_18 = {
+		defence = -2
+		morale = 0.20
+		reliability = 0.5
+	}
+}

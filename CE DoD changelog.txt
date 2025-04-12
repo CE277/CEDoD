@@ -1,3 +1,114 @@
+V1.1
+
+- Added notes I missed on the V1.0 to the 1.0 section
+
+Culture Consolidation:
+
+- Consolidated being reasonable like 100 cultures 3275 lines - > 1842 (Credit to Ethan for kicking me in overdrive for it)
+
+General Changes: 
+
+- Added a custom player general to every player nation
+- Removed straight from Taiwan To Okinawa
+- Updated loading screens
+- Removed movement time malus in Jungles
+- Lowered movement time malus in Marshes to 20% (Reduction of 20%)
+- Lowered movement time malus in Deserts to 30% (Reduction of 20%)
+- Lowered movement time malus in Farmlands to 10% (Reduction of 10%)
+- Allowed navy to be funded at a minimum of 70% and not 100%
+- Remade Courland be Elbian primary, re-added Russian and Ugrian accepted cultures
+
+Color Changes:
+
+- Changed Dual Monarchy Color (Credit to Ethan)
+- Changed Bavaria color
+- Changed Aragon color (Credit to Ethan)
+- Changed Spain color (Credit to Ethan)
+- Changed Scandinavia color
+- Changed Venice color
+- Changed Bohemia color (Credit to Ethan)
+- Changed Burgundy color (Credit to Ethan)
+- Changed Papal States color
+- Changed Eturia color
+- Changed Ferrara color
+- Changed Lucca color
+- Changed Parma color
+- Changed Savoy color
+- Changed Lombardia color
+- Changed Hanover color
+- Changed Courland color
+- Changed Belarus color
+- Changed Hetmanate color
+- Changed Lithuania color
+
+
+
+Bug-fixes:
+
+- Added pop flag reset decisions
+- Changed multiple Siberian provinces LR from 35 to 20 to stop immediate Japanese colonisation 
+- Fixed bugged localisation
+- Allowed being able to take states off China
+- China cannot declare any wars at all
+- You may not sphere, ally or get mil access with China, same goes for the AI
+- Changed all nations that were on Liberty to Equality (Liberty was a dead NV)
+- Fixed sanctions event not working (Sanctions is 25)
+- Fixed host nation decisions/events	
+- Fixed some bugged localisation
+- Fixed some bugged terrain pictures
+- Fixed certain terrain names not being vanilla and instead HPM
+- Made state sizes not releaseable
+- Removed take capital in state size localisation
+
+Bohemia:
+
+- Added Level 2 Machine Parts Factory in Brandenburg
+- Added 2,500 Craftsmen 
+
+Dzungar:
+
+- Increased Literacy by 3% 2% -> 5%
+- Added Manchu to Turania through decision
+
+Egypt:
+
+- Increased Literacy by 3% 1% -> 4%
+
+Ethiopia:
+
+- Buffed oob from 3 brigades -> 8 (Was missing 3 from its oob in the first place)
+
+Incas:
+
+- Added Post Nelsonian Thought
+- Made its breadbasket an immediate event on all cores 
+
+Ottomans:
+
+- Removed 2 brigades that are fighting Macedonia day 1
+
+Scandinavia:
+
+- Added Explosives Factory in Gotaland 
+- Added 2,500 Craftsmen
+
+
+Tehran:
+
+- Adjusted Legacy of Timur to give 5 infamy
+
+Venice:
+
+- Added a 50% Immigrant Attraction Modifier for 10 years upon forming Little Italy
+
+Name Changes:
+
+- Renamed Yesgai Horde to Nogai
+
+--------------------------
+V1.0
+
+
 Checksum: (NNCJ)
 
 
@@ -14,6 +125,7 @@ Credits:
 Changelog:
 
 - Removed Rights of Man mobilisation (Was replaced anyway with civ mobilisation)
+- Removed Shadowfunding
 - Changed the Liberal Revolutions to be in line with IGoR (All the modifiers are much less impactful)
 - Removed RP Gain loss and Prestige loss from Academic Confusion
 - Removed RP Gain loss and Prestige loss and militancy and consciousness gain from National Confusion 
@@ -169,7 +281,7 @@ Muscovy:
 - OOB Changes: 1 Meta Stack + 4 brigades
 - Increased Bureaucrat % to 23.9%
 - Removed Russian core on Viipuri
-- Made Northern Path give Finnish at Nationalism and Imperialism
+- Reworked Russian expansion
 
 Ottoman Empire:
 
@@ -210,7 +322,6 @@ Scandinavia:
 - Added Level 2 Early Convoy Factory in Sjaeland
 - Added Level 2 Artillery Factory in Gotaland
 - Added 47,500 Craftsmen to assist with this
-- Added the option to accept and core either Ireland or Elbian land, paths are mutually exclusive and have the pre-requisite of ownership
 - OOB Changes: 3 Meta Euro Stacks, 5 brigs overseas
 - Gave Publishing Industry Tech
 - Gave Level 3 port in Copenhagen
@@ -589,5 +700,4 @@ Ajmer: Precious Goods (Dead RGO) -> Sulphur
 
 Mischilennious:
 
-- Renamed Yesgai Horde to Nogai
 - Converted Sikkim into a Host Nation

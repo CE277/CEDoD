@@ -1,0 +1,87 @@
+leader = {
+	name = "Anselm Polke"
+	type = land
+	date = 1836.1.1
+	personality = morale++a
+	background = experience++a
+}
+
+leader = {
+	name = "Kurt Dietrich"
+	type = land
+	date = 1836.1.1
+	personality = negativea
+	background = morale+a
+}
+
+leader = {
+	name = "§bKaiser §WWinged§RPope§!"
+	picture = "pope"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+army = {
+	name = "I. Korps"
+	location = 599
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "5. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 599
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 598
+	}
+		regiment = {
+		name= "5. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 601
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 597
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 597
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = hussar
+		home = 601
+	}
+}

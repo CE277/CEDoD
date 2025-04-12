@@ -1,0 +1,148 @@
+political_decisions = {
+
+
+	
+	form_byzantine_empire = {
+		potential = {
+			tag = GRE
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			is_greater_power = yes
+			has_global_flag = fantasy_countries_enabled
+		}
+		
+		allow = {
+			owns = 825
+			owns = 828
+			owns = 829
+			owns = 830
+			owns = 831
+			owns = 832
+			owns = 833
+			owns = 834
+			owns = 835
+			owns = 836
+			owns = 837
+			owns = 838
+			owns = 839
+			owns = 840
+			owns = 841
+			owns = 842
+			owns = 843
+			owns = 844
+			owns = 845
+			owns = 846
+			owns = 847
+			owns = 848
+			owns = 858
+			owns = 859
+			owns = 860	# Constantinople
+			owns = 861
+			owns = 862
+			owns = 863
+			owns = 864
+			owns = 865
+			owns = 866
+			owns = 867
+			owns = 868
+			owns = 869
+			owns = 870
+			owns = 871
+			owns = 872
+			owns = 873
+			owns = 874
+			owns = 875			
+		}
+		
+		effect = {
+			change_tag = BYZ
+			capital = 860
+			860 = {
+				change_province_name = "Constantinople"
+			}
+			any_owned = {
+				limit = {
+					is_colonial = no
+					OR = {
+						culture = greek
+						culture = turkish
+					}
+				}
+				add_core = BYZ
+			}
+			prestige = 40
+		}
+	}
+	
+	build_the_tower_of_babylon = {
+		potential = {
+			tag = IRQ
+			OR = {
+				is_greater_power = yes
+				year = 1900
+			}
+		}
+		
+		allow = {
+			owns = 1121
+			owns = 1151
+			owns = 895
+			owns = 896
+			owns = 905
+			owns = 893
+			owns = 914
+			owns = 902
+			owns = 917
+			owns = 888
+		}
+		
+		effect = {
+			IRQ = {
+				all_core = {
+					add_core = BAB
+				}
+			}
+			EGY = { all_core = { add_core =  BAB} }
+			HDJ = { all_core = { add_core =  BAB} }
+			NEJ = { all_core = { add_core =  BAB} }
+			OMA = { all_core = { add_core =  BAB} }
+			YEM = { all_core = { add_core =  BAB} }
+			ABU = { all_core = { add_core =  BAB} }
+			QAJ = { all_core = { add_core =  BAB} }
+			ZND = { all_core = { add_core =  BAB} }
+			AFS = { all_core = { add_core =  BAB} }
+			EGY_903 = { add_core = BAB }
+			EGY_910 = { add_core = BAB }
+			EGY_915 = { add_core = BAB }
+			EGY_897 = { add_core = BAB }
+			TUR_889 = { add_core = BAB }
+			PER_1112 = { add_core = BAB }
+			TUR_885 = { add_core = BAB }
+			TUR_876 = { add_core = BAB }
+			TUR_873 = { add_core = BAB }
+			TUR_884 = { add_core = BAB }
+			TUR_863 = { add_core = BAB }
+			TUR_869 = { add_core = BAB }
+			926 = {
+				change_province_name = Babylon
+				add_province_modifier = {
+				    name = centre_of_the_world
+					duration = 3650
+	 			}
+			}
+			change_tag = BAB
+			primary_culture = assyrian
+			add_accepted_culture = turkish
+			add_accepted_culture = persian
+			add_accepted_culture = misri
+			add_accepted_culture = azerbaijani
+			add_accepted_culture = kurdish
+			add_accepted_culture = mashriqi
+			add_accepted_culture = bedouin
+			prestige = 50
+		}
+	}
+}

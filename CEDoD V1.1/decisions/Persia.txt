@@ -1,0 +1,270 @@
+political_decisions = {
+	unite_persia = {
+    picture = persia_map
+		potential = {
+			NOT = {	PER = { exists = yes }	}#
+			OR = {
+			primary_culture = persian
+			tag = AFG }
+			}
+		allow = {
+			NOT = { war = yes }
+			prestige = 15
+			QAJ = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			ZND = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			AFS = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+            prestige = 20
+            change_tag = PER
+			add_accepted_culture = persian
+            any_country = {
+                limit = {
+                    is_culture_group = iranian
+                    OR = {
+                        in_sphere = THIS
+                        vassal_of = THIS
+                    }
+                }
+            country_event = 11101
+            }
+			QAJ = { all_core = { add_core =  PER} }
+			ZND = { all_core = { add_core =  PER} }
+			AFS = { all_core = { add_core =  PER} }
+			QAJ = { all_core = { remove_core = QAJ } }
+			ZND = { all_core = { remove_core = ZND } }
+			AFS = { all_core = { remove_core = AFS } }
+			PER_1138 = { add_core =  PER}
+			PER_1122 = { add_core =  PER}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	greater_iran = {   
+    picture = aryanam_form
+		potential = {
+			NOT = {	ARY = { exists = yes }	}
+			tag = PER
+		}
+		allow = {
+		 923 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                    owner = {
+                        vassal_of = THIS
+                    }
+                }
+            }
+            926 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                    owner = {
+                        vassal_of = THIS
+                    }
+                }
+            }
+            1108 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                    owner = {
+                        vassal_of = THIS
+                    }
+                }
+            }
+            1204 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                    owner = {
+                        vassal_of = THIS
+                    }
+                }
+            }
+            1209 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                    owner = {
+                        vassal_of = THIS
+                    }
+                }
+            }
+            BLC = {  
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                    }
+                }
+            }
+            PER = {  
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                        owner = {
+                            vassal_of = THIS
+                        }
+                        province_id = 931
+                    }
+                }
+            }
+        }
+		effect = {
+			prestige = 40
+			change_tag = ARY
+			add_accepted_culture = persian
+			add_accepted_culture = pashtun
+			#add_accepted_culture = baluchi
+			add_accepted_culture = kurdish
+			#add_accepted_culture = hazara
+			#add_accepted_culture = tajik
+			#add_accepted_culture = parsi 
+			any_country = {
+				limit = {
+					OR = {
+              AND = {
+                  is_culture_group = iranian
+					OR = {  in_sphere = THIS vassal_of = THIS }
+              } 
+              AND = {
+					tag = IRQ
+					OR = {  in_sphere = THIS vassal_of = THIS }
+              }
+              AND = {
+                  tag = KAL
+					OR = {  in_sphere = THIS vassal_of = THIS }
+              }
+              AND = {
+                  tag = AFG
+					OR = {  in_sphere = THIS vassal_of = THIS }
+              } 
+              AND = {
+                  tag = AFS
+					OR = {  in_sphere = THIS vassal_of = THIS }
+              }               
+          }
+				}
+			country_event = 11101
+			}
+			PER = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			KUR = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			IRQ = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			TJK = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			AFG = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			KAL = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+			AFS = {
+				all_core = {
+					add_core = THIS
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	timurid_legacy = { 
+	potential = { 
+	tag = QAJ 
+	ZND = { exists = yes }
+	ai = no
+	NOT = { truce_with = ZND }
+	NOT = { has_country_flag = legacy_timur }
+		}
+	
+	allow = { 
+	all_core = { owned_by = THIS }
+		}
+		
+	effect = { 
+	set_country_flag = legacy_timur
+	QAJ = {
+			country_event = { id=2222044 days=0 }
+		}
+	war = { 
+		target = ZND 
+		attacker_goal = { 
+		casus_belli = conquest 
+			}
+		}
+	}
+	}
+}

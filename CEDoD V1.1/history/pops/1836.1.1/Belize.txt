@@ -1,0 +1,71 @@
+#Guatemala Region (7200)
+#Ruled by Britain 1836
+#Belize (7200/1800 POPS)
+2190 = {
+	aristocrats = {
+		culture =  mexican
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture =  central_american
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture =  central_american
+		religion = catholic
+		size = 1400
+	}
+
+	soldiers = {
+		culture =  central_american
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture =  central_american
+		religion = catholic
+		size = 2700
+	}
+
+	aristocrats = {
+		culture =  native_american_minor
+		religion = catholic
+		size = 60
+	}
+
+	clergymen = {
+		culture =  native_american_minor
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture =  native_american_minor
+		religion = catholic
+		size = 1200
+	}
+
+	soldiers = {
+		culture =  native_american_minor
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture =  native_american_minor
+		religion = catholic
+		size = 3800
+	}
+
+	slaves = {
+		culture =  native_american_minor
+		religion = catholic
+		size = 4300
+	}
+
+}

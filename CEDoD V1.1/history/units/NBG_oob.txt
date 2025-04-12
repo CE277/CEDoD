@@ -1,0 +1,131 @@
+leader = {
+	name = "Philipp de Vries"
+	type = land
+	date = 1836.1.1
+	personality = speed+++a
+	background = defence+2f
+}
+
+leader = {
+	name = "§GPresident §WSprucy§!"
+	picture = "sprucy"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+leader = {
+	name = "Jean Rousseau"
+	type = land
+	date = 1836.1.1
+	personality = morale++a
+	background = organisation+a
+}
+
+leader = {
+	name = "Alexander Galen"
+	type = sea
+	date = 1836.1.1
+	personality = attack+2a
+	background = defence+2a
+}
+
+army = {
+	name = "1ère Division d'Infanterie"
+	location = 247
+	regiment = {
+		name= "1ère Brigade d'Infanterie"
+		type = infantry
+		home = 243
+	}
+
+	regiment = {
+		name= "2ème Brigade d'Infanterie"
+		type = infantry
+		home = 243
+	}
+	
+	regiment = {
+		name= "3ème Brigade d'Infanterie"
+		type = infantry
+		home = 243
+	}
+}
+
+army = {
+	name = "2ème Division d'Infanterie"
+	location = 233
+	regiment = {
+		name= "1ère Brigade d'Infanterie"
+		type = infantry
+		home = 232
+	}
+
+	regiment = {
+		name= "2ème Brigade d'Infanterie"
+		type = infantry
+		home = 241
+	}
+
+	regiment = {
+		name= "3ème Brigade d'Infanterie"
+		type = infantry
+		home = 238
+	}
+	
+	regiment = {
+		name= "1ère Brigade de Cavalerie"
+		type = hussar
+		home = 219
+	}
+}
+
+army = {
+	name = "3ème Division d'Infanterie"
+	location = 211
+	regiment = {
+		name= "1ère Brigade d'Infanterie"
+		type = infantry
+		home = 223
+	}
+
+	regiment = {
+		name= "2ème Brigade d'Infanterie"
+		type = infantry
+		home = 217
+	}
+
+	regiment = {
+		name= "3ème Brigade d'Infanterie"
+		type = infantry
+		home = 226
+	}
+	
+	regiment = {
+		name= "1ère Brigade de Cavalerie"
+		type = hussar
+		home = 227
+	}
+}
+
+navy = {
+	name = "Flotte de Nouvelle-Bourgogne"
+	location = 233
+	
+	ship = {
+		name= "Charles le Téméraire"
+		type = frigate
+	}
+	
+	ship = {
+		name= "Nouveau Monde"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1e Flottille de Transport"
+		type = clipper_transport
+	}
+
+}

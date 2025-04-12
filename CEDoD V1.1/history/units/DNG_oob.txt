@@ -1,0 +1,155 @@
+##Starting NFs
+#	national_focus=
+#	{
+#"81"="colonize"
+#"90"="colonize"
+#	}
+#	colonize=
+#	{
+#		81=200
+#		90=200
+#	}
+
+leader = {
+	name = "Wang Yangming"
+	type = land
+	date = 1836.1.1
+	personality = morale-a
+	background = defence+2a
+}
+
+leader = {
+	name = "§BPresident §WZabula§!"
+	picture = "zabula"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+army = {
+	name = "1st Army of the Standard of Xifang"
+	location = 84
+	regiment = {
+		name= "1st infantry"
+		type = infantry
+		home = 81
+	}
+
+	regiment = {
+		name= "2nd infantry"
+		type = infantry
+		home = 13
+	}
+
+	regiment = {
+		name= "3rd infantry"
+		type = infantry
+		home = 20
+	}
+	
+	regiment = {
+		name= "4th infantry"
+		type = infantry
+		home = 82
+	}
+}
+
+navy = {
+	name = "1st Fleet of Xifang"
+	location = 84
+
+
+	ship = {
+		name= "Dong Guo"
+		type = frigate
+	}
+
+	ship = {
+		name= "Shanghai"
+		type = frigate
+	}
+
+	ship = {
+		name= "Ming"
+		type = frigate
+	}
+
+	ship = {
+		name= "Beijing"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Nanjing"
+		type = clipper_transport
+	}
+}
+
+leader = {
+	name = "Yao Ming"
+	type = land
+	date = 1836.1.1
+	personality = negatiea
+	background = morale+a
+}
+
+leader = {
+	name = "Shi Le"
+	type = sea
+	date = 1836.1.1
+	personality = negativeb
+	background = defence+1a
+}
+
+army = {
+	name = "2nd Army of the Standard of Xifang"
+	location = 2468
+	regiment = {
+		name= "1. Royal infantry"
+		type = infantry
+		home = 2468
+	}
+	regiment = {
+		name= "2. Royal infantry"
+		type = infantry
+		home = 2483
+	}
+	regiment = {
+		name= "2. Royal infantry"
+		type = hussar
+		home = 2483
+	}
+}
+
+navy = {
+	name = "2nd Fleet of Xifang"
+	location = 2468
+
+
+	ship = {
+		name= "Zhourao"
+		type = frigate
+	}
+
+	ship = {
+		name= "Zheng He"
+		type = frigate
+	}
+
+	ship = {
+		name= "Lanfang"
+		type = frigate
+	}
+
+	ship = {
+		name= "Beijing"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "Nanjing"
+		type = clipper_transport
+	}
+}
+

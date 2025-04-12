@@ -1,0 +1,1282 @@
+#If you create a country specific event make sure you add the tag to the list of tags to not get the broad event
+
+country_event = {
+	id = 600000
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	NOT = {
+		OR = {
+			#add tags of countries with specific events here
+			tag = ENL
+			tag = DUA
+			tag = CLM
+			tag = GER
+			tag = RUS
+			tag = HUN
+			tag = TUR
+			tag = BRG
+			tag = ARC
+			tag = SCA
+			tag = ITA
+			tag = JAP
+			tag = CHI
+			tag = SPA
+			tag = PER
+			tag = EGY
+			tag = ROM
+			tag = AMA
+			tag = SWI
+			tag = BOH
+			tag = CAE
+			tag = LOT
+			tag = VIN
+			tag = PLA
+			tag = NBG
+			tag = DNG
+			tag = INC
+			tag = MUG
+			tag = SGF
+			tag = MUS
+			tag = HYD
+			tag = BEN
+			tag = VIJ
+			tag = CHG
+			tag = TKS
+			tag = AFG
+			tag = ARY
+			tag = VEN
+			tag = PLC
+			tag = ARA
+			tag = ETH
+			has_leader = "John Cena"
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Our prayers to RNGesus have been answered"
+	immediate = {
+		define_general = {
+			name = "John Cena"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			##+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "It's about time..."		
+	}
+}
+}
+
+#England
+country_event = {
+	id = 600001
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = ENL
+	NOT = {has_leader = "Herbert Kitchener"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A senior British Army officer and colonial administrator who won fame for his imperial campaigns and later played a central role in the early part of the First World War"
+	immediate = {
+		define_general = {
+			name = "Herbert Kitchener"
+			personality = implacable
+			#+3 attack, +3 defence
+			background = intuitive
+			#+20% morale, +10% org
+		}
+	}
+	option = {
+		name = "Your Country Needs HIM"		
+	}
+}
+
+#The Dual Monarchy
+country_event = {
+	id = 600002
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = DUA
+	NOT = {has_leader = "§BPresident §RFaro J.§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A French soldier, military theorist and the Allied Généralissime during the First World War"
+	immediate = {
+		define_general = {
+			name = "§BPresident §RFaro J.§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "Hon hon hon, baguette, Eiffel Tower"		
+	}
+}
+
+#Germany
+country_event = {
+	id = 600003
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = PRU
+		tag = NGF
+		tag = GER
+		tag = SGF
+		tag = BAV
+	}
+	NOT = {has_leader = "§bKaiser §WWinged§RPope§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A German Generalfeldmarschall, statesman, and politician, and served as the second President of Germany"
+	immediate = {
+		define_general = {
+			name = "§bKaiser §WWinged§RPope§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "Here comes Hindenburg"		
+	}
+}
+
+#Hungary
+country_event = {
+	id = 600004
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = HUN
+	NOT = {has_leader = "§RKing §GCrafter§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "An Austro-Hungarian field marshal from the Croatian Military Frontier, who was described as one of the finest defensive strategists of the First World War"
+	immediate = {
+		define_general = {
+			name = "§RKing §GCrafter§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Russia
+country_event = {
+	id = 600005
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+	tag = RUS
+	tag = MUS
+	}
+	NOT = {has_leader = "§bHerr §GLuigi§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A career officer in the cavalry of the Imperial Russian Army and a general during the Russo-Japanese War and World War I"
+	immediate = {
+		define_general = {
+			name = "§bHerr §GLuigi§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Ottoman Empire
+country_event = {
+	id = 600006
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = TUR
+	NOT = {has_leader = "§GSultan §RLoco_§WHun§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Turkish army officer, revolutionary, and the first President of Turkey"
+	immediate = {
+		define_general = {
+			name = "§GSultan §RLoco_§WHun§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Arcadia
+country_event = {
+	id = 600007
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = ARC
+	NOT = {has_leader = "Theodore Roosevelt"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "An American statesman, author, explorer, soldier, naturalist, and reformer who served as the 26th President of the United States from 1901 to 1909"
+	immediate = {
+		define_general = {
+			name = "Theodore Roosevelt"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Burgundy
+country_event = {
+	id = 600008
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = BRG
+	NOT = {has_leader = "§WDuke §bNinja§RBushido§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Dutch General and politician who played a role in the Dutch war with Atjeh"
+	immediate = {
+		define_general = {
+			name = "§WDuke §bNinja§RBushido§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Sweden
+country_event = {
+	id = 600009
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = SWE
+		tag = SCA
+	}
+	NOT = {has_leader = "§YField §RMarshal §YWeevil§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Swedish Field Marshal during the Finnish War"
+	immediate = {
+		define_general = {
+			name = "§YField §RMarshal §YWeevil§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Savoy
+country_event = {
+	id = 600010
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = SAR
+	}
+	NOT = {has_leader = "§GIl §WDuce §RCDC§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Commander-in-Chief of the Royal Italian Army during World War I"
+	immediate = {
+		define_general = {
+		name = "§GIl §WDuce §RCDC§!"
+		personality = implacable
+		background = intuitive 
+			}
+		}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Venice
+country_event = {
+	id = 6000100
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = VEN
+	}
+	NOT = {has_leader = "§GIl §WDuce §RSoyler§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Commander-in-Chief of the Royal Italian Army during World War I"
+	immediate = {
+		define_general = {
+		name = "§GIl §WDuce §RSoyler§!"
+		personality = implacable
+		background = intuitive 
+			}
+		}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Spain
+country_event = {
+	id = 60001000
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = SPA
+	NOT = {has_leader = "§YKing §WStahl§BRyan§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A prominent Spanish general from the 19th century who was later made Minister of War"
+	immediate = {
+		define_general = {
+			name = "§YKing §WStahl§BRyan§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#PLC
+country_event = {
+	id = 600010000
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = PLC
+	NOT = {has_leader = "§WRotmistrz §RNikolas§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A prominent general"
+	immediate = {
+		define_general = {
+			name = "§WRotmistrz §RNikolas§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+
+#Japan
+country_event = {
+	id = 600011
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = JAP
+	NOT = {has_leader = "§REmperor §WArcane§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Japanese field marshal during the Russo-Japanese War, and one of the founders of the Imperial Japanese Army"
+	immediate = {
+		define_general = {
+			name = "§REmperor §WArcane§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#China
+country_event = {
+	id = 600012
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = CHI
+	NOT = {has_leader = "Nie Shicheng"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Chinese general during the Sino-French and Sino-Japanese wars, killed in battle against Russian forces during the Boxer Rebellion in 1900."
+	immediate = {
+		define_general = {
+			name = "Nie Shicheng"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Persia
+country_event = {
+	id = 600013
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+	tag = PER
+	tag = AFG
+	tag = ARY }
+	NOT = {has_leader = "Mohammad Taqi-Khan Pessian"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A colonel of the Persian Gendarmerie during the First World War."
+	immediate = {
+		define_general = {
+			name = "Mohammad Taqi-Khan Pessian"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Egypt
+country_event = {
+	id = 600014
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = EGY
+	NOT = {has_leader = "§YPharaoh  §RImaginacion§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A colonel in the Egyptian army, he participated in a revolt against the Khedive in 1879 and tried to reform Egypt. He was forced into exile by the British in 1882."
+	immediate = {
+		define_general = {
+			name = "§YPharaoh  §RImaginacion§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Denmark
+country_event = {
+	id = 600015
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = DEN
+	NOT = {has_leader = "Vilhelm Oluf Madsen"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "War Minister of Denmark from 1901 to 1905. He adopted the Madsen light machine gun for service in the Danish Army before World War One and later designed the Madsen 20mm machine cannon."
+	immediate = {
+		define_general = {
+			name = "Vilhelm Oluf Madsen"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Greece
+country_event = {
+	id = 600016
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = GRE
+		tag = BYZ
+	}
+	NOT = {has_leader = "Panagiotis Danglis"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Chief of Staff during the Balkan Wars, and later Commander-in-Chief of the Hellenic Army when Greece joined the First World War."
+	immediate = {
+		define_general = {
+			name = "Panagiotis Danglis"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Romania
+country_event = {
+	id = 600017
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = ROM
+	NOT = {has_leader = "Constantin Prezan"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Romanian general (later Marshal). he held various army commands during the First World War and served as Chief of Staff between 1917 and 1920."
+	immediate = {
+		define_general = {
+			name = "Constantin Prezan"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Belgium
+country_event = {
+	id = 600018
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = BEL
+	NOT = {has_leader = "Gérard Mathieu Leman"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Belgian officer, who taught at and later headed the Military School of Brussels. General Leman commanded the defense of Liege in 1914, successfully delaying the German advance."
+	immediate = {
+		define_general = {
+			name = "Gérard Mathieu Leman"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Switzerland
+country_event = {
+	id = 600019
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = SWI
+	NOT = {has_leader = "Ulrich Wille"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "General of the Swiss Army during the First World War"
+	immediate = {
+		define_general = {
+			name = "Ulrich Wille"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Portugal
+country_event = {
+	id = 600020
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = POR
+		tag = PBA
+	}
+	NOT = {has_leader = "Fernando Tamagnini de Abreu"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A cavalry officer and first commander of the Portuguese Expeditionary Corps in the First World War."
+	immediate = {
+		define_general = {
+			name = "Fernando Tamagnini de Abreu"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Serbia
+country_event = {
+	id = 600021
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = SER
+	NOT = {has_leader = "Radomir Putnik"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Field Marshal and Chief of the General Staff of the Serbian Army during the Balkan Wars and the First World War."
+	immediate = {
+		define_general = {
+			name = "Radomir Putnik"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Amazonie
+country_event = {
+	id = 600022
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = AMA
+	NOT = {has_leader = "§BMarshal §GCom§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Marshal of Brazil, later the inaugural President of the First Brazilian Republic in 1889."
+	immediate = {
+		define_general = {
+			name = "§BMarshal §GCom§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Lotharingia
+country_event = {
+	id = 6000222
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = LOT
+	NOT = {has_leader = "§GMarshal §BKaiser Jared§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Marshal of Brazil, later the inaugural President of the First Brazilian Republic in 1889."
+	immediate = {
+		define_general = {
+			name = "§GMarshal §BKaiser Jared§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Colombia/Gran Colombia
+country_event = {
+	id = 600023
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+	tag = CLM
+	tag = GCO
+	}
+	NOT = {has_leader = "§YGrand §BMarshal §RVirtualrock§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Colombian general and statesman who fought for the Conservative forces during the civil wars of 1876, 1885, and 1899. Later served variously as Minister of War, Vice-President, and President of Colombia between 1901 and 1910."
+	immediate = {
+		define_general = {
+			name = "§YGrand §BMarshal §RVirtualrock§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Mexico
+country_event = {
+	id = 600024
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = MEX
+	NOT = {has_leader = "Porfirio Díaz"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Mexican general during the war against Emperor Maximillian and the French, ruled Mexico as President from 1876 until 1911."
+	immediate = {
+		define_general = {
+			name = "Porfirio Díaz"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Siam
+country_event = {
+	id = 600025
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = SIA
+	NOT = {has_leader = "Damrong Rajanubhab"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "A Siamese prince, general, and historian who served as first Commander-in-Chief of the Royal Siamese Army from 1887 to 1890 and subsequently the most important Minister in the government of King Chulalongkorn."
+	immediate = {
+		define_general = {
+			name = "Damrong Rajanubhab"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "He will be a great asset to our forces"		
+	}
+}
+
+#Bohemia
+country_event = {
+	id = 600026
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = { tag = BOH
+    tag = CAE 
+	tag = HLR
+	}
+	NOT = {has_leader = "§WImperator §YCE §Rof §Wthe §RRomans§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "cummies"
+	immediate = {
+		define_general = {
+			name = "§WImperator §YCE §Rof §Wthe §RRomans§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The CEmperor has arrived"		
+	}
+}
+
+#Aragon
+country_event = {
+	id = 600027
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = { tag = ARA
+    tag = ARI 
+	}
+	NOT = {has_leader = "§YNapol§Gethan§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§YNapol§Gethan§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Xifang
+country_event = {
+	id = 600028
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = DNG
+	NOT = {has_leader = "§BPresident §WZabula§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§BPresident §WZabula§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Inca
+country_event = {
+	id = 600029
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = INC
+	NOT = {has_leader = "§GChud §YSon of the §RSun§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§GChud §YSon of the §RSun§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Vinland
+country_event = {
+	id = 600030
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = VIN
+	NOT = {has_leader = "§WPresident §RYaboily§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§WPresident §RYaboily§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Belgians
+country_event = {
+	id = 600031
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = NBG
+	NOT = {has_leader = "§GPresident §WSprucy§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§GPresident §WSprucy§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Plantagenia
+country_event = {
+	id = 600032
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = PLA
+	NOT = {has_leader = "§BKing §WOnions§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§BKing §WOnions§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Dzungar
+country_event = {
+	id = 600033
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+	tag = CHG
+	tag = TKS
+	}
+	NOT = {has_leader = "§YGreat Khan §gCondor§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§YGreat Khan §gCondor§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Mughals
+country_event = {
+	id = 600034
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = MUG
+	NOT = {has_leader = "§GEmperor §YBeans§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§GEmperor §YBeans§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Bengal
+country_event = {
+	id = 600035
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = BEN
+	NOT = {has_leader = "§WSultan §RFrevi§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§WSultan §RFrevi§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Vijanigar
+country_event = {
+	id = 600036
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = VIJ
+	NOT = {has_leader = "§YMaharaja §gGodog§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§YMaharaja §gGodog§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Hyderabad
+country_event = {
+	id = 600037
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = HYD
+	NOT = {has_leader = "§GNizam §YYardy§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§GNizam §YYardy§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}
+
+#Ethiopia
+country_event = {
+	id = 600038
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	tag = ETH
+	NOT = {has_leader = "§BAtse §YHorseman§!"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Hurray"
+	immediate = {
+		define_general = {
+			name = "§BAtse §YHorseman§!"
+			#+1 attack, +1 defence. +10% morale
+			personality = implacable
+			#+3 attack, +3 defence.
+			background = intuitive
+		}
+	}
+	option = {
+		name = "The General himself has arrived"		
+	}
+}

@@ -1,0 +1,151 @@
+leader = {
+	name = "Girard Lipinski"
+	type = land
+	date = 1836.1.1
+	personality = experience+a
+	background = organisation+a
+}
+
+leader = {
+	name = "Piotr Askenazy"	
+	type = land
+	date = 1836.1.1
+	personality = morale---a
+	background = defence+1a
+}
+
+leader = {
+	name = "§WRotmistrz §RNikolas§!"
+	picture = "nikolas"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+army = {
+	name = "First Army of Poland"
+	location = 703
+	regiment = {
+		name= "1.1st Division"
+		type = artillery
+		home = 703
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = artillery
+		home = 703
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = artillery
+		home = 703
+	}
+	
+	regiment = {
+		name= "4.1st Division"
+		type = artillery
+		home = 703
+	}
+	
+	regiment = {
+		name= "5.1st Division"
+		type = artillery
+		home = 703
+	}
+
+	regiment = {
+		name= "1.1st Division"
+		type = hussar
+		home = 690
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 690
+	}
+
+	regiment = {
+		name= "4.1st Division"
+		type = infantry
+		home = 699
+	}
+	
+	regiment = {
+		name= "5.1st Division"
+		type = infantry
+		home = 706
+	}
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 365
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 365
+	}
+	
+	regiment = {
+		name= "4.1st Division"
+		type = artillery
+		home = 365
+	}
+
+	regiment = {
+		name= "4.1st Division"
+		type = artillery
+		home = 718
+	}
+}
+
+
+army = {
+	name = "Second Army of Poland"
+	location = 690
+	regiment = {
+		name= "5.1st Division"
+		type = hussar
+		home = 365
+	}
+	regiment = {
+		name= "1.1st Division"
+		type = infantry
+		home = 718
+	}
+
+	regiment = {
+		name= "2.1st Division"
+		type = infantry
+		home = 718
+	}
+
+		regiment = {
+		name= "5.1st Division"
+		type = hussar
+		home = 718
+	}
+
+		regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 706
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 365
+	}
+
+	regiment = {
+		name= "3.1st Division"
+		type = infantry
+		home = 718
+	}
+}

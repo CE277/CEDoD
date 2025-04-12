@@ -1,0 +1,33 @@
+#Leave China
+country_event = {
+	id = 92031
+	title = "Leave China"
+	desc = "Players are not allowed to interact with China"
+
+	trigger = {
+		AND = {
+			CHI = { in_sphere = THIS }
+			alliance_with = CHI
+			military_access = CHI
+			NOT = { tag = LCT }
+		}
+	}
+
+	immediate = {
+	leave_alliance = CHI
+		diplomatic_influence = {
+			who = CHI
+			value = -400
+		}
+		end_military_access = CHI
+		leave_alliance = CHI
+		relation = {
+			who = CHI
+			value = -400
+		}
+		}
+
+	option = {
+		name = "I won't do it again."
+	}
+}

@@ -1,0 +1,31 @@
+#############################
+#    Incan Growth Events    #
+#############################
+province_event = {
+	
+	id = 41413144
+
+	trigger = {
+		year = 1860
+		owned_by = INC
+		is_core = INC
+		NOT = { 
+			has_province_modifier = incan_breadbasket
+		}
+	}
+
+	title = "EVTNAME41413144"
+	desc = "EVTDESC41413144"
+
+	option = {
+		name = "EVTOPTA41413144"
+		INC = {
+				all_core = {
+					limit = {
+						owned_by = INC
+		}
+		add_province_modifier = { name = incan_breadbasket duration = -1 }
+		}
+	}
+	}
+}

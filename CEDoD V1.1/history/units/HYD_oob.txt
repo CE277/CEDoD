@@ -1,0 +1,80 @@
+leader = {
+	name = "Ceferino Namuncurá"
+	type = land
+	date = 1836.1.1
+	personality = speed-a
+	background = defence+2a
+}
+
+leader = {
+	name = "§GNizam §YYardy§!"
+	picture = "yardy"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+army = {
+	name = "Army of the Nizam of Hyderabad"
+	location = 1283
+	regiment = {
+		name= "1.infantry Horse"
+		type = hussar
+		home = 1283
+	}
+
+	regiment = {
+		name= "2.infantry Horse"
+		type = hussar
+		home = 1278
+	}
+
+	regiment = {
+		name= "1.Hyderabad Contingent"
+		type = infantry
+		home = 1283
+	}
+
+	regiment = {
+		name= "2.Hyderabad Contingent"
+		type = infantry
+		home = 1285
+	}
+
+	regiment = {
+		name= "3.Hyderabad Contingent"
+		type = infantry
+		home = 1287
+	}
+
+	regiment = {
+		name= "4.Hyderabad Contingent"
+		type = artillery
+		home = 1283
+	}
+
+}
+
+army = {
+	name = "Army of Nagpur"
+	location = 1277
+	regiment = {
+		name= "1.Nagpur Contingent"
+		type = infantry
+		home = 1277
+	}
+
+	regiment = {
+		name= "2.Nagpur Contingent"
+		type = infantry
+		home = 1280
+	}
+
+	regiment = {
+		name= "3.Nagpur Contingent"
+		type = infantry
+		home = 1281
+	}
+
+}

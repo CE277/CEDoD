@@ -1,0 +1,175 @@
+#Scandi literacy event
+country_event = {
+	id = 100014
+	title = "EVTNAME100014"
+	desc = "EVTDESC100014"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = SCA
+	}
+	mean_time_to_happen = {
+		days = -1
+	}
+	option = {
+		name = "EVTOPTA100014"
+		any_pop = {
+		      limit = {
+			    has_pop_culture = pomeranian
+				}
+			literacy = 0.35
+		}
+	}
+}
+
+#PLC literacy event
+country_event = {
+	id = 100017
+	title = "EVTNAME100014"
+	desc = "EVTDESC100014"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = PLC
+	}
+	mean_time_to_happen = {
+		days = -1
+	}
+	option = {
+		name = "EVTOPTA100014"
+		any_pop = {
+		      limit = {
+			    has_pop_culture = pomeranian
+				}
+			literacy = 0.35
+		}
+	}
+}
+
+#BRG literacy event
+country_event = {
+	id = 100015
+	title = "EVTNAME100015"
+	desc = "EVTDESC100015"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = BRG	
+	}
+	mean_time_to_happen = {
+		days = -1
+	}
+	option = {
+		name = "EVTOPTA100015"
+		any_pop = {
+		      limit = {
+			    has_pop_culture = rheinish
+				}
+			literacy = 0.40
+		}
+	}
+}
+
+#DUA literacy event
+country_event = {
+	id = 100016
+	title = "Literacy of the isles"
+	desc = "Increases all unaccepted stated pops lit by 15%"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = DUA	
+	}
+	mean_time_to_happen = {
+		days = -1
+	}
+	option = {
+		name = "EVTOPTA100015"
+		any_pop = {
+		      limit = {
+			    OR = { has_pop_culture = english
+				has_pop_culture = irish
+				has_pop_culture = french
+				has_pop_culture = provencal }
+				}
+			literacy = 0.15
+		}
+	}
+}
+
+#TUR literacy event
+country_event = {
+	id = 100018
+	title = "Literacy of the Balkans"
+	desc = "Increases the literacy of all pops in the Balkans by 6%"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = TUR
+	}
+	mean_time_to_happen = {
+		days = -1
+	}
+	option = {
+		name = "EVTOPTA100014"
+		any_pop = {
+		      limit = {
+			    continent = europe
+				}
+			literacy = 0.06
+		}
+	}
+}
+
+country_event = {
+	id = 100019
+	title = "Literacy of the Khanate"
+	desc = "Increases the literacy of all pops in the Khanate by 3%"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = CHG
+	}
+
+	mean_time_to_happen = {
+		days = -1
+	}
+
+	option = {
+		name = "Yay!"
+		any_pop = {
+		limit = {
+			    OR = { 
+			    has_pop_culture = kazak
+				has_pop_culture = mongol
+				has_pop_culture = oirat
+				has_pop_culture = uighur
+				has_pop_culture = tatar
+				 }
+				}
+			literacy = 0.03
+		}
+	}
+}
+
+country_event = {
+	id = 100020
+	title = "Literacy of Egypt"
+	desc = "Increases the literacy of all pops in Egypt by 3%"
+	fire_only_once = yes
+	
+	trigger = {
+	tag = EGY
+	}
+
+	mean_time_to_happen = {
+		days = -1
+	}
+
+	option = {
+		name = "Yay!"
+		any_pop = {
+			literacy = 0.03
+		}
+	}
+}

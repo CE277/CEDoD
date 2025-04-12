@@ -1,0 +1,111 @@
+leader = {
+	name = "§gEmir §BMarxman§!"
+	picture = "marxman"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+leader = {
+	name = "Dost Mohammed"
+	type = land
+	date = 1836.1.1
+	personality = attack+1a
+	background = defence+1a
+}
+
+leader = {
+	name = "Yar Mohammed"
+	type = land
+	date = 1836.1.1
+	personality = attack+1a 
+	background = morale+a
+}
+
+army = {
+	name = "Army of Kohun-dil-Khan"
+	location = 1216
+	regiment = {
+		name= "1. Durranni"
+		type = infantry
+		home = 1234
+	}
+
+	regiment = {
+		name= "2. Durranni"
+		type = infantry
+		home = 1234
+	}
+
+	regiment = {
+		name= "3. Durranni"
+		type = infantry
+		home = 1234
+	}
+      
+
+	regiment = {
+		name= "2. Durranni"
+		type = infantry
+		home = 1227
+	}
+
+	regiment = {
+		name= "5. Durranni"
+		type = hussar
+		home = 1209
+	}
+}
+
+army = {
+	name = "Army of Punjab"
+	location = 1227
+	regiment = {
+		name= "1. Durranni"
+		type = infantry
+		home = 1227
+	}
+
+	regiment = {
+		name= "2. Durranni"
+		type = infantry
+		home = 1218
+	}
+
+	regiment = {
+		name= "3. Durranni"
+		type = infantry
+		home = 1218
+	}
+
+	regiment = {
+		name= "3. Durranni"
+		type = infantry
+		home = 1229
+	}
+
+	regiment = {
+		name= "5. Durranni"
+		type = hussar
+		home = 1210
+	}
+}
+
+army = {
+	name = "Army of Herat"
+	location = 1214
+
+	regiment = {
+		name= "4. Durranni"
+		type = hussar
+		home = 1212
+	}
+
+	regiment = {
+		name= "3. Durranni"
+		type = infantry
+		home = 1212
+	}
+
+}

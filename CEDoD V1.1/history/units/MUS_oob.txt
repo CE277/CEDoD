@@ -1,0 +1,171 @@
+leader = {
+	name = "Nikolay Kurakin"
+	type = land
+	date = 1836.1.1
+	personality = attack+2a
+	background = morale+a
+}
+
+leader = {
+	name = "Alexander Cherenkov"
+	type = land
+	date = 1836.1.1
+	personality = morale+++a
+	background = organisation++a
+}
+
+leader = {
+	name = "Lazar Lenin"
+	type = land
+	date = 1836.1.1
+	personality = attack+1a
+	background = morale++a
+}
+
+leader = {
+	name = "§bHerr §GLuigi§!"
+	picture = "luigi"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+army = {
+	name = "Army Corps of the infantry"
+	location = 1008
+	regiment = {
+		name= "1.1-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
+		home = 943
+	}
+
+	regiment = {
+		name= "2.1-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "3.1-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "1.2-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "2.2-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = infantry
+		home = 1008
+	}
+
+	regiment = {
+		name= "3.2-ya Gvardeiskaya Pekhotnaya Diviziya"
+		type = artillery
+		home = 1008
+	}
+
+}
+
+army = {
+	name = "infantrys hussar Corps"
+	location = 1010
+	regiment = {
+		name= "1.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = artillery
+		home = 1008
+	}
+
+	regiment = {
+		name= "2.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = artillery
+		home = 1009
+	}
+
+	regiment = {
+		name= "3.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = artillery
+		home = 1009
+	}
+
+	regiment = {
+		name= "4.1-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = artillery
+		home = 998
+	}
+
+	regiment = {
+		name= "1.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = artillery
+		home = 1008
+	}
+
+	regiment = {
+		name= "2.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = hussar
+		home = 1037
+	}
+
+	regiment = {
+		name= "3.2-ya Gvardeiskaya Kavaleriiskaya Diviziya"
+		type = infantry
+		home = 1037
+	}
+
+	regiment = {
+		name= "1.1-ya Grenaderskaya Diviziya"
+		type = infantry
+		home = 1037
+	}
+
+	regiment = {
+		name= "2.1-ya Grenaderskaya Diviziya"
+		type = infantry
+		home = 1034
+	}
+
+	regiment = {
+		name= "3.1-ya Grenaderskaya Diviziya"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "1.2-ya Grenaderskaya Diviziya"
+		type = artillery
+		home = 1020
+	}
+
+	regiment = {
+		name= "2.2-ya Grenaderskaya Diviziya"
+		type = infantry
+		home = 1020
+	}
+
+	regiment = {
+		name= "3.2-ya Grenaderskaya Diviziya"
+		type = infantry
+		home = 1039
+	}
+
+	
+	regiment = {
+		name= "1.1-ya Kavalerijskaya Diviziya"
+		type = hussar
+		home = 1039
+	}
+
+	regiment = {
+		name= "2.2-ya Kavalerijskaya Diviziya"
+		type = hussar
+		home = 1008
+	}
+
+
+
+}

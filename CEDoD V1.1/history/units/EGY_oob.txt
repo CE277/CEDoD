@@ -1,0 +1,89 @@
+leader = {
+	name = "§YPharaoh  §RImaginacion§!"
+	picture = "imaginacion"
+	type = land
+	date = 1836.1.1
+	personality = attack+3b
+	background = defence+3d
+}
+
+leader = {
+	name = "Saad Zaghlul"
+	type = land
+	date = 1836.1.1
+	personality = fearsome
+	background = sad_sack
+}
+
+leader = {
+	name = "Mohammed Anwar El-Sadat"
+	type = land
+	date = 1836.1.1
+	personality = cruel
+	background = inventor
+}
+
+army = {
+	name = "Egyptian Army"
+	location = 1750
+	regiment = {
+		name= "1. Bostancy-yy Hassa"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = infantry
+		home = 1745
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = hussar
+		home = 1764
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = infantry
+		home = 1762
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = infantry
+		home = 1752
+	}
+
+	regiment = {
+		name= "1. Bostancy-yy Hassa"
+		type = artillery
+		home = 1745
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = artillery
+		home = 1745
+	}
+
+	regiment = {
+		name= "2. Bostancy-yy Hassa"
+		type = artillery
+		home = 1751
+	}
+
+	regiment = {
+		name= "1. Bostancy-yy Hassa"
+		type = artillery
+		home = 1751
+	}
+
+	regiment = {
+		name= "1. Bostancy-yy Hassa"
+		type = artillery
+		home = 1751
+	}
+
+	}
