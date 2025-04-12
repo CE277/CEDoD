@@ -8,6 +8,7 @@ Culture Consolidation:
 
 General Changes: 
 
+- Incorporated Ethan Generals
 - Added a custom player general to every player nation
 - Removed straight from Taiwan To Okinawa
 - Updated loading screens
