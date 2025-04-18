@@ -1,3 +1,43 @@
+V1.3 (Checksum: )
+
+Bug-fixes:
+
+- Fixed Large Core CB's not working
+- Fixed bugged Integrate Pomeranians decision for Scandinavia and Elbians
+- Fixed missing RGO provinces which were intended to not be in the game
+- Removed Mahdia and Forte Sao Joaquim from being in two states in GC
+- Fixed Host Nation Swap Decisions (YOU WILL NEED TO ENABLE MOVING OF THE HOST NATION FLAG TO DIRECTLY SWAP) not working 
+- Fixed Ghost Nation not deleting ghost units
+- Fixed Arynaman getting loads of non-existant cultures accepted
+- Made Merv and Kyzylkum into Near East continent over being in Asia
+- Fixed some duplicate localisation in Iraq
+
+Color Changes:
+
+- Changed Aragon-Italy color
+
+Economic Changes:
+
+- Increased Life Needs Pop Consumption of Fish by 10%  (Back to IGoR)
+- Increased Life Needs Pop Consumption of Cattle by 10% (Back to IGoR)
+- Increased Life Needs Pop Consumption of Wool by 10% (Back to IGoR)
+- Increased Everyday Pop Consumption of Coal by 10% (Back to IGoR)
+- Lowered Base Coal Production to IGoR levels (2.62 -> 2.4)
+- Lowered Base Wool Production by 10%
+- Lowered Base Cotton Production by 10%
+- Lowered Base Sulphur Production by 25%
+- Lowered Base Wood Production by 23%
+
+General Changes:
+
+- Made GC's Congress of Andagoya decision be visible while at war
+- Added a debug decision to handle all End of Session 1 Save Edits that were required to Host Nation
+- Added a seperate peace CB that gives a truce
+- Added a seperate peace CB that doesn't give a truce
+- Added a Rather Limited Host Economic Menu to Make Economic Changes
+- Added a ondemand Host Nation decision to remove Ghost Nation Troops
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V1.2 (Checksum: XDLK )
 
 Bug-fixes:

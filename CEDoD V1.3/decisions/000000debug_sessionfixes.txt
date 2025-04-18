@@ -1,0 +1,311 @@
+political_decisions = {
+session_one_fix = {
+        picture = ce
+		potential = {
+            tag = LCT
+            ai = no
+            NOT = {has_global_flag = sessiononefix }
+        }
+        allow = {
+            tag = LCT
+            ai = no
+        }
+        effect = {
+            CLM = {
+            UCA_2186 = {
+                    any_pop = {
+                        limit = { 
+                            type = soldiers
+                        }
+                        reduce_pop = 1.25
+                    }
+                }
+                TEX_134 = {
+                    any_pop = {
+                        limit = { 
+                            type = soldiers
+                        }
+                        reduce_pop = 1.25
+                    }
+                }
+                CLM_2251 = {
+                    any_pop = {
+                        limit = { 
+                            type = soldiers
+                        }
+                        reduce_pop = 1.25
+                    }
+                }
+                MEX_2183 = {
+                    any_pop = {
+                        limit = { 
+                            type = soldiers
+                        }
+                        reduce_pop = 1.25
+                    }
+                }
+                TEX_134 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                }
+                    TEX_134 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.1
+                    }
+                }
+                MEX_103 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    MEX_103 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.52
+                    }
+                }
+                MEX_90 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    MEX_103 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.07
+                    }
+                }
+                MEX_2183 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    MEX_2183 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.16
+                    }
+                }
+                UCA_2186 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    UCA_2186 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.43
+                    }
+                }
+                UCA_2201 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    UCA_2201 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.04
+                    }
+                }
+                CLM_2251 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    CLM_2251 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.08
+                    }
+                }
+                VNZ_2234 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    VNZ_2234 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.05
+                    }
+                }
+                VNZ_2278 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    VNZ_2278 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.06
+                    }
+                }
+            }
+            INC = {
+            CLM_2262 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2 
+                    }
+                    }
+                    CLM_2262 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.16
+                    }
+                }
+                ECU_2279 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    ECU_2279 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.02
+                    }
+                }
+                PEU_2300 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    PEU_2300 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.17
+                    }
+                    }
+                    PEU_2300 = {
+                    any_pop = {
+                        limit = { 
+                            type = labourers
+                        }
+                        reduce_pop = 1.30
+                    }
+                }
+                PEU_2297 = {
+                    any_pop = {
+                        limit = { 
+                            type = craftsmen
+                        }
+                        reduce_pop = 0.2
+                    }
+                    }
+                    PEU_2297 = {
+                    any_pop = {
+                        limit = { 
+                            type = farmers
+                        }
+                        reduce_pop = 1.03
+                    }
+                }
+                CLM_2262 = {
+                    any_pop = {
+                        limit = { 
+                            type = soldiers
+                        }
+                        reduce_pop = 1.25
+                    }
+                }
+        }
+        set_global_flag = sessiononefix
+        1498 = {
+        trade_goods = silk }
+        2152 = {
+        trade_goods = cotton }
+        2151 = {
+        trade_goods = cotton }
+        2176 = {
+        trade_goods = cotton }
+        any_country = {
+        limit = { tag = AMA }
+           activate_technology = publishing_industry
+        }
+        HYD = {
+        badboy = -2
+        casus_belli = {
+                target = BEN
+                type = conquest
+                months = 24
+            }
+        }
+        BRG = {
+        casus_belli = {
+                target = SGF
+                type = dismantle_forts
+                months = 24
+            }
+        }
+        DNG = {
+        casus_belli = {
+                target = PLM
+                type = conquest
+                months = 14
+            }
+        }
+    }
+}
+}
