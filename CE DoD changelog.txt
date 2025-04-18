@@ -33,7 +33,6 @@ General Changes:
 - Made GC's Congress of Andagoya decision be visible while at war
 - Added a debug decision to handle all End of Session 1 Save Edits that were required to Host Nation
 - Added a seperate peace CB that gives a truce
-- Added a seperate peace CB that doesn't give a truce
 - Added a Rather Limited Host Economic Menu to Make Economic Changes
 - Added a ondemand Host Nation decision to remove Ghost Nation Troops
 

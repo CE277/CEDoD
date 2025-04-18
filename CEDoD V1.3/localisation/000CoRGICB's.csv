@@ -272,7 +272,3 @@ seperate_truce;Seperate Peace Truce;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;
 seperate_truce_desc;Adds a normal truce on the target on seperate peace;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
 seperate_truce_short;Seperate Peace Truce;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
 seperate_truce_setup;Adds a normal truce on the target on seperate peace;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
-seperate_notruce;Seperate Peace No Truce;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
-seperate_notruce_desc;Doesn't add a truce on the target on seperate peace;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
-seperate_notruce_short;Seperate Peace No Truce;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
-seperate_notruce_setup;Doesn't add a truce on the target on seperate peace;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;,,,
