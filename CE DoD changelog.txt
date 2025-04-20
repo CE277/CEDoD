@@ -1,0 +1,761 @@
+V1.4 (Checksum: TNOY )
+
+Bug-fixes:
+
+- Fixed a different event firing when using the Manage Vassals decision
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.3 (Checksum: MWXH )
+
+Bug-fixes:
+
+- Fixed Large Core CB's not working
+- Fixed bugged Integrate Pomeranians decision for Scandinavia and Elbians
+- Fixed missing RGO provinces which were intended to not be in the game
+- Removed Mahdia and Forte Sao Joaquim from being in two states in GC
+- Fixed Host Nation Swap Decisions (YOU WILL NEED TO ENABLE MOVING OF THE HOST NATION FLAG TO DIRECTLY SWAP) not working 
+- Fixed Ghost Nation not deleting ghost units
+- Fixed Arynaman getting loads of non-existant cultures accepted
+- Made Merv and Kyzylkum into Near East continent over being in Asia
+- Fixed some duplicate localisation in Iraq
+
+Color Changes:
+
+- Changed Aragon-Italy color
+
+Economic Changes:
+
+- Increased Life Needs Pop Consumption of Fish by 10%  (Back to IGoR)
+- Increased Life Needs Pop Consumption of Cattle by 10% (Back to IGoR)
+- Increased Life Needs Pop Consumption of Wool by 10% (Back to IGoR)
+- Increased Everyday Pop Consumption of Coal by 10% (Back to IGoR)
+- Lowered Base Coal Production to IGoR levels (2.62 -> 2.4)
+- Lowered Base Wool Production by 10%
+- Lowered Base Cotton Production by 10%
+- Lowered Base Sulphur Production by 25%
+- Lowered Base Wood Production by 23%
+
+General Changes:
+
+- Made GC's Congress of Andagoya decision be visible while at war
+- Added a debug decision to handle all End of Session 1 Save Edits that were required to Host Nation
+- Added a seperate peace CB that gives a truce
+- Added a Rather Limited Host Economic Menu to Make Economic Changes
+- Added a ondemand Host Nation decision to remove Ghost Nation Troops
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.2 (Checksum: XDLK )
+
+Bug-fixes:
+
+- Made the pop promotion events actually work (Thank you Crafter)
+
+Color Changes
+
+- Changed Aragon Italy color
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.1 (Checksum: QFLL )
+
+- Added notes I missed on the V1.0 to the 1.0 section
+
+Culture Consolidation:
+
+- Consolidated being reasonable like 100 cultures 3275 lines - > 1842 (Credit to Ethan for kicking me in overdrive for it)
+
+General Changes: 
+
+- Incorporated Ethan Generals
+- Added a custom player general to every player nation
+- Removed straight from Taiwan To Okinawa
+- Updated loading screens
+- Removed movement time malus in Jungles
+- Lowered movement time malus in Marshes to 20% (Reduction of 20%)
+- Lowered movement time malus in Deserts to 30% (Reduction of 20%)
+- Lowered movement time malus in Farmlands to 10% (Reduction of 10%)
+- Allowed navy to be funded at a minimum of 70% and not 100%
+- Remade Courland be Elbian primary, re-added Russian and Ugrian accepted cultures
+
+Color Changes:
+
+- Changed Dual Monarchy Color (Credit to Ethan)
+- Changed Bavaria color
+- Changed Aragon color (Credit to Ethan)
+- Changed Spain color (Credit to Ethan)
+- Changed Scandinavia color
+- Changed Venice color
+- Changed Bohemia color (Credit to Ethan)
+- Changed Burgundy color (Credit to Ethan)
+- Changed Papal States color
+- Changed Eturia color
+- Changed Ferrara color
+- Changed Lucca color
+- Changed Parma color
+- Changed Savoy color
+- Changed Lombardia color
+- Changed Hanover color
+- Changed Courland color
+- Changed Belarus color
+- Changed Hetmanate color
+- Changed Lithuania color
+
+
+
+Bug-fixes:
+
+- Added pop flag reset decisions
+- Changed multiple Siberian provinces LR from 35 to 20 to stop immediate Japanese colonisation 
+- Fixed bugged localisation
+- Allowed being able to take states off China
+- China cannot declare any wars at all
+- You may not sphere, ally or get mil access with China, same goes for the AI
+- Changed all nations that were on Liberty to Equality (Liberty was a dead NV)
+- Fixed sanctions event not working (Sanctions is 25)
+- Fixed host nation decisions/events	
+- Fixed some bugged localisation
+- Fixed some bugged terrain pictures
+- Fixed certain terrain names not being vanilla and instead HPM
+- Made state sizes not releaseable
+- Removed take capital in state size localisation
+
+Bohemia:
+
+- Added Level 2 Machine Parts Factory in Brandenburg
+- Added 2,500 Craftsmen 
+
+Dzungar:
+
+- Increased Literacy by 3% 2% -> 5%
+- Added Manchu to Turania through decision
+
+Egypt:
+
+- Increased Literacy by 3% 1% -> 4%
+
+Ethiopia:
+
+- Buffed oob from 3 brigades -> 8 (Was missing 3 from its oob in the first place)
+
+Incas:
+
+- Added Post Nelsonian Thought
+- Made its breadbasket an immediate event on all cores 
+
+Ottomans:
+
+- Removed 2 brigades that are fighting Macedonia day 1
+
+Scandinavia:
+
+- Added Explosives Factory in Gotaland 
+- Added 2,500 Craftsmen
+
+
+Tehran:
+
+- Adjusted Legacy of Timur to give 5 infamy
+
+Venice:
+
+- Added a 50% Immigrant Attraction Modifier for 10 years upon forming Little Italy
+
+Name Changes:
+
+- Renamed Yesgai Horde to Nogai
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.0
+
+
+Checksum: (NNCJ)
+
+
+Credits:
+
+- Potat for making the original base of the mod and stuff I have taken from the latest version
+- Luigi for making the fork of that mod that I have based this off
+- SteelRyan for making changes to that fork
+- Neighbour for giving me LItaly flags, DM accepted ideas
+- Wingedpope for helping me with identifying things around the mod
+- Spambot for Dynamic WE
+
+
+Changelog:
+
+- Removed Rights of Man mobilisation (Was replaced anyway with civ mobilisation)
+- Removed Shadowfunding
+- Changed the Liberal Revolutions to be in line with IGoR (All the modifiers are much less impactful)
+- Removed RP Gain loss and Prestige loss from Academic Confusion
+- Removed RP Gain loss and Prestige loss and militancy and consciousness gain from National Confusion 
+- The Host Nation has on-demand decisions to give money to players nations and player pops 
+- Reversed CoRGI Military Factory nerfs (NOT NAVY ONES)	
+- Added naval cap
+- Fixed Shiraz war infamy bug
+- Reverted CoRGI RGO output tech nerf 22% -> 30%
+- Siberian State Consolidation
+- Made every government type be able to change ruling parties (Democracycells W)
+- Removed Samarkand from game 
+- Made Baseline Plurality 20
+- State CB Cost Changes: (Capital CB also removed can just be added as a normal state)
+
+Tiny: 
+4 Infamy 
+
+Small:
+5 Infamy 
+
+Medium:
+7 Infamy
+
+Large: 
+9 Infamy
+
+Huge:
+11 Infamy
+
+Incorporated Unique American CB state sizing 
+Early Game Changes:
+
+Small: 
+100k - 300k 
+
+Medium:
+300k - 500k
+
+Large:
+500k - 700k
+
+Huge: 
+700k+
+
+
+Importations:
+
+Imported CoRGI Production
+Imported CoRGI Units
+Imported CoRGI Technology
+Imported CoRGI Inventions
+Imported CoRGI Localisation
+Imported CoRGI Event Modifiers
+Imported CoRGI NF's
+Imported CoRGI NV's
+Imported CoRGI Tech Schools
+Imported CoRGI Grants
+Imported CoRGI Utility decisions
+Imported CoRGI Colonial Policy 
+Imported CoRGI Puppet Controller
+Imported CoRGI RGO Change
+Imported CoRGI Pop Types (Common)
+Imported CoRGI War Score Costs
+Imported IGoR World Bank
+
+War Score System:
+
+- State flags fire immediately when in game 
+- Removed Take Capital as a CB, Capitals can now be taken as part of the normal CB
+
+Nation Changes:
+
+Europe:
+
+Aragon:
+
+- Added Level 2 Early Convoy Factory in Campania
+- Added Level 1 Steel Mill in Campania
+- Added Level 1 Fabric Factory in Puglia
+- Added Level 1 Transport Shipyard in Sicily
+- Added Level 1 Fabric Factory in Sicily
+- Added Level 1 Steel Factory in Sicily 
+- Added Level 1 Small Arms Factory in Catalonia
+- Added Level 1 Ammunition Factory in Catalonia
+- Added 28,500 Craftsmen to assist with this (Gives it a slight edge over Spain for Craftsmen, also allows maintaining and production of transports and the keeping of a tangible navy)
+- OOB Changes: 3 Meta Stacks + 5 brigades
+- Gave Comoros and Mayotte (Naval Range)
+- Increased Bureaucrat % to 37.6%
+
+Austria: 
+
+- OOB Changes: 1 Meta Stack
+- Added 4,200 soliders
+
+Bavaria:
+
+- OOB Changes: 1 Meta Stack
+- Increased Bureaucrat % to 25.1%
+
+Bohemia:
+
+- Added 40,000 Craftsmen (With all the other big 4 craftsmen buffs this help will keep the count in line)
+- Added Level 1 Steel Factory in Silesia
+- Added Level 2 Artillery Factory in Bohemia
+- Added Level 2 Canned Food Factory in Bohemia
+- Added Level 2 Canned Food Factory in Moravia
+- Added Level 2 Artillery Factory in Sachsen
+- OOB Changes: 3 Meta Stacks
+- Increased Bureaucrat % to 46.2%
+- Elbians do not get Pommeranian accepted on formation, instead they get it upon owning Holstein + Pommerania with Nationalism and Imperialism (In sync with Scandinavia now)
+
+
+Burgundy:
+
+- Added Level 1 Early Convoy Factory in Holland
+- Added Level 1 Early Convoy Factory in Brabant 
+- Added Level 2 Transport Shipyard in Flandres
+- Added Level 3 Artillery Factory in Brabant
+- Added 37,500 Craftsmen to assist with this 
+- OOB changes: 3 Meta Euro Stacks, 15 brigs overseas
+- South African decision that gave 50 prestige has been lowered to 15
+- Added a decision that if Burgundy owns Champagne and has State & Government they can core Champagne and gain 15 prestige
+- Removed Rhenish pops in Luxembourg (Converted to Burgundian)
+- Increased Burgundian pops in Champagne 
+- Increased Bureaucrat % to 43.1%
+
+Dual Monarchy:
+
+- Added Level 2 Transport Shipyard in South East England 
+- Added Level 1 Transport Shipyard in Midlands
+- Added Level 1 Transport Shipyard in Bretagne 
+- Added Level 2 Early Convoy Factory in Bretagne
+- Added Level 2 Artillery Factory in Rhone
+- Added Level 2 Artillery Factory in Ile De France
+- Added Level 2 Canned Food Factory in Region Centre
+- Added 42,500 Craftsmen to assist with this
+- OOB changes: 3 Meta Euro Stacks, 6 brigs overseas
+- Gave Publishing Industry Tech
+- Increased Burgundian pops in Champagne
+- Changed paths completely, DM if going Dual Path can now accept a culture of its choice after a certain amount of years and can keep doing this until it has finished with the process
+- Allowed acceptance of Basque if own Navarra and went French route
+- Removed Welsh Accepted on French route
+- Removed DM being able to switch paths from English -> French and vice versa
+
+Hungary: 
+
+- OOB Changes: 1 Meta Stack
+- Croats and Slovenes added as accepted pops on the Croatian core decision
+- Gave Eisenstadt to Austria
+
+Muscovy:
+
+- OOB Changes: 1 Meta Stack + 4 brigades
+- Increased Bureaucrat % to 23.9%
+- Removed Russian core on Viipuri
+- Reworked Russian expansion
+
+Ottoman Empire:
+
+- OOB Changes: 1 Meta Euro Stack + 4 brigades, 1 Meta Levant Stack
+- Gave Mechanized Mining
+- Increased Bureaucrat % to 22%
+
+
+
+Poland-Lithuania: 
+
+- OOB Changes: 1 Meta Stack, + 5 brigades, + 12 on substates
+- Added The Rights of Man tech
+- Increased Bureaucrat % to 34.9%
+
+Savoy: 
+
+- OOB Changes: 1 Meta Stack 
+- Increased Bureaucrat % to 39.8%
+- Removed Medicine 
+- Added Army Professionalism
+- Added 1,000 soliders
+- Made Savoie state 35lr (Makes no real sense for it to be 31ish)
+- A Savoy formed Italy irregardless of whether this is through Savoy formation or DM's decision, will recieve an additional 2LR to the cores it needs to form Italy, these are
+~ Piemonte
+~ Emilia-Romagna
+~ Emilia
+~ Toscana
+~ Lazio
+~ Lombardia	
+
+Scandinavia:
+
+- Added Level 1 Transport Shipyard in Gotaland 
+- Added Level 1 Transport Shipyard in Sveland
+- Added Level 1 Transport Shipyard in Sjaeland
+- Added Level 1 Steel Factory in Sjaeland 
+- Added Level 2 Early Convoy Factory in Sjaeland
+- Added Level 2 Artillery Factory in Gotaland
+- Added 47,500 Craftsmen to assist with this
+- OOB Changes: 3 Meta Euro Stacks, 5 brigs overseas
+- Gave Publishing Industry Tech
+- Gave Level 3 port in Copenhagen
+- Gave Level 2 port in Goteborg
+- Gave Level 2 port in Stockholm
+- Estonia pop buffed from 151k -> 270k
+- Estonia + Latvia LR raised to 38
+- Merged Western Finland + Scandinavia Karelia into Southern Finland 
+- Merged Vestlandet into Ostlandet
+- Redrew Nordnorge and Norrland (Now Vanilla shape)
+- Split Baltic Islands state into Gotland, Bornholm seperate states, Osel -> Estonia, Alland -> Southern Finland 
+- (Net 2 Cored ports loss for Scandinavia) (18 Cored Ports vs 16 DM Cored Ports)
+
+Spain:
+
+- Upgraded Level 1 Early Convoy Factory in Estremadura to Level 2 
+- Added a Level 1 Transport Shipyard in Estremadura
+- Added Level 1 Steel Factory in Estremadura 
+- Added 17,500 Craftsmen to assist with this (This should allow Spain to maintain and build transports and keep a very tangible navy)
+- Added 8 Additional Clipper Transports to smooth out transport fleets
+- OOB Changes: 1 Meta Euro Stack, 2 Meta Stacks in GC, 1 brig in Asia
+- Increased Bureaucrat % to 33.3%
+
+Venice:
+
+- Added Level 1 Steel Factory in Venetia
+- Added Level 1 Fabric Factory in Venetia
+- Added Level 1 Small Arms in Venetia
+- Added Level 1 Transport Shipyard in Istria
+- Added 22,500 Craftsmen to assist with this (Keeping its position as strongest industry outside of big 4)
+- Added 8 Transports to smooth out transport navy
+- OOB Changes: 1 Meta Euro Stack, 1 brig in Africa
+- Gave Publishing Industry Technology
+- Increased Bureaucrat % to 30%
+- Added Little Italy Path in the Carribean, mututally exclusive with Italy
+
+Asia:
+
+Bengal:
+
+- Removed Artillery Tech
+- Removed Command Principle Tech
+- Removed Enlightenment Philiosophy (Removed the consequent reform as well)
+- Removed Rights of Man
+- Added Reform Enact Financial Reform (Has the tech but no reform)
+- Removed No Standard Tech
+- Removed Early Classical Theory
+- Added Imported Weapons reform (Had tech but no reform)?????????????????????????????????????????????????????????????????????????????????
+
+Dzungar:
+
+
+
+Hyderabad: 
+
+- Removed Artillery Reform (And accustoming tech)
+- Added Army Schools Reform (And accustoming tech)
+- Added Advanced Constructions Reform (And accustoming tech)
+- Added Admin Effiency Reform (And accustoming tech)
+- Added Introspectionism Tech
+- Removed Ruling Party only in favour of appointed (In line with the other Indians now)
+
+Japan:
+
+- Added 4 Additional Clipper Transports to smooth transport fleet
+- OOB Changes: 2 Meta Stacks in Korea, 1 Meta Stack in Japan
+- Removed The Rights of Man tech
+- Added Introspectionism tech
+- Split Toukai state and added Hokriku state
+- Nerfed LR to be a universal 33
+
+Mughals:
+
+- Added Early Classical Theory and Critique 
+
+Taiping:
+
+- Added Mechanized Mining
+
+Teheran:
+
+- Increased oob from 7 brigades - > 10 brigades
+- Made Shiraz declaration decision not cost any infamy 
+
+
+Sadozai Kingdom:
+
+- Increased oob from 4 brigades -> 12 brigades
+- Allowed formation of Persia (Can now go Persia -> Aryanam just like Tehran)
+- Added cores on Baluchistan 
+- Moved 100k pops from Peshawar -> Herat (Kabul-> Herat state)
+- Increased civ progress to 45%
+
+Vijayanagar:
+
+- Removed Artillery reform (And accustoming tech)
+- Added Advanced Constructions Reform (And accustoming tech)
+- Added Imported Weapons reform (Had tech but no reform)
+- Removed Army Schools reform (Didn't have the tech anyway)
+- Added Early Classical Theory and Critique 
+
+Qing Empire:
+
+- Added Mechanized Mining
+
+Americas:
+
+Arcadia: 
+
+- Formation by any candidate now once again has the prerequisite that nation has fired its Manifest Destiny decision
+
+Amazonie:
+
+- Gave Publishing Industry Tech
+- Made the Dual Monarchy Cordial relations
+- State Redraw
+
+Beornia: 
+
+- Gave Publishing Industry Tech
+- State Redraw
+
+Belgian Confederacy:
+
+- Changed Mid Convoy Factory in Nouvelle Flandre to a Early Convoy
+- Added Level 1 Transport Shipyard in Nouvelle Flandre
+- Added 2,500 Craftsmen to assist with this
+- Gave Publishing Industry Tech
+- Made Burgundy Cordial relations
+- Removed all cores on other Arcadians 
+- State Redraw
+
+Gran Colombia:
+
+- State Redraw
+- Added 40,000 pops
+
+Lotharingia:
+
+- Gave Publishing Industry Tech
+- Made Burgundy Cordial relations
+- State Redraw
+- Added 35,000 pops
+
+Plantagenia:
+
+- Gave Publishing Industry Tech
+- Made the Dual Monarchy Cordial relations
+- Increased brigades from 6 -> 11 (Intended start)
+- Made Bermuda into an independent state 
+- Removed all cores on other Arcadians
+- Added 4,000 soliders 
+- Added 10,000 farmers
+- Added Level 1 Port in Port-Royal
+- State Redraw
+
+Tawantinsuyu:
+
+- Gave Water-Wheel Power Tech
+- Gave Publishing Industry Tech
+- Gave Mechanized Mining Tech
+- Starts in Spanish sphere of influence
+- Doubled starting army to 12 brigades
+- Fully added cores on Ecuador (not just on Galapagos now)
+- State Redraw
+- Added 10,000 pops
+
+Vinland:
+
+- Gave Publishing Industry Tech
+- Gave Experimental Railroads Tech
+- Gave Command Principle Tech
+- Removed all cores on other Arcadians
+- Added 3,000 soliders
+- Added 10,000 farmers
+- Made any colonial states into proper states  (helps with WS plus avoiding colonial migration)
+- State Redraw
+- Arcadian formation is all original 1836 Vinland land + Original Belgian Confederacy
+- Redid it's destiny cores in Xifang (Same amount of pops but redone because of the states)
+
+Xifang:
+
+- Gave Publishing Industry Tech
+- State Redraw 
+
+Africa:
+
+Arabia:
+
+- Added Maghrebi as an accepted pop
+
+Egypt:
+
+- Increase oob from 7 brigades -> 1 Meta Stack
+
+-------------------------------------------------------
+
+National Value Changes:
+
+- Changed All Nations on Tradition NV to Order
+
+Economic Changes
+
+Pop Changes:
+
+- Lowered Life RGO Needs by 10%
+- Lowered Everyday RGO Needs by 10%
+
+
+- Made Luxury Needs in line with IGoR/CoRGI values
+- Removed Fertilizer from Farmers Luxury Needs
+- Removed Explosives from Labourers Everyday Needs
+- Added Coffee to Officers Everyday Needs
+- Imported CoRGI/IGoR Soliders Everyday Needs (Basically much more goods needed from the old)
+- Removed Steel from Soliders Everyday Needs
+- Added Coffee to Craftsmen Everyday Needs
+
+
+RGO Changes:
+
+Vijayanagar:
+
+Nasik: Grain -> Iron
+
+Bengal:
+
+Rajbalhat Dye -> Grain
+Dacca Dye -> Cotton
+Chittagong -> Silk	
+
+Madras:
+
+Madurai Dye -> Tea
+Tanjore Dye -> Coffee
+
+Hyderabad: 
+
+Raipur Dye -> Iron
+Bilaspur: Grain -> Sulphur
+
+Mughals:
+
+Hoshangabad Dye -> Tea
+Jubbulpore Dye -> Cotton
+Bhopal Dye -> Tobacco
+Gwalior Dye -> Cotton 
+Chhatarpur Dye -> Coffee
+Cawnpore Dye -> Cotton
+Agra Dye -> Tea
+Benares: Opium -> Iron
+
+Burgundy: 
+
+Nancy Dye -> Cotton
+
+Scandinavia:
+
+Copenhagen Dye -> Cotton
+Orkney & Shetland: Precious Goods (Dead RGO) -> Grain
+Drammen: Precious Goods (Dead RGO) -> Cotton
+
+Gran Colombia:
+
+Sao Joao dos Montes Dye -> Cotton
+Saltillo Dye -> Cotton
+Puebla Dye -> Cotton
+Quito Fruit -> Sulphur
+Huancaveilica: Precious Goods (Dead RGO) -> Coal
+Huanuco: Precious Goods (Dead RGO) -> Coal
+
+Moldavia:
+
+Cernauti: Precious Goods (Dead RGO) -> Iron
+
+Novgorod:
+
+Mulda: Precious Goods (Dead RGO) -> Grain
+
+Sibir:
+
+Miass: Precious Goods (Dead RGO) -> Coal
+
+Dzungar Khanate:
+
+Chuldum: Precious Goods (Dead RGO) -> Grain
+Ulaan Chab Cuulghan: Precious Goods (Dead RGO) -> Grain
+
+Tunging:
+
+Xiang Qundao: Precious Goods (Dead RGO) -> Cattle
+
+Africa:
+
+Odienne fixed broken spelling in RGO, now correctly an existing fruit RGO
+
+Indonesia:
+
+Menado Dye -> Cotton
+Kendari Dye -> Tropical Wood
+
+Amazonie:
+
+Nouvlle Amsterdam Coffee -> Sulphur
+
+Tawantisuyu:
+
+Uraycusta Fruit -> Sulphur
+Antofagasta Wool -> Sulphur
+Calama Fish -> Sulphur 
+Iquique Cattle -> Sulphur
+
+Spain:
+
+Huelva Grain -> Sulphur
+Murcia Iron -> Sulphur
+
+Ottomans:
+
+Skopje Wood -> Sulphur
+
+Hungary: 
+
+Kaposvar Cattle -> Sulphur
+
+Nogai Horde:
+
+Samara Grain -> Sulphur
+
+Bikaner:
+
+Bikaner Wool -> Sulphur
+
+Moldavia:
+
+Galati Grain -> Sulphur
+
+Novgorod: 
+
+Vyatkha Grain -> Sulphur
+
+Taiping:
+
+Xiangyang Grain -> Sulphur
+Nanyang: Grain -> Opium
+Jianchang: Precious Goods (Dead RGO) -> Coal
+
+Qing:
+
+Yingzhou: Precious Goods (Dead RGO) -> Coal
+Datong: Precious Goods (Dead RGO) -> Coal
+
+Japan:
+
+Shizuoka: Precious Goods (Dead RGO) -> Cattle
+Sado: Precious Goods (Dead RGO) -> Cattle
+
+Oldenburg:
+
+Cloppenburg:  Precious Goods (Dead RGO) -> Sulphur
+
+Dual Monarchy:
+
+Poitiers Grain -> Sulphur 
+
+Eturia:
+
+Siena: Grain -> Coal
+
+Aragon:
+
+Pondicherry: Precious Goods (Dead RGO) -> Silk
+
+Mewar: 
+
+Ajmer: Precious Goods (Dead RGO) -> Sulphur
+
+Mischilennious:
+
+- Converted Sikkim into a Host Nation
