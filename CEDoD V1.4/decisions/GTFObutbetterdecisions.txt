@@ -10,7 +10,7 @@ political_decisions = {
 		}
 		
 		effect = {
-			country_event = { id = 91306 days = 0 }
+			country_event = { id = 91309 days = 0 }
 		}
 	}
 }

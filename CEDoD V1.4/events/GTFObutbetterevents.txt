@@ -2,7 +2,7 @@
 # 							The events      							#
 #########################################################################
 country_event = {				#stolen from Victoria Universalis (this entire thing)
-	id = 91306
+	id = 91309
 	title = "EVTNAME91306"
 	desc = "EVTDESC91306"
 	picture = upper_house
