@@ -218,7 +218,7 @@ conquest = {
 		
 		this = {  }
 		total_pops = 400000
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { is_our_vassal = THIS }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
@@ -379,7 +379,7 @@ add_to_sphere = {
 			 } 
 		}
 		NOT = { has_country_flag = conquerable_1865 }
-		this = { NOT = { badboy = 1 } }
+		
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		part_of_sphere = no
@@ -442,7 +442,7 @@ take_from_sphere = {
 				}
 			 } 
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		this = { is_greater_power = yes }
 		is_greater_power = yes
 	}
@@ -948,7 +948,7 @@ acquire_substate_region = {
 				}
 			 } 
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		num_of_substates = 1 # if has any substate
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -1012,7 +1012,7 @@ acquire_state_tiny = {
 		this = { NOT = { tag = CHI } }
 		
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1117,7 +1117,7 @@ acquire_state_small = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1224,7 +1224,7 @@ acquire_state_medium = {
 		this = { NOT = { tag = CHI } }
 		
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1331,7 +1331,7 @@ acquire_state_large = {
 		this = { NOT = { tag = CHI } }
 		
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1438,7 +1438,7 @@ acquire_state_huge = {
 		this = { NOT = { tag = CHI } }
 		
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1545,7 +1545,7 @@ place_in_the_sun_tiny = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1630,7 +1630,7 @@ place_in_the_sun_small = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1714,7 +1714,7 @@ place_in_the_sun_medium = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1798,7 +1798,7 @@ place_in_the_sun_large = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -1882,7 +1882,7 @@ place_in_the_sun_huge = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2005,7 +2005,7 @@ colonial_competition = {
 #	can_use = {
 #		NOT = { tag = LCT }
 #		NOT = { tag = GHO }
-#		this = { NOT = { badboy = 1 } }
+#		
 #		NOT = { 
 #			OR = { 
 #				has_country_modifier = neutrality
@@ -2621,7 +2621,7 @@ liberate_country= {
 		}
 		NOT = { has_country_flag = conquerable_1865 }
 		year = 1914
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2729,7 +2729,7 @@ dismantle_forts = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -2799,7 +2799,7 @@ release_puppet = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		num_of_vassals_no_substates = 1
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
@@ -2856,7 +2856,7 @@ make_puppet = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3003,7 +3003,7 @@ humiliate = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3062,7 +3062,7 @@ demand_concession_casus_belli_tiny = {
 		this = { NOT = { tag = CHI } }
 		
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3141,7 +3141,7 @@ demand_concession_casus_belli_small = {
 		this = { NOT = { tag = CHI } }
 		
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3219,7 +3219,7 @@ demand_concession_casus_belli_medium = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3297,7 +3297,7 @@ demand_concession_casus_belli_large = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3375,7 +3375,7 @@ demand_concession_casus_belli_huge = {
 		NOT = { tag = GHO }
 		#this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -3459,7 +3459,7 @@ establish_protectorate_casus_belli = {
 				is_culture_group = southern_african
 			}
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			civilized = yes
 		}
@@ -3534,7 +3534,7 @@ unification_humiliate_cb = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -3716,7 +3716,7 @@ unification_annex_casus_belli = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			culture_has_union_tag = yes
 			nationalism_n_imperialism = 1
@@ -3989,7 +3989,7 @@ conquest_low = {
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
 		this = {  }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = {	total_pops = 400000 }
 		NOT = { 
 			OR = { 
@@ -4090,7 +4090,7 @@ acquire_treaty_port = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		THIS = {
 			NOT = { has_country_flag = conquerable_1865 }
 		}
@@ -4381,7 +4381,7 @@ establish_colonial_protectorate_casus_belli = {
 			is_culture_group = central_african
 			is_culture_group = southern_african
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { 
 			OR = { 
 				has_country_modifier = neutrality
@@ -4533,7 +4533,7 @@ make_puppet_small = {
 		NOT = { tag = LCT }
 		NOT = { tag = GHO }
 		this = { NOT = { tag = CHI } }
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { is_our_vassal = THIS }
 		is_greater_power = no
 		is_vassal = no
@@ -4853,7 +4853,7 @@ make_puppet_large = {
 			ai = yes
 			year = 1900
 		}
-		this = { NOT = { badboy = 1 } }
+		
 		NOT = { is_our_vassal = THIS }
 		
 		is_greater_power = no

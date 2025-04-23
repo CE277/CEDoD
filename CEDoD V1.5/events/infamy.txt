@@ -15,6 +15,22 @@ country_event = {
 			name = badboymod
 			duration = -1
 		}
+		any_greater_power = {
+		casus_belli = {
+			target = THIS
+			type = humiliate
+			months = 24
+			}
+		casus_belli = {
+			target = THIS
+			type = free_peoples
+			months = 12
+			}
+		relation = {
+			who = THIS
+			value = -100
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
