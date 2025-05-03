@@ -49,6 +49,9 @@ country_event = {
 			tag = PLC
 			tag = ARA
 			tag = ETH
+			tag = ARI
+			tag = LTT
+			tag = ARC
 			has_leader = "John Cena"
 		}
 	}
@@ -61,9 +64,9 @@ country_event = {
 		define_general = {
 			name = "John Cena"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			##+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -89,9 +92,9 @@ country_event = {
 	immediate = {
 		define_general = {
 			name = "Herbert Kitchener"
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence
-			background = intuitive
+			background = defence+3d
 			#+20% morale, +10% org
 		}
 	}
@@ -118,9 +121,9 @@ country_event = {
 		define_general = {
 			name = "§BPresident §RFaro J.§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -152,9 +155,9 @@ country_event = {
 		define_general = {
 			name = "§bKaiser §WWinged§RPope§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -180,9 +183,9 @@ country_event = {
 		define_general = {
 			name = "§RKing §GCrafter§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -211,9 +214,9 @@ country_event = {
 		define_general = {
 			name = "§bHerr §GLuigi§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -239,9 +242,9 @@ country_event = {
 		define_general = {
 			name = "§GSultan §RLoco_§WHun§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -267,9 +270,9 @@ country_event = {
 		define_general = {
 			name = "Theodore Roosevelt"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -295,9 +298,9 @@ country_event = {
 		define_general = {
 			name = "§WDuke §bNinja§RBushido§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -326,9 +329,9 @@ country_event = {
 		define_general = {
 			name = "§YField §RMarshal §YWeevil§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -355,8 +358,8 @@ country_event = {
 	immediate = {
 		define_general = {
 		name = "§GIl §WDuce §RCDC§!"
-		personality = implacable
-		background = intuitive 
+		personality = attack+3b
+		background = defence+3d 
 			}
 		}
 	option = {
@@ -372,6 +375,7 @@ country_event = {
 	ai = no
 	OR = {
 		tag = VEN
+		tag = LTT
 	}
 	NOT = {has_leader = "§GIl §WDuce §RSoyler§!"}
 	}
@@ -383,8 +387,8 @@ country_event = {
 	immediate = {
 		define_general = {
 		name = "§GIl §WDuce §RSoyler§!"
-		personality = implacable
-		background = intuitive 
+		personality = attack+3b
+		background = defence+3d 
 			}
 		}
 	option = {
@@ -410,9 +414,9 @@ country_event = {
 		define_general = {
 			name = "§YKing §WStahl§BRyan§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -438,9 +442,9 @@ country_event = {
 		define_general = {
 			name = "§WRotmistrz §RNikolas§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -467,9 +471,9 @@ country_event = {
 		define_general = {
 			name = "§REmperor §WArcane§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -495,9 +499,9 @@ country_event = {
 		define_general = {
 			name = "Nie Shicheng"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -515,7 +519,7 @@ country_event = {
 	tag = PER
 	tag = AFG
 	tag = ARY }
-	NOT = {has_leader = "Mohammad Taqi-Khan Pessian"}
+	NOT = {has_leader = "§gEmir §BMarxman§!"}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -524,11 +528,11 @@ country_event = {
 	desc = "A colonel of the Persian Gendarmerie during the First World War."
 	immediate = {
 		define_general = {
-			name = "Mohammad Taqi-Khan Pessian"
+			name = "§gEmir §BMarxman§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -554,9 +558,9 @@ country_event = {
 		define_general = {
 			name = "§YPharaoh  §RImaginacion§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -582,9 +586,9 @@ country_event = {
 		define_general = {
 			name = "Vilhelm Oluf Madsen"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -613,9 +617,9 @@ country_event = {
 		define_general = {
 			name = "Panagiotis Danglis"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -641,9 +645,9 @@ country_event = {
 		define_general = {
 			name = "Constantin Prezan"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -669,9 +673,9 @@ country_event = {
 		define_general = {
 			name = "Gérard Mathieu Leman"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -697,9 +701,9 @@ country_event = {
 		define_general = {
 			name = "Ulrich Wille"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -728,9 +732,9 @@ country_event = {
 		define_general = {
 			name = "Fernando Tamagnini de Abreu"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -756,9 +760,9 @@ country_event = {
 		define_general = {
 			name = "Radomir Putnik"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -784,9 +788,9 @@ country_event = {
 		define_general = {
 			name = "§BMarshal §GCom§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -812,9 +816,9 @@ country_event = {
 		define_general = {
 			name = "§GMarshal §BKaiser Jared§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -843,9 +847,9 @@ country_event = {
 		define_general = {
 			name = "§YGrand §BMarshal §RVirtualrock§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -871,9 +875,9 @@ country_event = {
 		define_general = {
 			name = "Porfirio Díaz"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -899,9 +903,9 @@ country_event = {
 		define_general = {
 			name = "Damrong Rajanubhab"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -930,9 +934,9 @@ country_event = {
 		define_general = {
 			name = "§WImperator §YCE §Rof §Wthe §RRomans§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -960,9 +964,9 @@ country_event = {
 		define_general = {
 			name = "§YNapol§Gethan§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -988,9 +992,9 @@ country_event = {
 		define_general = {
 			name = "§BPresident §WZabula§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1016,9 +1020,9 @@ country_event = {
 		define_general = {
 			name = "§GChud §YSon of the §RSun§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1044,9 +1048,9 @@ country_event = {
 		define_general = {
 			name = "§WPresident §RYaboily§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1072,9 +1076,9 @@ country_event = {
 		define_general = {
 			name = "§GPresident §WSprucy§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1100,9 +1104,9 @@ country_event = {
 		define_general = {
 			name = "§BKing §WOnions§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1131,9 +1135,9 @@ country_event = {
 		define_general = {
 			name = "§YGreat Khan §gCondor§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1159,9 +1163,9 @@ country_event = {
 		define_general = {
 			name = "§GEmperor §YBeans§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1187,9 +1191,9 @@ country_event = {
 		define_general = {
 			name = "§WSultan §RFrevi§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1215,9 +1219,9 @@ country_event = {
 		define_general = {
 			name = "§YMaharaja §gGodog§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1243,9 +1247,9 @@ country_event = {
 		define_general = {
 			name = "§GNizam §YYardy§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
@@ -1271,9 +1275,9 @@ country_event = {
 		define_general = {
 			name = "§BAtse §YHorseman§!"
 			#+1 attack, +1 defence. +10% morale
-			personality = implacable
+			personality = attack+3b
 			#+3 attack, +3 defence.
-			background = intuitive
+			background = defence+3d
 		}
 	}
 	option = {
