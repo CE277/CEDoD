@@ -1,15 +1,14 @@
-V1.5 (Checksum: ILVZ )
+V1.5 (Checksum: NSUY )
 
 Bug-fixes:
 
-- Fixed double dip sanction effect (Credit to 00beans for pointing it out to me)
-
-General Changes:
-
-- Removed Sanctions removing in progress CB's 
+- Ghost Nation Event being tethered to a South African Province (AI's been spamming this event every 3 days wonderful)
+- Fixed General Events
+- Fixed Afghan/Persia 3/3 not spawning as custom
+- Fixed some general localisation
+- Cleaned up some mess
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 V1.4 (Checksum: TNOY )
 
 Bug-fixes:
