@@ -1,4 +1,4 @@
-V1.5 (Checksum: NSUY )
+V1.6 (Checksum: NSUY )
 
 Bug-fixes:
 
