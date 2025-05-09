@@ -1,3 +1,23 @@
+V1.7 (Checksum: ZEBG )
+
+Bug-fixes:
+
+- Fixed Baku oil event crashing the game
+- Fixed leave sphere decision not working
+
+
+Ethiopia:
+
+- Added the ability to accept Sudanese at Revolution and Counterrevolution, decision also gives them cores on Dongola and Sudan 
+- Added cores on Somaliland when accepting the Somalians 
+
+
+Russia:
+
+- Adjusted Emergency Route prestige loss to be -50 instead of -25
+- Made the Emergency Route visible rather than hidden until 1875
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V1.6 (Checksum: NSUY )
 
 Bug-fixes:
