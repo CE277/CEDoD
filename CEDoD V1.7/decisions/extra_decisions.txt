@@ -81,7 +81,7 @@ political_decisions = {
 		}
 		effect = {
 			sphere_owner = {
-				country_event = 13202
+				country_event = 13201
 			}
 		}
 		

@@ -17,6 +17,13 @@ badboymod = {
 	icon = 17
 }
 
+oil_metropolis = {
+	mine_rgo_size = 1.0
+	immigrant_attract = 0.2
+	local_RGO_throughput = 1.0
+	icon = 19
+}
+
 sizing_cooldown = {
 	icon = 10
 }

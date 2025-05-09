@@ -1,0 +1,36 @@
+political_decisions = {
+		
+		integrating_the_somalis = {
+			potential = {
+				tag = ETH
+				NOT = { has_country_flag = somalis_integrated }
+			}
+			allow = {
+				nationalism_n_imperialism = 1
+			}
+			effect = {
+				add_accepted_culture = somali
+				ENG_1868 = { add_core = ETH }
+				set_country_flag = somalis_integrated
+			}
+		
+		}
+
+		integrating_the_sudanese = {
+		potential = {
+			tag = ETH
+			NOT = { has_country_flag = sudanese_integrated }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			has_country_flag = somalis_integrated
+		}
+		effect = {
+			add_accepted_culture = sudanese
+			set_country_flag = sudanese_integrated
+			EGY_1827 = { add_core = ETH }
+			EGY_1834 = { add_core = ETH }
+		}
+	}
+}
+}
