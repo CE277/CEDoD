@@ -1,9 +1,22 @@
+V1.8 (Checksum: BXPI )
+
+Tawantinsuyu:
+
+- Added an equivalent to the New World Assimilation boosts
+- Added a compensatory additional New World Assimilation boost to them, activated by host decision and to last 15 years, 2x the strength of the existing modifiers, goes alongside the normal ones (Ends August 1880)
+
+Miscellaneous:
+
+- Added a missing change to the V1.7 Changelog
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V1.7 (Checksum: ZEBG )
 
 Bug-fixes:
 
 - Fixed Baku oil event crashing the game
 - Fixed leave sphere decision not working
+- Fixed Russia's pathing sometimes allowing double-dipping regarding path entry, emergency route prestige abuse
 
 
 Ethiopia:
