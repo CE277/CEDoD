@@ -308,4 +308,42 @@ session_one_fix = {
         }
     }
 }
+
+session_two_fix = {
+        picture = ce
+        potential = {
+            tag = LCT
+            ai = no
+            NOT = {has_global_flag = sessionfourfix }
+        }
+        allow = {
+            tag = LCT
+            ai = no
+        }
+        effect = {
+        set_global_flag = sessionfourfix
+        INC = {
+        set_country_flag = new_world_nationinca
+        set_country_flag = new_world_nationincacompensation
+        }
+        }
+}
+
+incaflagremoval = {
+        picture = ce
+        potential = {
+            tag = JAN
+        }
+        allow = {
+        NOT = {has_global_flag = incaflagremoval }
+        year = 1879
+        month = 7
+        }
+        effect = {
+        set_global_flag = incaflagremoval
+        INC = {
+        clr_country_flag = new_world_nationincacompensation
+        }
+        }
+}
 }

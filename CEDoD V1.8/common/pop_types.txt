@@ -1099,6 +1099,144 @@ assimilation_chance = {
 			}
 		}
 	}
+
+#################################### INCAN EDIT 
+
+modifier = {
+		factor = 5
+		country = {
+			has_country_flag = new_world_nationinca
+		}
+		OR = {
+			AND = {
+				location = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			AND = {			
+				location = {
+					continent = africa
+				}
+				NOT = {
+					OR = {
+						has_pop_culture = nilo_saharan
+						has_pop_culture = bantu
+						has_pop_culture = niger_congo_a
+						has_pop_culture = khoisan
+						has_pop_culture = afro_asiatic
+						has_pop_culture = malagasy
+						is_culture_group = arab
+					}
+				}
+			}
+		}
+	}
+	modifier = {
+		factor = 10
+		has_culture_core = no
+		country = {
+			has_country_flag = new_world_nationinca
+		}
+		OR = {
+			AND = {
+				location = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			AND = {			
+				location = {
+					continent = africa
+				}
+				NOT = {
+					OR = {
+						has_pop_culture = nilo_saharan
+						has_pop_culture = bantu
+						has_pop_culture = niger_congo_a
+						has_pop_culture = khoisan
+						has_pop_culture = afro_asiatic
+						has_pop_culture = malagasy
+						is_culture_group = arab
+					}
+				}
+			}
+		}
+	}
+
+	modifier = {
+		factor = 10
+		country = {
+			has_country_flag = new_world_nationincacompensation
+		}
+		OR = {
+			AND = {
+				location = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			AND = {			
+				location = {
+					continent = africa
+				}
+				NOT = {
+					OR = {
+						has_pop_culture = nilo_saharan
+						has_pop_culture = bantu
+						has_pop_culture = niger_congo_a
+						has_pop_culture = khoisan
+						has_pop_culture = afro_asiatic
+						has_pop_culture = malagasy
+						is_culture_group = arab
+					}
+				}
+			}
+		}
+	}
+	modifier = {
+		factor = 20
+		has_culture_core = no
+		country = {
+			has_country_flag = new_world_nationincacompensation
+		}
+		OR = {
+			AND = {
+				location = {
+					OR = {
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			AND = {			
+				location = {
+					continent = africa
+				}
+				NOT = {
+					OR = {
+						has_pop_culture = nilo_saharan
+						has_pop_culture = bantu
+						has_pop_culture = niger_congo_a
+						has_pop_culture = khoisan
+						has_pop_culture = afro_asiatic
+						has_pop_culture = malagasy
+						is_culture_group = arab
+					}
+				}
+			}
+		}
+	}
 	
 #BASELINE ASSIMILATION	- averages to 0.000396 rate. (averages 39.6 people assimilating per month in a 100k province)
 #IMPORTANT NOTE - If a pop has_culture_core = no, it must have its bonuses scaled down to a 100th less magnitude. (if base is factor 10, has_culture_core = no must be 0.1) This must be reflected in all future modifiers.
