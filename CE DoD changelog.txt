@@ -1,3 +1,14 @@
+V1.9 (Checksum: CEOY )
+
+Bug-Fixes:
+
+- Removed Russian Borderlands event (I dunno what it does and neither do I care, it's endlessly crashing the game)
+
+Miscellaneous:
+
+- Loads of other stuff while searching for over 2hr's for the crash, mostly around adding and removing event modifiers, defunct events etc
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V1.8 (Checksum: BXPI )
 
 Tawantinsuyu:
