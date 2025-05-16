@@ -28,7 +28,6 @@ sizing_cooldown = {
 	icon = 10
 }
 
-### Victoria Universalis Addition ###
 requested_grant = {
 	icon = 10
 }
@@ -1432,10 +1431,6 @@ protector_of_eastern_christendom = {
 	icon = 17
 }
 
-egyptian_excavations = {
-	prestige = 0.01
-	icon = 5
-}
 
 international_negotiations = {
 	badboy = 0.01
@@ -2364,15 +2359,6 @@ louis_napoleon_iii = {
 	icon = 17
 }
 
-### Neutrality ###
-neutrality = {
-	max_military_spending = -0.10
-	leadership_modifier = -0.7
-	diplomatic_points_modifier = -0.3
-	prestige = -0.025
-	icon = 7
-}
-
 ### NV Changes ###
 national_confusion = {
 	icon = 4
@@ -2595,6 +2581,13 @@ developing_homeland = {
 	icon = 19
 }
 
+### Archaeology ###
+
+egyptian_excavations = {
+	prestige = 0.1
+	icon = 5
+}
+
 maya_excavations = {
 	prestige = 0.01
 	icon = 5
@@ -2616,6 +2609,11 @@ minoan_excavations = {
 }
 
 pompeji_excavations = {
+	prestige = 0.01
+	icon = 3
+}
+
+inca_excavations = {
 	prestige = 0.01
 	icon = 3
 }
@@ -2675,6 +2673,7 @@ purge = {
 ##### Non-HRE Potat-added events #####
 Mexican_Education = {
 	education_efficiency_modifier = 0.2
+	}
 	
 ### Nuclear War ###
 
@@ -3096,16 +3095,6 @@ bureaucrats_fix_cooldown = {
 	icon = 12
 }
 
-### NV Changes ###
-
-
-
-#### No More War Reperations ####
-
-no_more_war_reperations = {
-    icon = 2
-}
-
 ### RGO Change ###
 switched_production = {
 	icon = 14
@@ -3146,4 +3135,148 @@ reform_decision = {
 immigrant_boost = {
 	immigrant_attract = 0.50
 	icon = 19
+}
+
+
+freedom_talks = {
+	global_pop_consciousness_modifier = 0.01
+	icon = 16
+}
+
+growing_unrest = {
+	global_pop_consciousness_modifier = 0.03
+	global_pop_militancy_modifier = 0.02
+	icon = 16
+}
+
+revolutionary_society = {
+	global_pop_consciousness_modifier = 0.01
+	global_pop_militancy_modifier = 0.01
+	}
+
+underground_newspaper = {
+	pop_consciousness_modifier = 0.05
+	pop_militancy_modifier = 0.02
+	icon = 18
+}
+
+### Ideological Strongholds ###
+reactionary_stronghold = {
+	pop_consciousness_modifier = -0.2
+	icon = 3
+}
+
+conservative_stronghold = {
+	pop_consciousness_modifier = -0.1
+	pop_militancy_modifier = -0.05
+	icon = 3
+}
+
+liberal_stronghold = {
+	pop_consciousness_modifier = 0.1
+	icon = 3
+}
+
+anarcho_liberal_stronghold = {
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.05
+	icon = 3
+}
+
+socialist_stronghold = {
+	pop_consciousness_modifier = 0.1
+	icon = 3
+}
+
+communist_stronghold = {
+	pop_consciousness_modifier = 0.1
+	pop_militancy_modifier = 0.05
+	icon = 3
+}
+
+fascist_stronghold = {
+	pop_consciousness_modifier = -0.1
+	pop_militancy_modifier = 0.05
+	icon = 3
+}
+
+no_more_war = {
+	war_exhaustion = 0.5
+	icon = 2
+}
+
+
+punitive_effects = {
+	war_exhaustion = 2.0
+	core_pop_militancy_modifier = 0.1
+	diplomatic_points_modifier = -0.5
+	prestige = -0.1
+	icon = 4
+}
+
+negotiating_treaty = {
+	icon = 12
+}
+
+silver_mine = {
+	local_RGO_output = -0.2
+	icon = 11
+}
+
+monthly_payment_made = {
+	tax_efficiency = 0.1
+	icon = 9
+}
+
+################Native Policy System
+
+native_assimilation_act_policy = {
+	badboy = 0.01
+	icon = 18
+}
+
+native_removal_act_policy = {
+	badboy = 0.02
+	icon = 18
+}
+
+slave_growth = {
+	icon = 17
+}
+
+religious_minority_oppression = {
+	icon = 18
+}
+
+ottoman_oppression = {
+	mobilisation_size = -0.02
+	land_organisation = -0.05
+	global_assimilation_rate = -0.2
+	tax_efficiency = 0.15
+	#non_accepted_pop_militancy_modifier = 0.05
+	#non_accepted_pop_consciousness_modifier = 0.1
+	icon = 5
+}
+
+plantation = {
+	farm_rgo_size = 4
+	mine_rgo_size = 4
+	icon = 11
+}
+
+
+warship_commissioned = {
+	icon = 9
+}
+
+five_year_plan = {
+	global_pop_consciousness_modifier = 0.02
+	global_pop_militancy_modifier = 0.02
+	factory_throughput = 0.1
+	RGO_throughput = 0.1
+	icon = 5
+}
+
+no_freedom = {
+	icon = 11
 }

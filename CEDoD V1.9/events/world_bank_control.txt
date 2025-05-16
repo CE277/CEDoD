@@ -1,68 +1,6 @@
 #prevents pop growth in world bank / ghost nation
 
 country_event = {
-	id = 9991200
-	title = "Prestige Slap LCT"
-	desc = "Prevents some issues down the road"
-	picture = "dixie"
-	
-	trigger = {
-		LCT = {
-			prestige = 1
-		}
-		tag = LCT
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		LCT = {
-			prestige = -100
-		}
-	}
-	
-	option = {
-		name = "Alright, sounds good."
-		ai_chance = {
-			factor = 1.0
-		}
-	}
-}
-
-country_event = {
-	id = 9991201
-	title = "Prestige Slap GHO"
-	desc = "Prevents some issues down the road"
-	picture = "dixie"
-	
-	trigger = {
-		GHO = {
-			prestige = 1
-		}
-		tag = GHO
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		GHO = {
-			prestige = -100
-		}
-	}
-	
-	option = {
-		name = "Alright, sounds good."
-		ai_chance = {
-			factor = 1.0
-		}
-	}
-}
-
-country_event = {
 	id = 9991119
 	title = "Ghostland Primitive Forced"
 	desc = "Prevents some issues down the road"

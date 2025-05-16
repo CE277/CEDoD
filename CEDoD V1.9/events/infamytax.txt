@@ -12,5 +12,3 @@ country_event = {
 		name = "Yay?"
 	}
 }
-
-}
