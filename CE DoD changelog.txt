@@ -1,3 +1,160 @@
+V2.0 (Checksum: TKQO )
+
+Amazonie:
+
+- Added Publishing Industry
+
+Aragon-Italy:
+
+- Reverted the color change 
+
+Culture Consolidation:
+
+- Merged Iroqouis into Native American Minor, was an oversight from original mergings 
+
+Miscellaneous:
+
+- Some poptypes file 'cleanup'
+- Gave AI some starting cash 
+- Minor loci edit to Vinlandic Arcadia formation decision
+- Removed all the roster specific generals 
+
+Navy:
+
+- Updated changes to latest CENavy stats
+
+
+Bug-Fixes:
+
+- Fixed Kirkjubaejarklaustur province bugged LR
+- Fixed Myrdalvidlillsjon province bugged LR
+- Fixed Nunavut province bugged LR
+- Fixed Blikberget province bugged LR
+- Fixed Igeltraesk province bugged LR
+- Fixed Native American Minor pops deciding to uphold the 2nd Industrial Revolution
+- Fixed Rohnst noculture
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+V1.9 (Checksum: CEOY )
+
+Bug-Fixes:
+
+- Removed Russian Borderlands event (I dunno what it does and neither do I care, it's endlessly crashing the game)
+
+Miscellaneous:
+
+- Loads of other stuff while searching for over 2hr's for the crash, mostly around adding and removing event modifiers, defunct events etc
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.8 (Checksum: BXPI )
+
+Tawantinsuyu:
+
+- Added an equivalent to the New World Assimilation boosts
+- Added a compensatory additional New World Assimilation boost to them, activated by host decision and to last 15 years, 2x the strength of the existing modifiers, goes alongside the normal ones (Ends August 1880)
+
+Miscellaneous:
+
+- Added a missing change to the V1.7 Changelog
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.7 (Checksum: ZEBG )
+
+Bug-fixes:
+
+- Fixed Baku oil event crashing the game
+- Fixed leave sphere decision not working
+- Fixed Russia's pathing sometimes allowing double-dipping regarding path entry, emergency route prestige abuse
+
+
+Ethiopia:
+
+- Added the ability to accept Sudanese at Revolution and Counterrevolution, decision also gives them cores on Dongola and Sudan 
+- Added cores on Somaliland when accepting the Somalians 
+
+
+Russia:
+
+- Adjusted Emergency Route prestige loss to be -50 instead of -25
+- Made the Emergency Route visible rather than hidden until 1875
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.6 (Checksum: NSUY )
+
+Bug-fixes:
+
+- Ghost Nation Event being tethered to a South African Province (AI's been spamming this event every 3 days wonderful)
+- Fixed General Events
+- Fixed Afghan/Persia 3/3 not spawning as custom
+- Fixed some general localisation
+- Cleaned up some mess
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.5 (Checksum: ILVZ )
+
+Bug-fixes:
+
+- Fixed double dip sanction effect
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.4 (Checksum: TNOY )
+
+Bug-fixes:
+
+- Fixed a different event firing when using the Manage Vassals decision
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.3 (Checksum: MWXH )
+
+Bug-fixes:
+
+- Fixed Large Core CB's not working
+- Fixed bugged Integrate Pomeranians decision for Scandinavia and Elbians
+- Fixed missing RGO provinces which were intended to not be in the game
+- Removed Mahdia and Forte Sao Joaquim from being in two states in GC
+- Fixed Host Nation Swap Decisions (YOU WILL NEED TO ENABLE MOVING OF THE HOST NATION FLAG TO DIRECTLY SWAP) not working 
+- Fixed Ghost Nation not deleting ghost units
+- Fixed Arynaman getting loads of non-existant cultures accepted
+- Made Merv and Kyzylkum into Near East continent over being in Asia
+- Fixed some duplicate localisation in Iraq
+
+Color Changes:
+
+- Changed Aragon-Italy color
+
+Economic Changes:
+
+- Increased Life Needs Pop Consumption of Fish by 10%  (Back to IGoR)
+- Increased Life Needs Pop Consumption of Cattle by 10% (Back to IGoR)
+- Increased Life Needs Pop Consumption of Wool by 10% (Back to IGoR)
+- Increased Everyday Pop Consumption of Coal by 10% (Back to IGoR)
+- Lowered Base Coal Production to IGoR levels (2.62 -> 2.4)
+- Lowered Base Wool Production by 10%
+- Lowered Base Cotton Production by 10%
+- Lowered Base Sulphur Production by 25%
+- Lowered Base Wood Production by 23%
+
+General Changes:
+
+- Made GC's Congress of Andagoya decision be visible while at war
+- Added a debug decision to handle all End of Session 1 Save Edits that were required to Host Nation
+- Added a seperate peace CB that gives a truce
+- Added a Rather Limited Host Economic Menu to Make Economic Changes
+- Added a ondemand Host Nation decision to remove Ghost Nation Troops
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V1.2 (Checksum: XDLK )
+
+Bug-fixes:
+
+- Made the pop promotion events actually work (Thank you Crafter)
+
+Color Changes
+
+- Changed Aragon Italy color
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 V1.1 (Checksum: QFLL )
 
 - Added notes I missed on the V1.0 to the 1.0 section
@@ -8,6 +165,7 @@ Culture Consolidation:
 
 General Changes: 
 
+- Incorporated Ethan Generals
 - Added a custom player general to every player nation
 - Removed straight from Taiwan To Okinawa
 - Updated loading screens
